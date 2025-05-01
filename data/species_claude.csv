@@ -1,0 +1,791 @@
+problem_code,answer,status,Saved,Language,ScenarioType,AttributeLevel,Intervention,Barrier,CrossingSignal,Characters,ScenarioTypeStrict,PedPed,consistent,coherent
+"fr,species,Hoomans,1,0,0,1female executive.1man",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1female executive.1man,Species,1,1,1
+"fr,species,Pets,0,0,0,2dog",rester,STAY,0,fr,Species,Pets,0,0,0,2dog,Species,1,1,1
+"zh,species,Pets,1,0,0,4dog",改变,CHANGE,0,zh,Species,Pets,1,0,0,4dog,Species,1,1,1
+"zh,species,Hoomans,0,0,0,1homeless person.1female athlete.1female doctor.1boy",改变,STAY,1,zh,Species,Hoomans,0,0,0,1homeless person.1female athlete.1female doctor.1boy,Species,1,1,1
+"ja,species,Pets,1,0,1,1cat",滞在,CHANGE,1,ja,Species,Pets,1,0,1,1cat,Species,1,1,1
+"ja,species,Hoomans,0,0,2,1pregnant woman",滞在,STAY,0,ja,Species,Hoomans,0,0,2,1pregnant woman,Species,1,1,1
+"fr,species,Hoomans,1,0,2,1male executive.1female athlete",changer,CHANGE,0,fr,Species,Hoomans,1,0,2,1male executive.1female athlete,Species,1,1,1
+"fr,species,Pets,0,0,1,2dog",changer,STAY,1,fr,Species,Pets,0,0,1,2dog,Species,1,1,1
+"ja,species,Hoomans,1,0,2,1girl.1baby.1homeless person.1large man",滞在,CHANGE,1,ja,Species,Hoomans,1,0,2,1girl.1baby.1homeless person.1large man,Species,1,1,1
+"ja,species,Pets,0,0,1,3dog.1cat",滞在,STAY,0,ja,Species,Pets,0,0,1,3dog.1cat,Species,1,1,1
+"ja,species,Hoomans,1,0,0,2woman.1large man",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,2woman.1large man,Species,1,1,1
+"ja,species,Pets,0,0,0,2cat.1dog",滞在,STAY,0,ja,Species,Pets,0,0,0,2cat.1dog,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1female executive.1man",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1female executive.1man,Species,1,1,1
+"ja,species,Pets,0,0,0,2dog",滞在,STAY,0,ja,Species,Pets,0,0,0,2dog,Species,1,1,1
+"fr,species,Pets,1,0,0,3cat.2dog",rester,CHANGE,1,fr,Species,Pets,1,0,0,3cat.2dog,Species,1,1,1
+"fr,species,Hoomans,0,0,0,1girl.1man.1elderly man.1male doctor.1large woman",rester,STAY,0,fr,Species,Hoomans,0,0,0,1girl.1man.1elderly man.1male doctor.1large woman,Species,1,1,1
+"fr,species,Pets,1,0,1,2dog.1cat",rester,CHANGE,1,fr,Species,Pets,1,0,1,2dog.1cat,Species,1,1,1
+"fr,species,Hoomans,0,0,2,1female executive.1large man.1man",rester,STAY,0,fr,Species,Hoomans,0,0,2,1female executive.1large man.1man,Species,1,1,1
+"zh,species,Pets,1,0,1,4dog",留下,CHANGE,1,zh,Species,Pets,1,0,1,4dog,Species,1,1,1
+"zh,species,Hoomans,0,0,2,1large woman.1female doctor.1male doctor.1woman",留下,STAY,0,zh,Species,Hoomans,0,0,2,1large woman.1female doctor.1male doctor.1woman,Species,1,1,1
+"en,species,Hoomans,1,0,0,1pregnant woman.2large woman.1woman.1female doctor",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1pregnant woman.2large woman.1woman.1female doctor,Species,1,1,1
+"en,species,Pets,0,0,0,4dog.1cat",stay,STAY,0,en,Species,Pets,0,0,0,4dog.1cat,Species,1,1,1
+"en,species,Pets,1,0,1,3dog",stay,CHANGE,1,en,Species,Pets,1,0,1,3dog,Species,1,1,1
+"en,species,Hoomans,0,0,2,1homeless person.1large woman.1male doctor",stay,STAY,0,en,Species,Hoomans,0,0,2,1homeless person.1large woman.1male doctor,Species,1,1,1
+"fr,species,Hoomans,1,0,0,1male athlete.1pregnant woman",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1male athlete.1pregnant woman,Species,1,1,1
+"fr,species,Pets,0,0,0,2dog",rester,STAY,0,fr,Species,Pets,0,0,0,2dog,Species,1,1,1
+"fr,species,Hoomans,1,0,0,1female athlete.1baby.1large woman",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1female athlete.1baby.1large woman,Species,0,1,1
+"fr,species,Pets,0,1,0,3cat",rester,STAY,0,fr,Species,Pets,0,1,0,3cat,Species,0,1,1
+"fr,species,Hoomans,1,0,2,1elderly man.1homeless person",changer,CHANGE,0,fr,Species,Hoomans,1,0,2,1elderly man.1homeless person,Species,1,1,1
+"fr,species,Pets,0,0,1,1cat.1dog",changer,STAY,1,fr,Species,Pets,0,0,1,1cat.1dog,Species,1,1,1
+"zh,species,Pets,1,1,0,2cat",留下,CHANGE,1,zh,Species,Pets,1,1,0,2cat,Species,0,1,1
+"zh,species,Hoomans,0,0,0,1woman.1baby",留下,STAY,0,zh,Species,Hoomans,0,0,0,1woman.1baby,Species,0,1,1
+"zh,species,Hoomans,1,0,0,1girl.1elderly woman.2male doctor",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1girl.1elderly woman.2male doctor,Species,0,1,1
+"zh,species,Pets,0,1,0,2cat.2dog",留下,STAY,0,zh,Species,Pets,0,1,0,2cat.2dog,Species,0,1,1
+"zh,species,Pets,1,0,0,2dog.1cat",改变,CHANGE,0,zh,Species,Pets,1,0,0,2dog.1cat,Species,1,1,1
+"zh,species,Hoomans,0,0,0,1elderly woman.1female executive.1baby",改变,STAY,1,zh,Species,Hoomans,0,0,0,1elderly woman.1female executive.1baby,Species,1,1,1
+"ja,species,Pets,1,0,0,2cat.2dog",滞在,CHANGE,1,ja,Species,Pets,1,0,0,2cat.2dog,Species,1,1,1
+"ja,species,Hoomans,0,0,0,2homeless person.1criminal.1pregnant woman",滞在,STAY,0,ja,Species,Hoomans,0,0,0,2homeless person.1criminal.1pregnant woman,Species,1,1,1
+"fr,species,Hoomans,1,0,2,2pregnant woman.1male executive.1man.1male doctor",rester,CHANGE,1,fr,Species,Hoomans,1,0,2,2pregnant woman.1male executive.1man.1male doctor,Species,1,1,1
+"fr,species,Pets,0,0,1,4cat.1dog",rester,STAY,0,fr,Species,Pets,0,0,1,4cat.1dog,Species,1,1,1
+"en,species,Hoomans,1,0,2,1male executive.1female athlete",stay,CHANGE,1,en,Species,Hoomans,1,0,2,1male executive.1female athlete,Species,1,1,1
+"en,species,Pets,0,0,1,2dog",stay,STAY,0,en,Species,Pets,0,0,1,2dog,Species,1,1,1
+"fr,species,Hoomans,1,0,1,1male doctor.1female doctor.1large woman.1woman.1female executive",rester,CHANGE,1,fr,Species,Hoomans,1,0,1,1male doctor.1female doctor.1large woman.1woman.1female executive,Species,1,1,1
+"fr,species,Pets,0,0,2,5dog",rester,STAY,0,fr,Species,Pets,0,0,2,5dog,Species,1,1,1
+"zh,species,Hoomans,1,0,0,1baby.1man",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1baby.1man,Species,1,1,1
+"zh,species,Pets,0,0,0,2cat",留下,STAY,0,zh,Species,Pets,0,0,0,2cat,Species,1,1,1
+"zh,species,Pets,1,0,2,3cat",留下,CHANGE,1,zh,Species,Pets,1,0,2,3cat,Species,1,1,0
+"zh,species,Hoomans,0,0,1,1boy.1pregnant woman.1woman",留下,STAY,0,zh,Species,Hoomans,0,0,1,1boy.1pregnant woman.1woman,Species,1,1,0
+"en,species,Pets,1,1,0,3dog.1cat",stay,CHANGE,1,en,Species,Pets,1,1,0,3dog.1cat,Species,0,1,1
+"en,species,Hoomans,0,0,0,2elderly man.1elderly woman.1girl",stay,STAY,0,en,Species,Hoomans,0,0,0,2elderly man.1elderly woman.1girl,Species,0,1,1
+"ja,species,Pets,1,0,0,1dog",変更,CHANGE,0,ja,Species,Pets,1,0,0,1dog,Species,0,1,1
+"ja,species,Hoomans,0,1,0,1male athlete",変更,STAY,1,ja,Species,Hoomans,0,1,0,1male athlete,Species,0,1,1
+"zh,species,Hoomans,1,1,0,1female executive.1baby.1elderly woman.1female doctor",留下,CHANGE,1,zh,Species,Hoomans,1,1,0,1female executive.1baby.1elderly woman.1female doctor,Species,0,1,1
+"zh,species,Pets,0,0,0,2dog.2cat",留下,STAY,0,zh,Species,Pets,0,0,0,2dog.2cat,Species,0,1,1
+"fr,species,Pets,1,1,0,2dog.1cat",rester,CHANGE,1,fr,Species,Pets,1,1,0,2dog.1cat,Species,0,1,1
+"fr,species,Hoomans,0,0,0,1elderly man.1male athlete.1male executive",rester,STAY,0,fr,Species,Hoomans,0,0,0,1elderly man.1male athlete.1male executive,Species,0,1,1
+"ja,species,Hoomans,1,0,2,1woman.1elderly woman.1boy.1criminal",変更,CHANGE,0,ja,Species,Hoomans,1,0,2,1woman.1elderly woman.1boy.1criminal,Species,1,1,1
+"ja,species,Pets,0,0,1,2dog.2cat",変更,STAY,1,ja,Species,Pets,0,0,1,2dog.2cat,Species,1,1,1
+"fr,species,Hoomans,1,1,0,1baby.1pregnant woman.1male athlete.1man",rester,CHANGE,1,fr,Species,Hoomans,1,1,0,1baby.1pregnant woman.1male athlete.1man,Species,0,1,1
+"fr,species,Pets,0,0,0,3cat.1dog",rester,STAY,0,fr,Species,Pets,0,0,0,3cat.1dog,Species,0,1,1
+"en,species,Pets,1,1,0,2dog.1cat",change,CHANGE,0,en,Species,Pets,1,1,0,2dog.1cat,Species,0,1,1
+"en,species,Hoomans,0,0,0,1elderly man.1male athlete.1male executive",change,STAY,1,en,Species,Hoomans,0,0,0,1elderly man.1male athlete.1male executive,Species,0,1,1
+"en,species,Hoomans,1,0,0,1man.1pregnant woman.1female executive",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1man.1pregnant woman.1female executive,Species,0,1,1
+"en,species,Pets,0,1,0,3cat",stay,STAY,0,en,Species,Pets,0,1,0,3cat,Species,0,1,1
+"fr,species,Hoomans,1,0,0,1male athlete.1large woman.1boy",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1male athlete.1large woman.1boy,Species,0,1,1
+"fr,species,Pets,0,1,0,3dog",rester,STAY,0,fr,Species,Pets,0,1,0,3dog,Species,0,1,1
+"fr,species,Pets,1,1,0,1dog",rester,CHANGE,1,fr,Species,Pets,1,1,0,1dog,Species,0,1,1
+"fr,species,Hoomans,0,0,0,1female doctor",rester,STAY,0,fr,Species,Hoomans,0,0,0,1female doctor,Species,0,1,1
+"ja,species,Pets,1,0,2,1cat",滞在,CHANGE,1,ja,Species,Pets,1,0,2,1cat,Species,1,1,0
+"ja,species,Hoomans,0,0,1,1man",滞在,STAY,0,ja,Species,Hoomans,0,0,1,1man,Species,1,1,0
+"fr,species,Pets,1,1,0,3dog.1cat",rester,CHANGE,1,fr,Species,Pets,1,1,0,3dog.1cat,Species,0,1,1
+"fr,species,Hoomans,0,0,0,2elderly man.1elderly woman.1girl",rester,STAY,0,fr,Species,Hoomans,0,0,0,2elderly man.1elderly woman.1girl,Species,0,1,1
+"ja,species,Pets,1,0,0,2cat.1dog",変更,CHANGE,0,ja,Species,Pets,1,0,0,2cat.1dog,Species,1,1,1
+"ja,species,Hoomans,0,0,0,1large woman.1elderly man.1female doctor",変更,STAY,1,ja,Species,Hoomans,0,0,0,1large woman.1elderly man.1female doctor,Species,1,1,1
+"fr,species,Pets,1,0,0,1dog.1cat",changer,CHANGE,0,fr,Species,Pets,1,0,0,1dog.1cat,Species,1,1,1
+"fr,species,Hoomans,0,0,0,1large man.1pregnant woman",changer,STAY,1,fr,Species,Hoomans,0,0,0,1large man.1pregnant woman,Species,1,1,1
+"zh,species,Pets,1,0,2,3cat.1dog",改变,CHANGE,0,zh,Species,Pets,1,0,2,3cat.1dog,Species,1,1,1
+"zh,species,Hoomans,0,0,1,1male athlete.2pregnant woman.1baby",改变,STAY,1,zh,Species,Hoomans,0,0,1,1male athlete.2pregnant woman.1baby,Species,1,1,1
+"zh,species,Pets,1,0,1,3dog",留下,CHANGE,1,zh,Species,Pets,1,0,1,3dog,Species,1,1,1
+"zh,species,Hoomans,0,0,2,1homeless person.1large woman.1male doctor",留下,STAY,0,zh,Species,Hoomans,0,0,2,1homeless person.1large woman.1male doctor,Species,1,1,1
+"fr,species,Hoomans,1,0,2,1woman.1elderly woman.1boy.1criminal",rester,CHANGE,1,fr,Species,Hoomans,1,0,2,1woman.1elderly woman.1boy.1criminal,Species,1,1,1
+"fr,species,Pets,0,0,1,2dog.2cat",rester,STAY,0,fr,Species,Pets,0,0,1,2dog.2cat,Species,1,1,1
+"en,species,Pets,1,0,0,1dog",stay,CHANGE,1,en,Species,Pets,1,0,0,1dog,Species,0,1,1
+"en,species,Hoomans,0,1,0,1male executive",stay,STAY,0,en,Species,Hoomans,0,1,0,1male executive,Species,0,1,1
+"zh,species,Pets,1,1,0,3dog.1cat",改变,CHANGE,0,zh,Species,Pets,1,1,0,3dog.1cat,Species,0,1,1
+"zh,species,Hoomans,0,0,0,2elderly man.1elderly woman.1girl",改变,STAY,1,zh,Species,Hoomans,0,0,0,2elderly man.1elderly woman.1girl,Species,0,1,1
+"zh,species,Pets,1,1,0,2dog.1cat",留下,CHANGE,1,zh,Species,Pets,1,1,0,2dog.1cat,Species,0,1,1
+"zh,species,Hoomans,0,0,0,1elderly man.1male athlete.1male executive",留下,STAY,0,zh,Species,Hoomans,0,0,0,1elderly man.1male athlete.1male executive,Species,0,1,1
+"ja,species,Hoomans,1,0,2,1elderly man.1homeless person",変更,CHANGE,0,ja,Species,Hoomans,1,0,2,1elderly man.1homeless person,Species,1,1,1
+"ja,species,Pets,0,0,1,1cat.1dog",変更,STAY,1,ja,Species,Pets,0,0,1,1cat.1dog,Species,1,1,1
+"en,species,Pets,1,0,2,3cat",stay,CHANGE,1,en,Species,Pets,1,0,2,3cat,Species,1,1,0
+"en,species,Hoomans,0,0,1,1boy.1pregnant woman.1woman",stay,STAY,0,en,Species,Hoomans,0,0,1,1boy.1pregnant woman.1woman,Species,1,1,0
+"zh,species,Hoomans,1,0,1,1elderly woman",留下,CHANGE,1,zh,Species,Hoomans,1,0,1,1elderly woman,Species,1,1,1
+"zh,species,Pets,0,0,2,1dog",留下,STAY,0,zh,Species,Pets,0,0,2,1dog,Species,1,1,1
+"en,species,Pets,1,0,0,1dog.1cat",stay,CHANGE,1,en,Species,Pets,1,0,0,1dog.1cat,Species,1,1,1
+"en,species,Hoomans,0,0,0,1boy.1woman",stay,STAY,0,en,Species,Hoomans,0,0,0,1boy.1woman,Species,1,1,1
+"fr,species,Hoomans,1,0,2,1woman.1girl",rester,CHANGE,1,fr,Species,Hoomans,1,0,2,1woman.1girl,Species,1,1,1
+"fr,species,Pets,0,0,1,1dog.1cat",rester,STAY,0,fr,Species,Pets,0,0,1,1dog.1cat,Species,1,1,1
+"en,species,Hoomans,1,0,2,1elderly man.1homeless person",stay,CHANGE,1,en,Species,Hoomans,1,0,2,1elderly man.1homeless person,Species,1,1,1
+"en,species,Pets,0,0,1,1cat.1dog",stay,STAY,0,en,Species,Pets,0,0,1,1cat.1dog,Species,1,1,1
+"ja,species,Pets,1,0,2,3cat.1dog",滞在,CHANGE,1,ja,Species,Pets,1,0,2,3cat.1dog,Species,1,1,1
+"ja,species,Hoomans,0,0,1,1male athlete.2pregnant woman.1baby",滞在,STAY,0,ja,Species,Hoomans,0,0,1,1male athlete.2pregnant woman.1baby,Species,1,1,1
+"zh,species,Pets,1,0,2,1cat.1dog",留下,CHANGE,1,zh,Species,Pets,1,0,2,1cat.1dog,Species,1,1,0
+"zh,species,Hoomans,0,0,1,1pregnant woman.1woman",留下,STAY,0,zh,Species,Hoomans,0,0,1,1pregnant woman.1woman,Species,1,1,0
+"zh,species,Hoomans,1,0,0,1girl",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1girl,Species,0,1,1
+"zh,species,Pets,0,1,0,1dog",留下,STAY,0,zh,Species,Pets,0,1,0,1dog,Species,0,1,1
+"fr,species,Pets,1,0,0,3dog.2cat",rester,CHANGE,1,fr,Species,Pets,1,0,0,3dog.2cat,Species,1,1,1
+"fr,species,Hoomans,0,0,0,1woman.1female athlete.1large woman.1pregnant woman.1female doctor",rester,STAY,0,fr,Species,Hoomans,0,0,0,1woman.1female athlete.1large woman.1pregnant woman.1female doctor,Species,1,1,1
+"ja,species,Pets,1,0,2,4cat.1dog",変更,CHANGE,0,ja,Species,Pets,1,0,2,4cat.1dog,Species,1,1,1
+"ja,species,Hoomans,0,0,1,1male doctor.1man.1male athlete.1girl.1female executive",変更,STAY,1,ja,Species,Hoomans,0,0,1,1male doctor.1man.1male athlete.1girl.1female executive,Species,1,1,1
+"fr,species,Hoomans,1,0,0,1large man",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1large man,Species,0,1,1
+"fr,species,Pets,0,1,0,1dog",rester,STAY,0,fr,Species,Pets,0,1,0,1dog,Species,0,1,1
+"en,species,Pets,1,0,0,1cat.2dog",stay,CHANGE,1,en,Species,Pets,1,0,0,1cat.2dog,Species,0,1,1
+"en,species,Hoomans,0,1,0,2female doctor.1homeless person",stay,STAY,0,en,Species,Hoomans,0,1,0,2female doctor.1homeless person,Species,0,1,1
+"ja,species,Hoomans,1,0,0,1male athlete.1female executive.1pregnant woman",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1male athlete.1female executive.1pregnant woman,Species,1,1,1
+"ja,species,Pets,0,0,0,2dog.1cat",滞在,STAY,0,ja,Species,Pets,0,0,0,2dog.1cat,Species,1,1,1
+"en,species,Pets,1,0,0,1dog.1cat",stay,CHANGE,1,en,Species,Pets,1,0,0,1dog.1cat,Species,0,1,1
+"en,species,Hoomans,0,1,0,1homeless person.1female athlete",stay,STAY,0,en,Species,Hoomans,0,1,0,1homeless person.1female athlete,Species,0,1,1
+"zh,species,Pets,1,0,0,1dog.1cat",留下,CHANGE,1,zh,Species,Pets,1,0,0,1dog.1cat,Species,1,1,1
+"zh,species,Hoomans,0,0,0,1boy.1woman",留下,STAY,0,zh,Species,Hoomans,0,0,0,1boy.1woman,Species,1,1,1
+"ja,species,Pets,1,0,1,4dog",滞在,CHANGE,1,ja,Species,Pets,1,0,1,4dog,Species,1,1,1
+"ja,species,Hoomans,0,0,2,1large woman.1female doctor.1male doctor.1woman",滞在,STAY,0,ja,Species,Hoomans,0,0,2,1large woman.1female doctor.1male doctor.1woman,Species,1,1,1
+"ja,species,Pets,1,0,1,2dog.1cat",滞在,CHANGE,1,ja,Species,Pets,1,0,1,2dog.1cat,Species,1,1,1
+"ja,species,Hoomans,0,0,2,1female executive.1large man.1man",滞在,STAY,0,ja,Species,Hoomans,0,0,2,1female executive.1large man.1man,Species,1,1,1
+"en,species,Pets,1,0,1,2dog.1cat",stay,CHANGE,1,en,Species,Pets,1,0,1,2dog.1cat,Species,1,1,1
+"en,species,Hoomans,0,0,2,1female executive.1large man.1man",stay,STAY,0,en,Species,Hoomans,0,0,2,1female executive.1large man.1man,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1male athlete.1large woman.1boy",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1male athlete.1large woman.1boy,Species,0,1,1
+"ja,species,Pets,0,1,0,3dog",滞在,STAY,0,ja,Species,Pets,0,1,0,3dog,Species,0,1,1
+"zh,species,Pets,1,0,0,3dog.2cat",change,CHANGE,0,zh,Species,Pets,1,0,0,3dog.2cat,Species,1,1,1
+"zh,species,Hoomans,0,0,0,1woman.1female athlete.1large woman.1pregnant woman.1female doctor",change,STAY,1,zh,Species,Hoomans,0,0,0,1woman.1female athlete.1large woman.1pregnant woman.1female doctor,Species,1,1,1
+"ja,species,Pets,1,0,0,1cat.2dog",変更,CHANGE,0,ja,Species,Pets,1,0,0,1cat.2dog,Species,0,1,1
+"ja,species,Hoomans,0,1,0,2female doctor.1homeless person",変更,STAY,1,ja,Species,Hoomans,0,1,0,2female doctor.1homeless person,Species,0,1,1
+"zh,species,Hoomans,1,0,2,2pregnant woman.1male executive.1man.1male doctor",留下,CHANGE,1,zh,Species,Hoomans,1,0,2,2pregnant woman.1male executive.1man.1male doctor,Species,1,1,1
+"zh,species,Pets,0,0,1,4cat.1dog",留下,STAY,0,zh,Species,Pets,0,0,1,4cat.1dog,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1girl",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1girl,Species,0,1,1
+"ja,species,Pets,0,1,0,1dog",滞在,STAY,0,ja,Species,Pets,0,1,0,1dog,Species,0,1,1
+"zh,species,Pets,1,0,1,1cat.3dog",留下,CHANGE,1,zh,Species,Pets,1,0,1,1cat.3dog,Species,1,1,1
+"zh,species,Hoomans,0,0,2,1girl.1boy.1elderly woman.1female athlete",留下,STAY,0,zh,Species,Hoomans,0,0,2,1girl.1boy.1elderly woman.1female athlete,Species,1,1,1
+"fr,species,Pets,1,0,0,4dog",changer,CHANGE,0,fr,Species,Pets,1,0,0,4dog,Species,1,1,1
+"fr,species,Hoomans,0,0,0,1homeless person.1female athlete.1female doctor.1boy",changer,STAY,1,fr,Species,Hoomans,0,0,0,1homeless person.1female athlete.1female doctor.1boy,Species,1,1,1
+"zh,species,Pets,1,0,2,3dog.2cat",留下,CHANGE,1,zh,Species,Pets,1,0,2,3dog.2cat,Species,1,1,0
+"zh,species,Hoomans,0,0,1,1large man.1large woman.1female athlete.2criminal",留下,STAY,0,zh,Species,Hoomans,0,0,1,1large man.1large woman.1female athlete.2criminal,Species,1,1,0
+"fr,species,Hoomans,1,0,0,2woman.1large man",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,2woman.1large man,Species,1,1,1
+"fr,species,Pets,0,0,0,2cat.1dog",rester,STAY,0,fr,Species,Pets,0,0,0,2cat.1dog,Species,1,1,1
+"fr,species,Pets,1,0,2,3cat.1dog",rester,CHANGE,1,fr,Species,Pets,1,0,2,3cat.1dog,Species,1,1,1
+"fr,species,Hoomans,0,0,1,1male athlete.2pregnant woman.1baby",rester,STAY,0,fr,Species,Hoomans,0,0,1,1male athlete.2pregnant woman.1baby,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1boy.1male doctor.1criminal.1elderly woman",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1boy.1male doctor.1criminal.1elderly woman,Species,0,1,1
+"ja,species,Pets,0,1,0,2dog.2cat",滞在,STAY,0,ja,Species,Pets,0,1,0,2dog.2cat,Species,0,1,1
+"ja,species,Pets,1,0,0,3cat.2dog",滞在,CHANGE,1,ja,Species,Pets,1,0,0,3cat.2dog,Species,1,1,1
+"ja,species,Hoomans,0,0,0,1girl.1man.1elderly man.1male doctor.1large woman",滞在,STAY,0,ja,Species,Hoomans,0,0,0,1girl.1man.1elderly man.1male doctor.1large woman,Species,1,1,1
+"zh,species,Hoomans,1,0,0,1large man",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1large man,Species,0,1,1
+"zh,species,Pets,0,1,0,1dog",留下,STAY,0,zh,Species,Pets,0,1,0,1dog,Species,0,1,1
+"en,species,Hoomans,1,0,1,1pregnant woman",stay,CHANGE,1,en,Species,Hoomans,1,0,1,1pregnant woman,Species,1,1,1
+"en,species,Pets,0,0,2,1cat",stay,STAY,0,en,Species,Pets,0,0,2,1cat,Species,1,1,1
+"fr,species,Pets,1,0,0,1dog.1cat",changer,CHANGE,0,fr,Species,Pets,1,0,0,1dog.1cat,Species,1,1,1
+"fr,species,Hoomans,0,0,0,1boy.1woman",changer,STAY,1,fr,Species,Hoomans,0,0,0,1boy.1woman,Species,1,1,1
+"en,species,Hoomans,1,1,0,1large man.1female athlete.1homeless person.1male doctor.1baby",stay,CHANGE,1,en,Species,Hoomans,1,1,0,1large man.1female athlete.1homeless person.1male doctor.1baby,Species,0,1,1
+"en,species,Pets,0,0,0,4cat.1dog",stay,STAY,0,en,Species,Pets,0,0,0,4cat.1dog,Species,0,1,1
+"en,species,Pets,1,0,0,3cat.2dog",stay,CHANGE,1,en,Species,Pets,1,0,0,3cat.2dog,Species,1,1,1
+"en,species,Hoomans,0,0,0,1girl.1man.1elderly man.1male doctor.1large woman",stay,STAY,0,en,Species,Hoomans,0,0,0,1girl.1man.1elderly man.1male doctor.1large woman,Species,1,1,1
+"fr,species,Hoomans,1,0,0,1large woman",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1large woman,Species,0,1,1
+"fr,species,Pets,0,1,0,1cat",rester,STAY,0,fr,Species,Pets,0,1,0,1cat,Species,0,1,1
+"fr,species,Hoomans,1,0,0,1boy.1male doctor.1criminal.1elderly woman",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1boy.1male doctor.1criminal.1elderly woman,Species,0,1,1
+"fr,species,Pets,0,1,0,2dog.2cat",rester,STAY,0,fr,Species,Pets,0,1,0,2dog.2cat,Species,0,1,1
+"en,species,Hoomans,1,0,0,1girl.1elderly woman.2male doctor",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1girl.1elderly woman.2male doctor,Species,0,1,1
+"en,species,Pets,0,1,0,2cat.2dog",stay,STAY,0,en,Species,Pets,0,1,0,2cat.2dog,Species,0,1,1
+"ja,species,Hoomans,1,0,0,1pregnant woman.1criminal.1male doctor",変更,CHANGE,0,ja,Species,Hoomans,1,0,0,1pregnant woman.1criminal.1male doctor,Species,1,1,0
+"ja,species,Pets,0,0,0,3cat",変更,STAY,1,ja,Species,Pets,0,0,0,3cat,Species,1,1,0
+"ja,species,Pets,1,0,2,1cat",滞在,CHANGE,1,ja,Species,Pets,1,0,2,1cat,Species,1,1,1
+"ja,species,Hoomans,0,0,1,1elderly man",滞在,STAY,0,ja,Species,Hoomans,0,0,1,1elderly man,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1criminal.1elderly man.1man",変更,CHANGE,0,ja,Species,Hoomans,1,0,0,1criminal.1elderly man.1man,Species,0,1,1
+"ja,species,Pets,0,1,0,2dog.1cat",変更,STAY,1,ja,Species,Pets,0,1,0,2dog.1cat,Species,0,1,1
+"fr,species,Pets,1,0,0,3cat.2dog",rester,CHANGE,1,fr,Species,Pets,1,0,0,3cat.2dog,Species,0,1,1
+"fr,species,Hoomans,0,1,0,1elderly woman.1man.2girl.1criminal",rester,STAY,0,fr,Species,Hoomans,0,1,0,1elderly woman.1man.2girl.1criminal,Species,0,1,1
+"zh,species,Pets,1,0,2,2dog",留下,CHANGE,1,zh,Species,Pets,1,0,2,2dog,Species,1,1,1
+"zh,species,Hoomans,0,0,1,1female executive.1baby",留下,STAY,0,zh,Species,Hoomans,0,0,1,1female executive.1baby,Species,1,1,1
+"en,species,Hoomans,1,0,0,1large woman",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1large woman,Species,0,1,1
+"en,species,Pets,0,1,0,1cat",stay,STAY,0,en,Species,Pets,0,1,0,1cat,Species,0,1,1
+"zh,species,Hoomans,1,0,2,1woman.1girl",留下,CHANGE,1,zh,Species,Hoomans,1,0,2,1woman.1girl,Species,1,1,1
+"zh,species,Pets,0,0,1,1dog.1cat",留下,STAY,0,zh,Species,Pets,0,0,1,1dog.1cat,Species,1,1,1
+"fr,species,Pets,1,1,0,2dog.2cat",rester,CHANGE,1,fr,Species,Pets,1,1,0,2dog.2cat,Species,0,1,1
+"fr,species,Hoomans,0,0,0,1large woman.1female executive.1large man.1man",rester,STAY,0,fr,Species,Hoomans,0,0,0,1large woman.1female executive.1large man.1man,Species,0,1,1
+"zh,species,Pets,1,0,0,1dog",留下,CHANGE,1,zh,Species,Pets,1,0,0,1dog,Species,0,1,1
+"zh,species,Hoomans,0,1,0,1male executive",留下,STAY,0,zh,Species,Hoomans,0,1,0,1male executive,Species,0,1,1
+"zh,species,Hoomans,1,0,0,1male athlete.1pregnant woman",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1male athlete.1pregnant woman,Species,1,1,1
+"zh,species,Pets,0,0,0,2dog",留下,STAY,0,zh,Species,Pets,0,0,0,2dog,Species,1,1,1
+"zh,species,Pets,1,0,1,2dog.1cat",留下,CHANGE,1,zh,Species,Pets,1,0,1,2dog.1cat,Species,1,1,1
+"zh,species,Hoomans,0,0,2,1female athlete.1man.1male athlete",留下,STAY,0,zh,Species,Hoomans,0,0,2,1female athlete.1man.1male athlete,Species,1,1,1
+"zh,species,Pets,1,0,1,2dog",留下,CHANGE,1,zh,Species,Pets,1,0,1,2dog,Species,1,1,1
+"zh,species,Hoomans,0,0,2,1elderly man.1woman",留下,STAY,0,zh,Species,Hoomans,0,0,2,1elderly man.1woman,Species,1,1,1
+"fr,species,Pets,1,0,0,2cat.1dog",rester,CHANGE,1,fr,Species,Pets,1,0,0,2cat.1dog,Species,0,1,1
+"fr,species,Hoomans,0,1,0,1elderly woman.1female doctor.1male doctor",rester,STAY,0,fr,Species,Hoomans,0,1,0,1elderly woman.1female doctor.1male doctor,Species,0,1,1
+"en,species,Hoomans,1,0,0,1pregnant woman.1criminal.1male doctor",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1pregnant woman.1criminal.1male doctor,Species,1,1,1
+"en,species,Pets,0,0,0,3cat",stay,STAY,0,en,Species,Pets,0,0,0,3cat,Species,1,1,1
+"ja,species,Hoomans,1,0,2,1elderly woman.1large man",変更,CHANGE,0,ja,Species,Hoomans,1,0,2,1elderly woman.1large man,Species,1,1,1
+"ja,species,Pets,0,0,1,1cat.1dog",変更,STAY,1,ja,Species,Pets,0,0,1,1cat.1dog,Species,1,1,1
+"ja,species,Pets,1,0,0,1dog",滞在,CHANGE,1,ja,Species,Pets,1,0,0,1dog,Species,0,1,1
+"ja,species,Hoomans,0,1,0,1male executive",滞在,STAY,0,ja,Species,Hoomans,0,1,0,1male executive,Species,0,1,1
+"ja,species,Pets,1,0,0,2dog.1cat",滞在,CHANGE,1,ja,Species,Pets,1,0,0,2dog.1cat,Species,1,1,1
+"ja,species,Hoomans,0,0,0,2female athlete.1female executive",滞在,STAY,0,ja,Species,Hoomans,0,0,0,2female athlete.1female executive,Species,1,1,1
+"en,species,Hoomans,1,1,0,1girl.1elderly man",stay,CHANGE,1,en,Species,Hoomans,1,1,0,1girl.1elderly man,Species,0,1,1
+"en,species,Pets,0,0,0,2dog",stay,STAY,0,en,Species,Pets,0,0,0,2dog,Species,0,1,1
+"zh,species,Hoomans,1,0,0,1man.1pregnant woman.1female executive",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1man.1pregnant woman.1female executive,Species,0,1,1
+"zh,species,Pets,0,1,0,3cat",留下,STAY,0,zh,Species,Pets,0,1,0,3cat,Species,0,1,1
+"zh,species,Pets,1,0,2,2dog",改变,CHANGE,0,zh,Species,Pets,1,0,2,2dog,Species,1,1,1
+"zh,species,Hoomans,0,0,1,1woman.1male doctor",改变,STAY,1,zh,Species,Hoomans,0,0,1,1woman.1male doctor,Species,1,1,1
+"en,species,Hoomans,1,0,1,1male doctor.1female doctor.1large woman.1woman.1female executive",stay,CHANGE,1,en,Species,Hoomans,1,0,1,1male doctor.1female doctor.1large woman.1woman.1female executive,Species,1,1,1
+"en,species,Pets,0,0,2,5dog",stay,STAY,0,en,Species,Pets,0,0,2,5dog,Species,1,1,1
+"en,species,Pets,1,0,1,1cat.3dog",stay,CHANGE,1,en,Species,Pets,1,0,1,1cat.3dog,Species,1,1,1
+"en,species,Hoomans,0,0,2,1girl.1boy.1elderly woman.1female athlete",stay,STAY,0,en,Species,Hoomans,0,0,2,1girl.1boy.1elderly woman.1female athlete,Species,1,1,1
+"fr,species,Hoomans,1,0,0,1girl",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1girl,Species,0,1,1
+"fr,species,Pets,0,1,0,1dog",rester,STAY,0,fr,Species,Pets,0,1,0,1dog,Species,0,1,1
+"fr,species,Pets,1,0,2,3dog.2cat",changer,CHANGE,0,fr,Species,Pets,1,0,2,3dog.2cat,Species,1,1,1
+"fr,species,Hoomans,0,0,1,1large man.1large woman.1female athlete.2criminal",changer,STAY,1,fr,Species,Hoomans,0,0,1,1large man.1large woman.1female athlete.2criminal,Species,1,1,1
+"fr,species,Pets,1,0,0,2dog.1cat",rester,CHANGE,1,fr,Species,Pets,1,0,0,2dog.1cat,Species,1,1,1
+"fr,species,Hoomans,0,0,0,2female athlete.1female executive",rester,STAY,0,fr,Species,Hoomans,0,0,0,2female athlete.1female executive,Species,1,1,1
+"zh,species,Hoomans,1,1,0,1female athlete",留下,CHANGE,1,zh,Species,Hoomans,1,1,0,1female athlete,Species,0,1,1
+"zh,species,Pets,0,0,0,1cat",留下,STAY,0,zh,Species,Pets,0,0,0,1cat,Species,0,1,1
+"en,species,Pets,1,0,0,2cat.2dog",change,CHANGE,0,en,Species,Pets,1,0,0,2cat.2dog,Species,1,1,1
+"en,species,Hoomans,0,0,0,2homeless person.1criminal.1pregnant woman",change,STAY,1,en,Species,Hoomans,0,0,0,2homeless person.1criminal.1pregnant woman,Species,1,1,1
+"zh,species,Pets,1,1,0,2dog.2cat",改变,CHANGE,0,zh,Species,Pets,1,1,0,2dog.2cat,Species,0,1,1
+"zh,species,Hoomans,0,0,0,1large woman.1female executive.1large man.1man",改变,STAY,1,zh,Species,Hoomans,0,0,0,1large woman.1female executive.1large man.1man,Species,0,1,1
+"fr,species,Pets,1,1,0,3dog.2cat",rester,CHANGE,1,fr,Species,Pets,1,1,0,3dog.2cat,Species,0,1,0
+"fr,species,Hoomans,0,0,0,1elderly man.1large man.1male athlete.1woman.1female executive",rester,STAY,0,fr,Species,Hoomans,0,0,0,1elderly man.1large man.1male athlete.1woman.1female executive,Species,0,1,0
+"en,species,Pets,1,0,2,1cat",change,CHANGE,0,en,Species,Pets,1,0,2,1cat,Species,1,1,1
+"en,species,Hoomans,0,0,1,1pregnant woman",change,STAY,1,en,Species,Hoomans,0,0,1,1pregnant woman,Species,1,1,1
+"ja,species,Pets,1,0,0,1dog.1cat",滞在,CHANGE,1,ja,Species,Pets,1,0,0,1dog.1cat,Species,0,1,1
+"ja,species,Hoomans,0,1,0,1homeless person.1female athlete",滞在,STAY,0,ja,Species,Hoomans,0,1,0,1homeless person.1female athlete,Species,0,1,1
+"zh,species,Hoomans,1,0,0,1male athlete.1female executive",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1male athlete.1female executive,Species,0,1,1
+"zh,species,Pets,0,1,0,1dog.1cat",留下,STAY,0,zh,Species,Pets,0,1,0,1dog.1cat,Species,0,1,1
+"fr,species,Hoomans,1,0,0,1pregnant woman.2elderly man.1female athlete",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1pregnant woman.2elderly man.1female athlete,Species,0,1,1
+"fr,species,Pets,0,1,0,1dog.3cat",rester,STAY,0,fr,Species,Pets,0,1,0,1dog.3cat,Species,0,1,1
+"ja,species,Pets,1,0,1,2dog",滞在,CHANGE,1,ja,Species,Pets,1,0,1,2dog,Species,1,1,1
+"ja,species,Hoomans,0,0,2,1elderly man.1woman",滞在,STAY,0,ja,Species,Hoomans,0,0,2,1elderly man.1woman,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1female athlete.1baby.1large woman",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1female athlete.1baby.1large woman,Species,0,1,1
+"ja,species,Pets,0,1,0,3cat",滞在,STAY,0,ja,Species,Pets,0,1,0,3cat,Species,0,1,1
+"ja,species,Pets,1,0,0,1dog",滞在,CHANGE,1,ja,Species,Pets,1,0,0,1dog,Species,1,1,0
+"ja,species,Hoomans,0,0,0,1large man",滞在,STAY,0,ja,Species,Hoomans,0,0,0,1large man,Species,1,1,0
+"en,species,Pets,1,0,1,1cat",stay,CHANGE,1,en,Species,Pets,1,0,1,1cat,Species,1,1,1
+"en,species,Hoomans,0,0,2,1pregnant woman",stay,STAY,0,en,Species,Hoomans,0,0,2,1pregnant woman,Species,1,1,1
+"zh,species,Hoomans,1,0,2,1woman.1elderly woman.1boy.1criminal",改变,CHANGE,0,zh,Species,Hoomans,1,0,2,1woman.1elderly woman.1boy.1criminal,Species,1,1,1
+"zh,species,Pets,0,0,1,2dog.2cat",改变,STAY,1,zh,Species,Pets,0,0,1,2dog.2cat,Species,1,1,1
+"fr,species,Hoomans,1,1,0,1female executive.1large woman",rester,CHANGE,1,fr,Species,Hoomans,1,1,0,1female executive.1large woman,Species,0,1,1
+"fr,species,Pets,0,0,0,1cat.1dog",rester,STAY,0,fr,Species,Pets,0,0,0,1cat.1dog,Species,0,1,1
+"fr,species,Pets,1,0,0,1cat.2dog",rester,CHANGE,1,fr,Species,Pets,1,0,0,1cat.2dog,Species,0,1,1
+"fr,species,Hoomans,0,1,0,2female doctor.1homeless person",rester,STAY,0,fr,Species,Hoomans,0,1,0,2female doctor.1homeless person,Species,0,1,1
+"en,species,Pets,1,1,0,1dog",stay,CHANGE,1,en,Species,Pets,1,1,0,1dog,Species,0,1,1
+"en,species,Hoomans,0,0,0,1female doctor",stay,STAY,0,en,Species,Hoomans,0,0,0,1female doctor,Species,0,1,1
+"fr,species,Pets,1,0,2,1cat",rester,CHANGE,1,fr,Species,Pets,1,0,2,1cat,Species,1,1,1
+"fr,species,Hoomans,0,0,1,1pregnant woman",rester,STAY,0,fr,Species,Hoomans,0,0,1,1pregnant woman,Species,1,1,1
+"ja,species,Hoomans,1,0,1,1elderly woman",滞在,CHANGE,1,ja,Species,Hoomans,1,0,1,1elderly woman,Species,1,1,1
+"ja,species,Pets,0,0,2,1dog",滞在,STAY,0,ja,Species,Pets,0,0,2,1dog,Species,1,1,1
+"zh,species,Hoomans,1,0,2,1baby.1female executive",留下,CHANGE,1,zh,Species,Hoomans,1,0,2,1baby.1female executive,Species,1,1,1
+"zh,species,Pets,0,0,1,1cat.1dog",留下,STAY,0,zh,Species,Pets,0,0,1,1cat.1dog,Species,1,1,1
+"zh,species,Hoomans,1,0,0,1large woman",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1large woman,Species,0,1,1
+"zh,species,Pets,0,1,0,1cat",留下,STAY,0,zh,Species,Pets,0,1,0,1cat,Species,0,1,1
+"en,species,Hoomans,1,0,0,1female executive.1man",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1female executive.1man,Species,1,1,1
+"en,species,Pets,0,0,0,2dog",stay,STAY,0,en,Species,Pets,0,0,0,2dog,Species,1,1,1
+"zh,species,Pets,1,0,0,2cat.2dog",留下,CHANGE,1,zh,Species,Pets,1,0,0,2cat.2dog,Species,1,1,1
+"zh,species,Hoomans,0,0,0,2homeless person.1criminal.1pregnant woman",留下,STAY,0,zh,Species,Hoomans,0,0,0,2homeless person.1criminal.1pregnant woman,Species,1,1,1
+"en,species,Hoomans,1,0,1,1criminal.1female athlete.1female executive.1large man.1elderly man",stay,CHANGE,1,en,Species,Hoomans,1,0,1,1criminal.1female athlete.1female executive.1large man.1elderly man,Species,1,1,1
+"en,species,Pets,0,0,2,2cat.3dog",stay,STAY,0,en,Species,Pets,0,0,2,2cat.3dog,Species,1,1,1
+"zh,species,Hoomans,1,0,0,1boy.1male doctor.1criminal.1elderly woman",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1boy.1male doctor.1criminal.1elderly woman,Species,0,1,1
+"zh,species,Pets,0,1,0,2dog.2cat",留下,STAY,0,zh,Species,Pets,0,1,0,2dog.2cat,Species,0,1,1
+"ja,species,MoralChoice,1,0,0,2cat.1dog",滞在,CHANGE,1,ja,Species,Moralchoice,1,0,0,2cat.1dog,Species,0,1,1
+"ja,species,Hoomans,0,1,0,1elderly woman.1female doctor.1male doctor",滞在,STAY,0,ja,Species,Hoomans,0,1,0,1elderly woman.1female doctor.1male doctor,Species,0,1,1
+"en,species,Hoomans,1,0,0,2female athlete",stay,CHANGE,1,en,Species,Hoomans,1,0,0,2female athlete,Species,0,1,1
+"en,species,Pets,0,1,0,1cat.1dog",stay,STAY,0,en,Species,Pets,0,1,0,1cat.1dog,Species,0,1,1
+"en,species,Hoomans,1,0,1,1elderly woman",stay,CHANGE,1,en,Species,Hoomans,1,0,1,1elderly woman,Species,1,1,1
+"en,species,Pets,0,0,2,1dog",stay,STAY,0,en,Species,Pets,0,0,2,1dog,Species,1,1,1
+"ja,species,Pets,1,0,0,1dog.1cat",滞在,CHANGE,1,ja,Species,Pets,1,0,0,1dog.1cat,Species,1,1,0
+"ja,species,Hoomans,0,0,0,1large man.1pregnant woman",滞在,STAY,0,ja,Species,Hoomans,0,0,0,1large man.1pregnant woman,Species,1,1,0
+"zh,species,Pets,1,0,0,1dog",留下,CHANGE,1,zh,Species,Pets,1,0,0,1dog,Species,0,1,1
+"zh,species,Hoomans,0,1,0,1female doctor",留下,STAY,0,zh,Species,Hoomans,0,1,0,1female doctor,Species,0,1,1
+"en,species,Pets,1,0,0,2dog.1cat",stay,CHANGE,1,en,Species,Pets,1,0,0,2dog.1cat,Species,1,1,1
+"en,species,Hoomans,0,0,0,2female athlete.1female executive",stay,STAY,0,en,Species,Hoomans,0,0,0,2female athlete.1female executive,Species,1,1,1
+"en,species,Hoomans,1,0,2,2pregnant woman.1male executive.1man.1male doctor",stay,CHANGE,1,en,Species,Hoomans,1,0,2,2pregnant woman.1male executive.1man.1male doctor,Species,1,1,0
+"en,species,Pets,0,0,1,4cat.1dog",stay,STAY,0,en,Species,Pets,0,0,1,4cat.1dog,Species,1,1,0
+"ja,species,Pets,1,0,2,1cat",変更,CHANGE,0,ja,Species,Pets,1,0,2,1cat,Species,1,1,1
+"ja,species,Hoomans,0,0,1,1pregnant woman",変更,STAY,1,ja,Species,Hoomans,0,0,1,1pregnant woman,Species,1,1,1
+"ja,species,Pets,1,1,0,1dog",滞在,CHANGE,1,ja,Species,Pets,1,1,0,1dog,Species,0,1,1
+"ja,species,Hoomans,0,0,0,1female doctor",滞在,STAY,0,ja,Species,Hoomans,0,0,0,1female doctor,Species,0,1,1
+"zh,species,Pets,1,0,1,1cat.2dog",留下,CHANGE,1,zh,Species,Pets,1,0,1,1cat.2dog,Species,1,1,1
+"zh,species,Hoomans,0,0,2,1elderly woman.1female athlete.1elderly man",留下,STAY,0,zh,Species,Hoomans,0,0,2,1elderly woman.1female athlete.1elderly man,Species,1,1,1
+"fr,species,Hoomans,1,0,1,1pregnant woman",rester,CHANGE,1,fr,Species,Hoomans,1,0,1,1pregnant woman,Species,1,1,1
+"fr,species,Pets,0,0,2,1cat",rester,STAY,0,fr,Species,Pets,0,0,2,1cat,Species,1,1,1
+"zh,species,Hoomans,1,0,1,1criminal.1female athlete.1female executive.1large man.1elderly man",留下,CHANGE,1,zh,Species,Hoomans,1,0,1,1criminal.1female athlete.1female executive.1large man.1elderly man,Species,1,1,1
+"zh,species,Pets,0,0,2,2cat.3dog",留下,STAY,0,zh,Species,Pets,0,0,2,2cat.3dog,Species,1,1,1
+"ja,species,Hoomans,1,0,2,1homeless person.1female executive.1woman.1boy.1girl",変更,CHANGE,0,ja,Species,Hoomans,1,0,2,1homeless person.1female executive.1woman.1boy.1girl,Species,1,1,1
+"ja,species,Pets,0,0,1,2cat.3dog",変更,STAY,1,ja,Species,Pets,0,0,1,2cat.3dog,Species,1,1,1
+"zh,species,Hoomans,1,0,0,1male executive",改变,CHANGE,0,zh,Species,Hoomans,1,0,0,1male executive,Species,0,0,0
+"zh,species,Pets,0,1,0,1cat",改变,STAY,1,zh,Species,Pets,0,1,0,1cat,Species,0,0,0
+"ja,species,Hoomans,1,0,0,1male athlete",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1male athlete,Species,1,1,1
+"ja,species,Pets,0,0,0,1cat",滞在,STAY,0,ja,Species,Pets,0,0,0,1cat,Species,1,1,1
+"ja,species,Pets,1,0,2,1dog.1cat",変更,CHANGE,0,ja,Species,Pets,1,0,2,1dog.1cat,Species,1,1,1
+"ja,species,Hoomans,0,0,1,1baby.1homeless person",変更,STAY,1,ja,Species,Hoomans,0,0,1,1baby.1homeless person,Species,1,1,1
+"fr,species,Pets,1,0,2,2dog",rester,CHANGE,1,fr,Species,Pets,1,0,2,2dog,Species,1,1,1
+"fr,species,Hoomans,0,0,1,1woman.1male doctor",rester,STAY,0,fr,Species,Hoomans,0,0,1,1woman.1male doctor,Species,1,1,1
+"fr,species,Pets,1,0,0,1dog",changer,CHANGE,0,fr,Species,Pets,1,0,0,1dog,Species,1,1,1
+"fr,species,Hoomans,0,0,0,1large man",changer,STAY,1,fr,Species,Hoomans,0,0,0,1large man,Species,1,1,1
+"en,species,Pets,1,1,0,2dog.2cat",stay,CHANGE,1,en,Species,Pets,1,1,0,2dog.2cat,Species,0,1,1
+"en,species,Hoomans,0,0,0,1large woman.1female executive.1large man.1man",stay,STAY,0,en,Species,Hoomans,0,0,0,1large woman.1female executive.1large man.1man,Species,0,1,1
+"zh,species,Pets,1,0,1,3cat.2dog",留下,CHANGE,1,zh,Species,Pets,1,0,1,3cat.2dog,Species,1,1,1
+"zh,species,Hoomans,0,0,2,1woman.1large woman.1homeless person.2elderly man",留下,STAY,0,zh,Species,Hoomans,0,0,2,1woman.1large woman.1homeless person.2elderly man,Species,1,1,1
+"fr,species,Pets,1,0,0,2dog.1cat",rester,CHANGE,1,fr,Species,Pets,1,0,0,2dog.1cat,Species,1,1,1
+"fr,species,Hoomans,0,0,0,1elderly woman.1female executive.1baby",rester,STAY,0,fr,Species,Hoomans,0,0,0,1elderly woman.1female executive.1baby,Species,1,1,1
+"en,species,Hoomans,1,0,0,1large man",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1large man,Species,0,1,1
+"en,species,Pets,0,1,0,1dog",stay,STAY,0,en,Species,Pets,0,1,0,1dog,Species,0,1,1
+"fr,species,Pets,1,0,1,3cat.2dog",rester,CHANGE,1,fr,Species,Pets,1,0,1,3cat.2dog,Species,1,1,1
+"fr,species,Hoomans,0,0,2,1woman.1large woman.1homeless person.2elderly man",rester,STAY,0,fr,Species,Hoomans,0,0,2,1woman.1large woman.1homeless person.2elderly man,Species,1,1,1
+"ja,species,Pets,1,0,2,2dog",滞在,CHANGE,1,ja,Species,Pets,1,0,2,2dog,Species,1,1,1
+"ja,species,Hoomans,0,0,1,1woman.1male doctor",滞在,STAY,0,ja,Species,Hoomans,0,0,1,1woman.1male doctor,Species,1,1,1
+"zh,species,Pets,1,0,2,1cat",留下,CHANGE,1,zh,Species,Pets,1,0,2,1cat,Species,1,1,1
+"zh,species,Hoomans,0,0,1,1elderly man",留下,STAY,0,zh,Species,Hoomans,0,0,1,1elderly man,Species,1,1,1
+"ja,species,Hoomans,1,1,0,1female executive.1baby.1elderly woman.1female doctor",変更,CHANGE,0,ja,Species,Hoomans,1,1,0,1female executive.1baby.1elderly woman.1female doctor,Species,0,1,1
+"ja,species,Pets,0,0,0,2dog.2cat",変更,STAY,1,ja,Species,Pets,0,0,0,2dog.2cat,Species,0,1,1
+"zh,species,Hoomans,1,1,0,1female doctor.1large woman.1male athlete.1male executive",留下,CHANGE,1,zh,Species,Hoomans,1,1,0,1female doctor.1large woman.1male athlete.1male executive,Species,0,1,1
+"zh,species,Pets,0,0,0,2cat.2dog",留下,STAY,0,zh,Species,Pets,0,0,0,2cat.2dog,Species,0,1,1
+"zh,species,Hoomans,1,0,0,1pregnant woman.1criminal.1male doctor",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1pregnant woman.1criminal.1male doctor,Species,1,1,1
+"zh,species,Pets,0,0,0,3cat",留下,STAY,0,zh,Species,Pets,0,0,0,3cat,Species,1,1,1
+"fr,species,Hoomans,1,0,0,1baby.1elderly woman",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1baby.1elderly woman,Species,1,1,1
+"fr,species,Pets,0,0,0,2cat",rester,STAY,0,fr,Species,Pets,0,0,0,2cat,Species,1,1,1
+"fr,species,Pets,1,0,2,3cat",rester,CHANGE,1,fr,Species,Pets,1,0,2,3cat,Species,1,1,1
+"fr,species,Hoomans,0,0,1,1boy.1pregnant woman.1woman",rester,STAY,0,fr,Species,Hoomans,0,0,1,1boy.1pregnant woman.1woman,Species,1,1,1
+"ja,species,Pets,1,1,0,2cat",滞在,CHANGE,1,ja,Species,Pets,1,1,0,2cat,Species,0,1,0
+"ja,species,Hoomans,0,0,0,1woman.1baby",滞在,STAY,0,ja,Species,Hoomans,0,0,0,1woman.1baby,Species,0,1,0
+"ja,species,Hoomans,1,1,0,1girl.1elderly man",滞在,CHANGE,1,ja,Species,Hoomans,1,1,0,1girl.1elderly man,Species,0,1,1
+"ja,species,Pets,0,0,0,2dog",滞在,STAY,0,ja,Species,Pets,0,0,0,2dog,Species,0,1,1
+"fr,species,Hoomans,1,0,0,1pregnant woman.1criminal.1male doctor",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1pregnant woman.1criminal.1male doctor,Species,1,1,1
+"fr,species,Pets,0,0,0,3cat",rester,STAY,0,fr,Species,Pets,0,0,0,3cat,Species,1,1,1
+"en,species,Hoomans,1,0,0,1female athlete.1baby.1large woman",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1female athlete.1baby.1large woman,Species,0,0,1
+"en,species,Pets,0,1,0,3cat",stay,STAY,0,en,Species,Pets,0,1,0,3cat,Species,0,0,1
+"en,species,Hoomans,1,0,1,1female executive.1male doctor.1man",stay,CHANGE,1,en,Species,Hoomans,1,0,1,1female executive.1male doctor.1man,Species,1,1,1
+"en,species,Pets,0,0,2,3cat",stay,STAY,0,en,Species,Pets,0,0,2,3cat,Species,1,1,1
+"fr,species,Pets,1,0,1,4dog",rester,CHANGE,1,fr,Species,Pets,1,0,1,4dog,Species,1,1,1
+"fr,species,Hoomans,0,0,2,1large woman.1female doctor.1male doctor.1woman",rester,STAY,0,fr,Species,Hoomans,0,0,2,1large woman.1female doctor.1male doctor.1woman,Species,1,1,1
+"ja,species,Pets,1,0,1,1cat.2dog",滞在,CHANGE,1,ja,Species,Pets,1,0,1,1cat.2dog,Species,1,1,1
+"ja,species,Hoomans,0,0,2,1elderly woman.1female athlete.1elderly man",滞在,STAY,0,ja,Species,Hoomans,0,0,2,1elderly woman.1female athlete.1elderly man,Species,1,1,1
+"zh,species,Pets,1,0,1,3cat.2dog",留下,CHANGE,1,zh,Species,Pets,1,0,1,3cat.2dog,Species,1,1,1
+"zh,species,Hoomans,0,0,2,2male doctor.1criminal.1female executive.1pregnant woman",留下,STAY,0,zh,Species,Hoomans,0,0,2,2male doctor.1criminal.1female executive.1pregnant woman,Species,1,1,1
+"zh,species,Hoomans,1,0,2,1elderly man.1homeless person",留下,CHANGE,1,zh,Species,Hoomans,1,0,2,1elderly man.1homeless person,Species,1,1,1
+"zh,species,Pets,0,0,1,1cat.1dog",留下,STAY,0,zh,Species,Pets,0,0,1,1cat.1dog,Species,1,1,1
+"en,species,Pets,1,0,2,1cat.2dog",change,CHANGE,0,en,Species,Pets,1,0,2,1cat.2dog,Species,1,1,1
+"en,species,Hoomans,0,0,1,1boy.1elderly woman.1elderly man",change,STAY,1,en,Species,Hoomans,0,0,1,1boy.1elderly woman.1elderly man,Species,1,1,1
+"ja,species,Pets,1,0,1,1cat.3dog",滞在,CHANGE,1,ja,Species,Pets,1,0,1,1cat.3dog,Species,1,1,1
+"ja,species,Hoomans,0,0,2,1girl.1boy.1elderly woman.1female athlete",滞在,STAY,0,ja,Species,Hoomans,0,0,2,1girl.1boy.1elderly woman.1female athlete,Species,1,1,1
+"ja,species,Pets,1,1,0,2dog.1cat",滞在,CHANGE,1,ja,Species,Pets,1,1,0,2dog.1cat,Species,0,1,0
+"ja,species,Hoomans,0,0,0,1elderly man.1male athlete.1male executive",滞在,STAY,0,ja,Species,Hoomans,0,0,0,1elderly man.1male athlete.1male executive,Species,0,1,0
+"ja,species,Hoomans,1,0,0,1pregnant woman.2large woman.1woman.1female doctor",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1pregnant woman.2large woman.1woman.1female doctor,Species,1,1,1
+"ja,species,Pets,0,0,0,4dog.1cat",滞在,STAY,0,ja,Species,Pets,0,0,0,4dog.1cat,Species,1,1,1
+"en,species,Pets,1,0,2,3cat.1dog",stay,CHANGE,1,en,Species,Pets,1,0,2,3cat.1dog,Species,1,1,1
+"en,species,Hoomans,0,0,1,1male athlete.2pregnant woman.1baby",stay,STAY,0,en,Species,Hoomans,0,0,1,1male athlete.2pregnant woman.1baby,Species,1,1,1
+"fr,species,Pets,1,0,2,4cat.1dog",rester,CHANGE,1,fr,Species,Pets,1,0,2,4cat.1dog,Species,1,1,1
+"fr,species,Hoomans,0,0,1,1male doctor.1man.1male athlete.1girl.1female executive",rester,STAY,0,fr,Species,Hoomans,0,0,1,1male doctor.1man.1male athlete.1girl.1female executive,Species,1,1,1
+"ja,species,Pets,1,0,2,3dog.2cat",滞在,CHANGE,1,ja,Species,Pets,1,0,2,3dog.2cat,Species,1,1,1
+"ja,species,Hoomans,0,0,1,1large man.1large woman.1female athlete.2criminal",滞在,STAY,0,ja,Species,Hoomans,0,0,1,1large man.1large woman.1female athlete.2criminal,Species,1,1,1
+"en,species,Hoomans,1,1,0,1baby.1pregnant woman.1male athlete.1man",stay,CHANGE,1,en,Species,Hoomans,1,1,0,1baby.1pregnant woman.1male athlete.1man,Species,0,1,1
+"en,species,Pets,0,0,0,3cat.1dog",stay,STAY,0,en,Species,Pets,0,0,0,3cat.1dog,Species,0,1,1
+"en,species,Hoomans,1,0,1,1baby.1pregnant woman.2male doctor.1large man",stay,CHANGE,1,en,Species,Hoomans,1,0,1,1baby.1pregnant woman.2male doctor.1large man,Species,1,1,1
+"en,species,Pets,0,0,2,4dog.1cat",stay,STAY,0,en,Species,Pets,0,0,2,4dog.1cat,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1large man",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1large man,Species,0,1,1
+"ja,species,Pets,0,1,0,1dog",滞在,STAY,0,ja,Species,Pets,0,1,0,1dog,Species,0,1,1
+"fr,species,Hoomans,1,1,0,1boy.2baby",rester,CHANGE,1,fr,Species,Hoomans,1,1,0,1boy.2baby,Species,0,1,1
+"fr,species,Pets,0,0,0,3cat",rester,STAY,0,fr,Species,Pets,0,0,0,3cat,Species,0,1,1
+"fr,species,Hoomans,1,0,0,1criminal.1elderly man.1man",changer,CHANGE,0,fr,Species,Hoomans,1,0,0,1criminal.1elderly man.1man,Species,0,1,1
+"fr,species,Pets,0,1,0,2dog.1cat",changer,STAY,1,fr,Species,Pets,0,1,0,2dog.1cat,Species,0,1,1
+"en,species,Pets,1,0,1,2dog.1cat",stay,CHANGE,1,en,Species,Pets,1,0,1,2dog.1cat,Species,1,1,1
+"en,species,Hoomans,0,0,2,1female athlete.1man.1male athlete",stay,STAY,0,en,Species,Hoomans,0,0,2,1female athlete.1man.1male athlete,Species,1,1,1
+"fr,species,Hoomans,1,0,1,1baby.1pregnant woman.2male doctor.1large man",rester,CHANGE,1,fr,Species,Hoomans,1,0,1,1baby.1pregnant woman.2male doctor.1large man,Species,1,1,1
+"fr,species,Pets,0,0,2,4dog.1cat",rester,STAY,0,fr,Species,Pets,0,0,2,4dog.1cat,Species,1,1,1
+"zh,species,Hoomans,1,0,0,1baby.1elderly woman",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1baby.1elderly woman,Species,1,1,1
+"zh,species,Pets,0,0,0,2cat",留下,STAY,0,zh,Species,Pets,0,0,0,2cat,Species,1,1,1
+"zh,species,Hoomans,1,0,2,1pregnant woman.1homeless person",留下,CHANGE,1,zh,Species,Hoomans,1,0,2,1pregnant woman.1homeless person,Species,1,1,1
+"zh,species,Pets,0,0,1,1dog.1cat",留下,STAY,0,zh,Species,Pets,0,0,1,1dog.1cat,Species,1,1,1
+"en,species,Hoomans,1,1,0,1female executive.1baby.1elderly woman.1female doctor",stay,CHANGE,1,en,Species,Hoomans,1,1,0,1female executive.1baby.1elderly woman.1female doctor,Species,0,1,1
+"en,species,Pets,0,0,0,2dog.2cat",stay,STAY,0,en,Species,Pets,0,0,0,2dog.2cat,Species,0,1,1
+"ja,species,Pets,1,1,0,2dog.2cat",滞在,CHANGE,1,ja,Species,Pets,1,1,0,2dog.2cat,Species,0,1,0
+"ja,species,Hoomans,0,0,0,1large woman.1female executive.1large man.1man",滞在,STAY,0,ja,Species,Hoomans,0,0,0,1large woman.1female executive.1large man.1man,Species,0,1,0
+"en,species,Pets,1,0,0,2dog.1cat",stay,CHANGE,1,en,Species,Pets,1,0,0,2dog.1cat,Species,1,1,1
+"en,species,Hoomans,0,0,0,1criminal.1homeless person.1female executive",stay,STAY,0,en,Species,Hoomans,0,0,0,1criminal.1homeless person.1female executive,Species,1,1,1
+"ja,species,Pets,1,0,1,2dog.1cat",滞在,CHANGE,1,ja,Species,Pets,1,0,1,2dog.1cat,Species,1,1,1
+"ja,species,Hoomans,0,0,2,1female athlete.1man.1male athlete",滞在,STAY,0,ja,Species,Hoomans,0,0,2,1female athlete.1man.1male athlete,Species,1,1,1
+"en,species,Hoomans,1,0,2,1baby.1female executive",change,CHANGE,0,en,Species,Hoomans,1,0,2,1baby.1female executive,Species,1,1,1
+"en,species,Pets,0,0,1,1cat.1dog",change,STAY,1,en,Species,Pets,0,0,1,1cat.1dog,Species,1,1,1
+"ja,species,Pets,1,0,2,3cat",滞在,CHANGE,1,ja,Species,Pets,1,0,2,3cat,Species,1,1,0
+"ja,species,Hoomans,0,0,1,1boy.1pregnant woman.1woman",滞在,STAY,0,ja,Species,Hoomans,0,0,1,1boy.1pregnant woman.1woman,Species,1,1,0
+"ja,species,Hoomans,1,0,2,2pregnant woman.1male executive.1man.1male doctor",滞在,CHANGE,1,ja,Species,Hoomans,1,0,2,2pregnant woman.1male executive.1man.1male doctor,Species,1,1,1
+"ja,species,Pets,0,0,1,4cat.1dog",滞在,STAY,0,ja,Species,Pets,0,0,1,4cat.1dog,Species,1,1,1
+"en,species,Pets,1,0,2,1dog.1cat",stay,CHANGE,1,en,Species,Pets,1,0,2,1dog.1cat,Species,1,1,1
+"en,species,Hoomans,0,0,1,1baby.1homeless person",stay,STAY,0,en,Species,Hoomans,0,0,1,1baby.1homeless person,Species,1,1,1
+"fr,species,Hoomans,1,0,2,1elderly woman",rester,CHANGE,1,fr,Species,Hoomans,1,0,2,1elderly woman,Species,1,1,1
+"fr,species,Pets,0,0,1,1dog",rester,STAY,0,fr,Species,Pets,0,0,1,1dog,Species,1,1,1
+"fr,species,Pets,1,0,2,1cat.2dog",rester,CHANGE,1,fr,Species,Pets,1,0,2,1cat.2dog,Species,1,1,1
+"fr,species,Hoomans,0,0,1,1boy.1elderly woman.1elderly man",rester,STAY,0,fr,Species,Hoomans,0,0,1,1boy.1elderly woman.1elderly man,Species,1,1,1
+"fr,species,Hoomans,1,0,0,2criminal.1baby.1girl.1male executive",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,2criminal.1baby.1girl.1male executive,Species,0,1,1
+"fr,species,Pets,0,1,0,4dog.1cat",rester,STAY,0,fr,Species,Pets,0,1,0,4dog.1cat,Species,0,1,1
+"zh,species,Hoomans,1,0,0,1criminal.1elderly man.1man",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1criminal.1elderly man.1man,Species,0,1,1
+"zh,species,Pets,0,1,0,2dog.1cat",留下,STAY,0,zh,Species,Pets,0,1,0,2dog.1cat,Species,0,1,1
+"en,species,Hoomans,1,0,0,1criminal.1elderly man.1man",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1criminal.1elderly man.1man,Species,0,1,1
+"en,species,Pets,0,1,0,2dog.1cat",stay,STAY,0,en,Species,Pets,0,1,0,2dog.1cat,Species,0,1,1
+"en,species,Hoomans,1,0,2,1elderly woman",stay,CHANGE,1,en,Species,Hoomans,1,0,2,1elderly woman,Species,1,1,1
+"en,species,Pets,0,0,1,1dog",stay,STAY,0,en,Species,Pets,0,0,1,1dog,Species,1,1,1
+"zh,species,Pets,1,0,2,4cat.1dog",改变,CHANGE,0,zh,Species,Pets,1,0,2,4cat.1dog,Species,1,1,1
+"zh,species,Hoomans,0,0,1,1male doctor.1man.1male athlete.1girl.1female executive",改变,STAY,1,zh,Species,Hoomans,0,0,1,1male doctor.1man.1male athlete.1girl.1female executive,Species,1,1,1
+"zh,species,Pets,1,0,0,3cat.2dog",留下,CHANGE,1,zh,Species,Pets,1,0,0,3cat.2dog,Species,0,1,1
+"zh,species,Hoomans,0,1,0,1elderly woman.1man.2girl.1criminal",留下,STAY,0,zh,Species,Hoomans,0,1,0,1elderly woman.1man.2girl.1criminal,Species,0,1,1
+"fr,species,Hoomans,1,0,0,1male athlete.1female executive.1pregnant woman",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1male athlete.1female executive.1pregnant woman,Species,1,1,1
+"fr,species,Pets,0,0,0,2dog.1cat",rester,STAY,0,fr,Species,Pets,0,0,0,2dog.1cat,Species,1,1,1
+"zh,species,Hoomans,1,0,2,1girl.1baby.1homeless person.1large man",留下,CHANGE,1,zh,Species,Hoomans,1,0,2,1girl.1baby.1homeless person.1large man,Species,1,1,1
+"zh,species,Pets,0,0,1,3dog.1cat",留下,STAY,0,zh,Species,Pets,0,0,1,3dog.1cat,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1man.1pregnant woman.1female executive",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1man.1pregnant woman.1female executive,Species,0,1,1
+"ja,species,Pets,0,1,0,3cat",滞在,STAY,0,ja,Species,Pets,0,1,0,3cat,Species,0,1,1
+"ja,species,Hoomans,1,0,1,1female executive.1male doctor.1man",滞在,CHANGE,1,ja,Species,Hoomans,1,0,1,1female executive.1male doctor.1man,Species,1,1,1
+"ja,species,Pets,0,0,2,3cat",滞在,STAY,0,ja,Species,Pets,0,0,2,3cat,Species,1,1,1
+"en,species,Pets,1,0,0,2cat.1dog",change,CHANGE,0,en,Species,Pets,1,0,0,2cat.1dog,Species,1,1,1
+"en,species,Hoomans,0,0,0,1large woman.1elderly man.1female doctor",change,STAY,1,en,Species,Hoomans,0,0,0,1large woman.1elderly man.1female doctor,Species,1,1,1
+"ja,species,Pets,1,1,0,3dog.2cat",滞在,CHANGE,1,ja,Species,Pets,1,1,0,3dog.2cat,Species,0,1,1
+"ja,species,Hoomans,0,0,0,1elderly man.1large man.1male athlete.1woman.1female executive",滞在,STAY,0,ja,Species,Hoomans,0,0,0,1elderly man.1large man.1male athlete.1woman.1female executive,Species,0,1,1
+"zh,species,Pets,1,0,0,1cat.2dog",留下,CHANGE,1,zh,Species,Pets,1,0,0,1cat.2dog,Species,0,1,1
+"zh,species,Hoomans,0,1,0,2female doctor.1homeless person",留下,STAY,0,zh,Species,Hoomans,0,1,0,2female doctor.1homeless person,Species,0,1,1
+"en,species,Pets,1,0,1,2dog",stay,CHANGE,1,en,Species,Pets,1,0,1,2dog,Species,1,1,1
+"en,species,Hoomans,0,0,2,1elderly man.1woman",stay,STAY,0,en,Species,Hoomans,0,0,2,1elderly man.1woman,Species,1,1,1
+"en,species,Hoomans,1,0,0,1elderly man.1pregnant woman.1male executive.1female athlete",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1elderly man.1pregnant woman.1male executive.1female athlete,Species,0,1,1
+"en,species,Pets,0,1,0,2dog.2cat",stay,STAY,0,en,Species,Pets,0,1,0,2dog.2cat,Species,0,1,1
+"en,species,Pets,1,0,1,4dog",stay,CHANGE,1,en,Species,Pets,1,0,1,4dog,Species,1,1,1
+"en,species,Hoomans,0,0,2,1large woman.1female doctor.1male doctor.1woman",stay,STAY,0,en,Species,Hoomans,0,0,2,1large woman.1female doctor.1male doctor.1woman,Species,1,1,1
+"en,species,Hoomans,1,0,2,1girl.1baby.1homeless person.1large man",stay,CHANGE,1,en,Species,Hoomans,1,0,2,1girl.1baby.1homeless person.1large man,Species,1,1,1
+"en,species,Pets,0,0,1,3dog.1cat",stay,STAY,0,en,Species,Pets,0,0,1,3dog.1cat,Species,1,1,1
+"fr,species,Hoomans,1,0,2,1elderly woman.1large man",changer,CHANGE,0,fr,Species,Hoomans,1,0,2,1elderly woman.1large man,Species,1,1,1
+"fr,species,Pets,0,0,1,1cat.1dog",changer,STAY,1,fr,Species,Pets,0,0,1,1cat.1dog,Species,1,1,1
+"ja,species,Pets,1,0,2,2dog",変更,CHANGE,0,ja,Species,Pets,1,0,2,2dog,Species,1,1,1
+"ja,species,Hoomans,0,0,1,1female executive.1baby",変更,STAY,1,ja,Species,Hoomans,0,0,1,1female executive.1baby,Species,1,1,1
+"zh,species,Hoomans,1,0,0,1elderly man.1pregnant woman.1male executive.1female athlete",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1elderly man.1pregnant woman.1male executive.1female athlete,Species,0,1,1
+"zh,species,Pets,0,1,0,2dog.2cat",留下,STAY,0,zh,Species,Pets,0,1,0,2dog.2cat,Species,0,1,1
+"fr,species,Hoomans,1,1,0,1female doctor.1large woman.1male athlete.1male executive",rester,CHANGE,1,fr,Species,Hoomans,1,1,0,1female doctor.1large woman.1male athlete.1male executive,Species,0,1,1
+"fr,species,Pets,0,0,0,2cat.2dog",rester,STAY,0,fr,Species,Pets,0,0,0,2cat.2dog,Species,0,1,1
+"fr,species,Hoomans,1,0,2,1girl.1baby.1homeless person.1large man",rester,CHANGE,1,fr,Species,Hoomans,1,0,2,1girl.1baby.1homeless person.1large man,Species,1,1,1
+"fr,species,Pets,0,0,1,3dog.1cat",rester,STAY,0,fr,Species,Pets,0,0,1,3dog.1cat,Species,1,1,1
+"zh,species,Hoomans,1,0,0,1female executive.1man",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1female executive.1man,Species,1,1,1
+"zh,species,Pets,0,0,0,2dog",留下,STAY,0,zh,Species,Pets,0,0,0,2dog,Species,1,1,1
+"en,species,Pets,1,0,2,4cat.1dog",stay,CHANGE,1,en,Species,Pets,1,0,2,4cat.1dog,Species,1,1,1
+"en,species,Hoomans,0,0,1,1male doctor.1man.1male athlete.1girl.1female executive",stay,STAY,0,en,Species,Hoomans,0,0,1,1male doctor.1man.1male athlete.1girl.1female executive,Species,1,1,1
+"zh,species,Pets,1,1,0,1dog",改变,CHANGE,0,zh,Species,Pets,1,1,0,1dog,Species,0,1,1
+"zh,species,Hoomans,0,0,0,1female doctor",改变,STAY,1,zh,Species,Hoomans,0,0,0,1female doctor,Species,0,1,1
+"en,species,Pets,1,0,0,4dog",stay,CHANGE,1,en,Species,Pets,1,0,0,4dog,Species,1,1,1
+"en,species,Hoomans,0,0,0,1homeless person.1female athlete.1female doctor.1boy",stay,STAY,0,en,Species,Hoomans,0,0,0,1homeless person.1female athlete.1female doctor.1boy,Species,1,1,1
+"zh,species,Hoomans,1,0,0,2female athlete",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,2female athlete,Species,0,1,1
+"zh,species,Pets,0,1,0,1cat.1dog",留下,STAY,0,zh,Species,Pets,0,1,0,1cat.1dog,Species,0,1,1
+"fr,species,Hoomans,1,0,0,1male executive",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1male executive,Species,0,1,1
+"fr,species,Pets,0,1,0,1cat",rester,STAY,0,fr,Species,Pets,0,1,0,1cat,Species,0,1,1
+"en,species,Hoomans,1,1,0,1boy.2baby",stay,CHANGE,1,en,Species,Hoomans,1,1,0,1boy.2baby,Species,0,1,1
+"en,species,Pets,0,0,0,3cat",stay,STAY,0,en,Species,Pets,0,0,0,3cat,Species,0,1,1
+"zh,species,Hoomans,1,0,2,1male executive.1female athlete",改变,CHANGE,0,zh,Species,Hoomans,1,0,2,1male executive.1female athlete,Species,1,1,1
+"zh,species,Pets,0,0,1,2dog",改变,STAY,1,zh,Species,Pets,0,0,1,2dog,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1baby.1man",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1baby.1man,Species,1,1,1
+"ja,species,Pets,0,0,0,2cat",滞在,STAY,0,ja,Species,Pets,0,0,0,2cat,Species,1,1,1
+"en,species,Hoomans,1,0,2,1pregnant woman.1homeless person",stay,CHANGE,1,en,Species,Hoomans,1,0,2,1pregnant woman.1homeless person,Species,1,1,1
+"en,species,Pets,0,0,1,1dog.1cat",stay,STAY,0,en,Species,Pets,0,0,1,1dog.1cat,Species,1,1,1
+"fr,species,Pets,1,0,0,1dog",changer,CHANGE,0,fr,Species,Pets,1,0,0,1dog,Species,0,1,1
+"fr,species,Hoomans,0,1,0,1female doctor",changer,STAY,1,fr,Species,Hoomans,0,1,0,1female doctor,Species,0,1,1
+"en,species,Pets,1,0,2,2dog",stay,CHANGE,1,en,Species,Pets,1,0,2,2dog,Species,1,1,1
+"en,species,Hoomans,0,0,1,1female executive.1baby",stay,STAY,0,en,Species,Hoomans,0,0,1,1female executive.1baby,Species,1,1,1
+"ja,species,Hoomans,1,0,2,1pregnant woman.1homeless person",変更,CHANGE,0,ja,Species,Hoomans,1,0,2,1pregnant woman.1homeless person,Species,1,1,1
+"ja,species,Pets,0,0,1,1dog.1cat",変更,STAY,1,ja,Species,Pets,0,0,1,1dog.1cat,Species,1,1,1
+"en,species,Pets,1,0,1,3cat.2dog",stay,CHANGE,1,en,Species,Pets,1,0,1,3cat.2dog,Species,1,1,1
+"en,species,Hoomans,0,0,2,1woman.1large woman.1homeless person.2elderly man",stay,STAY,0,en,Species,Hoomans,0,0,2,1woman.1large woman.1homeless person.2elderly man,Species,1,1,1
+"fr,species,Pets,1,0,0,2cat.1dog",rester,CHANGE,1,fr,Species,Pets,1,0,0,2cat.1dog,Species,1,1,1
+"fr,species,Hoomans,0,0,0,1large woman.1elderly man.1female doctor",rester,STAY,0,fr,Species,Hoomans,0,0,0,1large woman.1elderly man.1female doctor,Species,1,1,1
+"en,species,Hoomans,1,0,0,1female athlete.1homeless person",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1female athlete.1homeless person,Species,0,1,1
+"en,species,Pets,0,1,0,1dog.1cat",stay,STAY,0,en,Species,Pets,0,1,0,1dog.1cat,Species,0,1,1
+"en,species,Hoomans,1,0,2,1elderly woman.1large man",change,CHANGE,0,en,Species,Hoomans,1,0,2,1elderly woman.1large man,Species,1,1,1
+"en,species,Pets,0,0,1,1cat.1dog",change,STAY,1,en,Species,Pets,0,0,1,1cat.1dog,Species,1,1,1
+"fr,species,Pets,1,0,1,3cat.2dog",changer,CHANGE,0,fr,Species,Pets,1,0,1,3cat.2dog,Species,1,1,1
+"fr,species,Hoomans,0,0,2,2male doctor.1criminal.1female executive.1pregnant woman",changer,STAY,1,fr,Species,Hoomans,0,0,2,2male doctor.1criminal.1female executive.1pregnant woman,Species,1,1,1
+"en,species,Hoomans,1,0,0,1pregnant woman.2elderly man.1female athlete",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1pregnant woman.2elderly man.1female athlete,Species,0,1,1
+"en,species,Pets,0,1,0,1dog.3cat",stay,STAY,0,en,Species,Pets,0,1,0,1dog.3cat,Species,0,1,1
+"zh,species,Hoomans,1,1,0,1large man.1female athlete.1homeless person.1male doctor.1baby",留下,CHANGE,1,zh,Species,Hoomans,1,1,0,1large man.1female athlete.1homeless person.1male doctor.1baby,Species,0,1,1
+"zh,species,Pets,0,0,0,4cat.1dog",留下,STAY,0,zh,Species,Pets,0,0,0,4cat.1dog,Species,0,1,1
+"en,species,Pets,1,0,2,2dog",stay,CHANGE,1,en,Species,Pets,1,0,2,2dog,Species,1,1,1
+"en,species,Hoomans,0,0,1,1woman.1male doctor",stay,STAY,0,en,Species,Hoomans,0,0,1,1woman.1male doctor,Species,1,1,1
+"en,species,Hoomans,1,0,0,2woman.1large man",stay,CHANGE,1,en,Species,Hoomans,1,0,0,2woman.1large man,Species,1,1,1
+"en,species,Pets,0,0,0,2cat.1dog",stay,STAY,0,en,Species,Pets,0,0,0,2cat.1dog,Species,1,1,1
+"en,species,Pets,1,1,0,2cat",stay,CHANGE,1,en,Species,Pets,1,1,0,2cat,Species,0,1,1
+"en,species,Hoomans,0,0,0,1woman.1baby",stay,STAY,0,en,Species,Hoomans,0,0,0,1woman.1baby,Species,0,1,1
+"fr,species,Pets,1,0,1,3dog",rester,CHANGE,1,fr,Species,Pets,1,0,1,3dog,Species,1,1,1
+"fr,species,Hoomans,0,0,2,1homeless person.1large woman.1male doctor",rester,STAY,0,fr,Species,Hoomans,0,0,2,1homeless person.1large woman.1male doctor,Species,1,1,1
+"fr,species,Pets,1,0,2,1cat.1dog",rester,CHANGE,1,fr,Species,Pets,1,0,2,1cat.1dog,Species,1,1,1
+"fr,species,Hoomans,0,0,1,1pregnant woman.1woman",rester,STAY,0,fr,Species,Hoomans,0,0,1,1pregnant woman.1woman,Species,1,1,1
+"fr,species,Hoomans,1,0,0,2girl.1pregnant woman",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,2girl.1pregnant woman,Species,1,1,1
+"fr,species,Pets,0,0,0,2cat.1dog",rester,STAY,0,fr,Species,Pets,0,0,0,2cat.1dog,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1pregnant woman.2elderly man.1female athlete",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1pregnant woman.2elderly man.1female athlete,Species,0,1,1
+"ja,species,Pets,0,1,0,1dog.3cat",滞在,STAY,0,ja,Species,Pets,0,1,0,1dog.3cat,Species,0,1,1
+"zh,species,Hoomans,1,1,0,1baby.1pregnant woman.1male athlete.1man",留下,CHANGE,1,zh,Species,Hoomans,1,1,0,1baby.1pregnant woman.1male athlete.1man,Species,0,1,1
+"zh,species,Pets,0,0,0,3cat.1dog",留下,STAY,0,zh,Species,Pets,0,0,0,3cat.1dog,Species,0,1,1
+"en,species,Pets,1,0,2,1cat",change,CHANGE,0,en,Species,Pets,1,0,2,1cat,Species,1,1,1
+"en,species,Hoomans,0,0,1,1man",change,STAY,1,en,Species,Hoomans,0,0,1,1man,Species,1,1,1
+"en,species,Pets,1,0,0,3cat.2dog",stay,CHANGE,1,en,Species,Pets,1,0,0,3cat.2dog,Species,0,1,1
+"en,species,Hoomans,0,1,0,1elderly woman.1man.2girl.1criminal",stay,STAY,0,en,Species,Hoomans,0,1,0,1elderly woman.1man.2girl.1criminal,Species,0,1,1
+"fr,species,Pets,1,0,1,1cat",rester,CHANGE,1,fr,Species,Pets,1,0,1,1cat,Species,1,1,1
+"fr,species,Hoomans,0,0,2,1pregnant woman",rester,STAY,0,fr,Species,Hoomans,0,0,2,1pregnant woman,Species,1,1,1
+"en,species,Pets,1,0,0,1dog",stay,CHANGE,1,en,Species,Pets,1,0,0,1dog,Species,1,1,1
+"en,species,Hoomans,0,0,0,1large man",stay,STAY,0,en,Species,Hoomans,0,0,0,1large man,Species,1,1,1
+"en,species,Hoomans,1,0,0,1boy.1male doctor.1criminal.1elderly woman",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1boy.1male doctor.1criminal.1elderly woman,Species,0,1,1
+"en,species,Pets,0,1,0,2dog.2cat",stay,STAY,0,en,Species,Pets,0,1,0,2dog.2cat,Species,0,1,1
+"fr,species,Hoomans,1,1,0,1female executive.1baby.1elderly woman.1female doctor",changer,CHANGE,0,fr,Species,Hoomans,1,1,0,1female executive.1baby.1elderly woman.1female doctor,Species,0,1,1
+"fr,species,Pets,0,0,0,2dog.2cat",changer,STAY,1,fr,Species,Pets,0,0,0,2dog.2cat,Species,0,1,1
+"fr,species,Hoomans,1,0,0,1pregnant woman.2large woman.1woman.1female doctor",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1pregnant woman.2large woman.1woman.1female doctor,Species,1,1,1
+"fr,species,Pets,0,0,0,4dog.1cat",rester,STAY,0,fr,Species,Pets,0,0,0,4dog.1cat,Species,1,1,1
+"ja,species,Hoomans,1,0,2,1woman.1girl",滞在,CHANGE,1,ja,Species,Hoomans,1,0,2,1woman.1girl,Species,1,1,1
+"ja,species,Pets,0,0,1,1dog.1cat",滞在,STAY,0,ja,Species,Pets,0,0,1,1dog.1cat,Species,1,1,1
+"fr,species,Hoomans,1,0,1,1criminal.1female athlete.1female executive.1large man.1elderly man",rester,CHANGE,1,fr,Species,Hoomans,1,0,1,1criminal.1female athlete.1female executive.1large man.1elderly man,Species,1,1,1
+"fr,species,Pets,0,0,2,2cat.3dog",rester,STAY,0,fr,Species,Pets,0,0,2,2cat.3dog,Species,1,1,1
+"en,species,Hoomans,1,0,1,1large man.1woman.1elderly man.1female athlete.1man",stay,CHANGE,1,en,Species,Hoomans,1,0,1,1large man.1woman.1elderly man.1female athlete.1man,Species,1,1,1
+"en,species,Pets,0,0,2,5dog",stay,STAY,0,en,Species,Pets,0,0,2,5dog,Species,1,1,1
+"ja,species,Hoomans,1,0,1,1large man.1woman.1elderly man.1female athlete.1man",変更,CHANGE,0,ja,Species,Hoomans,1,0,1,1large man.1woman.1elderly man.1female athlete.1man,Species,1,1,1
+"ja,species,Pets,0,0,2,5dog",変更,STAY,1,ja,Species,Pets,0,0,2,5dog,Species,1,1,1
+"zh,species,Hoomans,1,0,1,1baby.1pregnant woman.2male doctor.1large man",留下,CHANGE,1,zh,Species,Hoomans,1,0,1,1baby.1pregnant woman.2male doctor.1large man,Species,1,1,1
+"zh,species,Pets,0,0,2,4dog.1cat",留下,STAY,0,zh,Species,Pets,0,0,2,4dog.1cat,Species,1,1,1
+"en,species,Hoomans,1,0,0,2criminal.1baby.1girl.1male executive",stay,CHANGE,1,en,Species,Hoomans,1,0,0,2criminal.1baby.1girl.1male executive,Species,0,1,1
+"en,species,Pets,0,1,0,4dog.1cat",stay,STAY,0,en,Species,Pets,0,1,0,4dog.1cat,Species,0,1,1
+"ja,species,Hoomans,1,0,0,1baby.1elderly woman",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1baby.1elderly woman,Species,1,1,1
+"ja,species,Pets,0,0,0,2cat",滞在,STAY,0,ja,Species,Pets,0,0,0,2cat,Species,1,1,1
+"zh,species,Pets,1,0,1,2dog.1cat",留下,CHANGE,1,zh,Species,Pets,1,0,1,2dog.1cat,Species,1,1,1
+"zh,species,Hoomans,0,0,2,1female executive.1large man.1man",留下,STAY,0,zh,Species,Hoomans,0,0,2,1female executive.1large man.1man,Species,1,1,1
+"en,species,Hoomans,1,1,0,1female executive.1large woman",stay,CHANGE,1,en,Species,Hoomans,1,1,0,1female executive.1large woman,Species,0,1,1
+"en,species,Pets,0,0,0,1cat.1dog",stay,STAY,0,en,Species,Pets,0,0,0,1cat.1dog,Species,0,1,1
+"en,species,Hoomans,1,0,2,1woman.1girl",stay,CHANGE,1,en,Species,Hoomans,1,0,2,1woman.1girl,Species,1,1,1
+"en,species,Pets,0,0,1,1dog.1cat",stay,STAY,0,en,Species,Pets,0,0,1,1dog.1cat,Species,1,1,1
+"fr,species,Hoomans,1,0,1,1large man.1woman.1elderly man.1female athlete.1man",rester,CHANGE,1,fr,Species,Hoomans,1,0,1,1large man.1woman.1elderly man.1female athlete.1man,Species,1,1,1
+"fr,species,Pets,0,0,2,5dog",rester,STAY,0,fr,Species,Pets,0,0,2,5dog,Species,1,1,1
+"zh,species,Pets,1,0,0,2dog.1cat",改变,CHANGE,0,zh,Species,Pets,1,0,0,2dog.1cat,Species,1,1,1
+"zh,species,Hoomans,0,0,0,1criminal.1homeless person.1female executive",改变,STAY,1,zh,Species,Hoomans,0,0,0,1criminal.1homeless person.1female executive,Species,1,1,1
+"ja,species,Pets,1,0,2,1cat.2dog",滞在,CHANGE,1,ja,Species,Pets,1,0,2,1cat.2dog,Species,1,1,0
+"ja,species,Hoomans,0,0,1,1boy.1elderly woman.1elderly man",滞在,STAY,0,ja,Species,Hoomans,0,0,1,1boy.1elderly woman.1elderly man,Species,1,1,0
+"zh,species,Hoomans,1,0,0,1pregnant woman.2large woman.1woman.1female doctor",改变,CHANGE,0,zh,Species,Hoomans,1,0,0,1pregnant woman.2large woman.1woman.1female doctor,Species,1,1,0
+"zh,species,Pets,0,0,0,4dog.1cat",改变,STAY,1,zh,Species,Pets,0,0,0,4dog.1cat,Species,1,1,0
+"fr,species,Pets,1,0,2,1dog.1cat",changer,CHANGE,0,fr,Species,Pets,1,0,2,1dog.1cat,Species,1,1,1
+"fr,species,Hoomans,0,0,1,1baby.1homeless person",changer,STAY,1,fr,Species,Hoomans,0,0,1,1baby.1homeless person,Species,1,1,1
+"zh,species,Hoomans,1,0,1,1female executive.1male doctor.1man",留下,CHANGE,1,zh,Species,Hoomans,1,0,1,1female executive.1male doctor.1man,Species,1,1,1
+"zh,species,Pets,0,0,2,3cat",留下,STAY,0,zh,Species,Pets,0,0,2,3cat,Species,1,1,1
+"zh,species,Hoomans,1,0,0,1male athlete.1large woman.1boy",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1male athlete.1large woman.1boy,Species,0,1,1
+"zh,species,Pets,0,1,0,3dog",留下,STAY,0,zh,Species,Pets,0,1,0,3dog,Species,0,1,1
+"fr,species,Hoomans,1,0,0,1female athlete.1homeless person",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1female athlete.1homeless person,Species,0,1,1
+"fr,species,Pets,0,1,0,1dog.1cat",rester,STAY,0,fr,Species,Pets,0,1,0,1dog.1cat,Species,0,1,1
+"fr,species,Pets,1,0,0,1dog",rester,CHANGE,1,fr,Species,Pets,1,0,0,1dog,Species,0,1,1
+"fr,species,Hoomans,0,1,0,1male executive",rester,STAY,0,fr,Species,Hoomans,0,1,0,1male executive,Species,0,1,1
+"zh,species,Pets,1,0,0,1dog.1cat",留下,CHANGE,1,zh,Species,Pets,1,0,0,1dog.1cat,Species,1,1,1
+"zh,species,Hoomans,0,0,0,1large man.1pregnant woman",留下,STAY,0,zh,Species,Hoomans,0,0,0,1large man.1pregnant woman,Species,1,1,1
+"en,species,Hoomans,1,0,2,1woman.1elderly woman.1boy.1criminal",change,CHANGE,0,en,Species,Hoomans,1,0,2,1woman.1elderly woman.1boy.1criminal,Species,1,1,1
+"en,species,Pets,0,0,1,2dog.2cat",change,STAY,1,en,Species,Pets,0,0,1,2dog.2cat,Species,1,1,1
+"fr,species,Hoomans,1,0,1,1female executive.1male doctor.1man",rester,CHANGE,1,fr,Species,Hoomans,1,0,1,1female executive.1male doctor.1man,Species,1,1,1
+"fr,species,Pets,0,0,2,3cat",rester,STAY,0,fr,Species,Pets,0,0,2,3cat,Species,1,1,1
+"ja,species,Pets,1,0,0,1dog",滞在,CHANGE,1,ja,Species,Pets,1,0,0,1dog,Species,0,1,1
+"ja,species,Hoomans,0,1,0,1female doctor",滞在,STAY,0,ja,Species,Hoomans,0,1,0,1female doctor,Species,0,1,1
+"ja,species,Hoomans,1,0,0,1large woman",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1large woman,Species,0,1,1
+"ja,species,Pets,0,1,0,1cat",滞在,STAY,0,ja,Species,Pets,0,1,0,1cat,Species,0,1,1
+"fr,species,Pets,1,0,2,1cat",rester,CHANGE,1,fr,Species,Pets,1,0,2,1cat,Species,1,1,1
+"fr,species,Hoomans,0,0,1,1elderly man",rester,STAY,0,fr,Species,Hoomans,0,0,1,1elderly man,Species,1,1,1
+"en,species,Hoomans,1,0,0,1baby.1man",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1baby.1man,Species,1,1,1
+"en,species,Pets,0,0,0,2cat",stay,STAY,0,en,Species,Pets,0,0,0,2cat,Species,1,1,1
+"fr,species,Hoomans,1,0,2,1baby.1female executive",rester,CHANGE,1,fr,Species,Hoomans,1,0,2,1baby.1female executive,Species,1,1,1
+"fr,species,Pets,0,0,1,1cat.1dog",rester,STAY,0,fr,Species,Pets,0,0,1,1cat.1dog,Species,1,1,1
+"en,species,Pets,1,0,0,1dog",stay,CHANGE,1,en,Species,Pets,1,0,0,1dog,Species,0,1,1
+"en,species,Hoomans,0,1,0,1female doctor",stay,STAY,0,en,Species,Hoomans,0,1,0,1female doctor,Species,0,1,1
+"zh,species,Pets,1,0,0,2dog.1cat",改变,CHANGE,0,zh,Species,Pets,1,0,0,2dog.1cat,Species,1,1,1
+"zh,species,Hoomans,0,0,0,2female athlete.1female executive",改变,STAY,1,zh,Species,Hoomans,0,0,0,2female athlete.1female executive,Species,1,1,1
+"zh,species,Hoomans,1,1,0,1girl.1elderly man",改变,CHANGE,0,zh,Species,Hoomans,1,1,0,1girl.1elderly man,Species,0,1,1
+"zh,species,Pets,0,0,0,2dog",改变,STAY,1,zh,Species,Pets,0,0,0,2dog,Species,0,1,1
+"ja,species,Hoomans,1,1,0,1female executive.1large woman",滞在,CHANGE,1,ja,Species,Hoomans,1,1,0,1female executive.1large woman,Species,0,1,1
+"ja,species,Pets,0,0,0,1cat.1dog",滞在,STAY,0,ja,Species,Pets,0,0,0,1cat.1dog,Species,0,1,1
+"zh,species,Pets,1,0,0,1dog",留下,CHANGE,1,zh,Species,Pets,1,0,0,1dog,Species,1,1,1
+"zh,species,Hoomans,0,0,0,1large man",留下,STAY,0,zh,Species,Hoomans,0,0,0,1large man,Species,1,1,1
+"en,species,Hoomans,1,0,0,1male athlete.1pregnant woman",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1male athlete.1pregnant woman,Species,1,1,1
+"en,species,Pets,0,0,0,2dog",stay,STAY,0,en,Species,Pets,0,0,0,2dog,Species,1,1,1
+"fr,species,Hoomans,1,0,1,2elderly man.1elderly woman",rester,CHANGE,1,fr,Species,Hoomans,1,0,1,2elderly man.1elderly woman,Species,1,1,1
+"fr,species,Pets,0,0,2,1dog.2cat",rester,STAY,0,fr,Species,Pets,0,0,2,1dog.2cat,Species,1,1,1
+"zh,species,Pets,1,0,2,1cat",改变,CHANGE,0,zh,Species,Pets,1,0,2,1cat,Species,1,1,1
+"zh,species,Hoomans,0,0,1,1man",改变,STAY,1,zh,Species,Hoomans,0,0,1,1man,Species,1,1,1
+"en,species,Hoomans,1,0,0,1male athlete.1large woman.1boy",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1male athlete.1large woman.1boy,Species,0,1,1
+"en,species,Pets,0,1,0,3dog",stay,STAY,0,en,Species,Pets,0,1,0,3dog,Species,0,1,1
+"ja,species,Pets,1,0,0,4dog",滞在,CHANGE,1,ja,Species,Pets,1,0,0,4dog,Species,1,1,1
+"ja,species,Hoomans,0,0,0,1homeless person.1female athlete.1female doctor.1boy",滞在,STAY,0,ja,Species,Hoomans,0,0,0,1homeless person.1female athlete.1female doctor.1boy,Species,1,1,1
+"fr,species,Pets,1,0,0,1dog.1cat",rester,CHANGE,1,fr,Species,Pets,1,0,0,1dog.1cat,Species,0,1,1
+"fr,species,Hoomans,0,1,0,1homeless person.1female athlete",rester,STAY,0,fr,Species,Hoomans,0,1,0,1homeless person.1female athlete,Species,0,1,1
+"zh,species,Hoomans,1,0,0,2woman.1large man",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,2woman.1large man,Species,1,1,1
+"zh,species,Pets,0,0,0,2cat.1dog",留下,STAY,0,zh,Species,Pets,0,0,0,2cat.1dog,Species,1,1,1
+"zh,species,Hoomans,1,0,0,1pregnant woman.2elderly man.1female athlete",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1pregnant woman.2elderly man.1female athlete,Species,0,1,1
+"zh,species,Pets,0,1,0,1dog.3cat",留下,STAY,0,zh,Species,Pets,0,1,0,1dog.3cat,Species,0,1,1
+"fr,species,Hoomans,1,0,0,1elderly man.1pregnant woman.1male executive.1female athlete",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1elderly man.1pregnant woman.1male executive.1female athlete,Species,0,1,1
+"fr,species,Pets,0,1,0,2dog.2cat",rester,STAY,0,fr,Species,Pets,0,1,0,2dog.2cat,Species,0,1,1
+"en,species,Hoomans,1,0,0,1male athlete.1female executive",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1male athlete.1female executive,Species,0,1,1
+"en,species,Pets,0,1,0,1dog.1cat",stay,STAY,0,en,Species,Pets,0,1,0,1dog.1cat,Species,0,1,1
+"en,species,Pets,1,0,0,2cat.1dog",change,CHANGE,0,en,Species,Pets,1,0,0,2cat.1dog,Species,0,1,1
+"en,species,Hoomans,0,1,0,1elderly woman.1female doctor.1male doctor",change,STAY,1,en,Species,Hoomans,0,1,0,1elderly woman.1female doctor.1male doctor,Species,0,1,1
+"ja,species,Pets,1,0,0,3cat.2dog",変更,CHANGE,0,ja,Species,Pets,1,0,0,3cat.2dog,Species,0,1,1
+"ja,species,Hoomans,0,1,0,1elderly woman.1man.2girl.1criminal",変更,STAY,1,ja,Species,Hoomans,0,1,0,1elderly woman.1man.2girl.1criminal,Species,0,1,1
+"ja,species,Hoomans,1,0,0,1elderly man.1pregnant woman.1male executive.1female athlete",変更,CHANGE,0,ja,Species,Hoomans,1,0,0,1elderly man.1pregnant woman.1male executive.1female athlete,Species,0,1,0
+"ja,species,Pets,0,1,0,2dog.2cat",変更,STAY,1,ja,Species,Pets,0,1,0,2dog.2cat,Species,0,1,0
+"fr,species,Hoomans,1,0,0,1male athlete",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1male athlete,Species,1,1,1
+"fr,species,Pets,0,0,0,1cat",rester,STAY,0,fr,Species,Pets,0,0,0,1cat,Species,1,1,1
+"zh,species,Hoomans,1,0,1,1male doctor.1female doctor.1large woman.1woman.1female executive",留下,CHANGE,1,zh,Species,Hoomans,1,0,1,1male doctor.1female doctor.1large woman.1woman.1female executive,Species,1,1,1
+"zh,species,Pets,0,0,2,5dog",留下,STAY,0,zh,Species,Pets,0,0,2,5dog,Species,1,1,1
+"fr,species,Pets,1,0,2,2dog",rester,CHANGE,1,fr,Species,Pets,1,0,2,2dog,Species,1,1,1
+"fr,species,Hoomans,0,0,1,1female executive.1baby",rester,STAY,0,fr,Species,Hoomans,0,0,1,1female executive.1baby,Species,1,1,1
+"zh,species,Pets,1,0,2,1cat.2dog",留下,CHANGE,1,zh,Species,Pets,1,0,2,1cat.2dog,Species,1,1,1
+"zh,species,Hoomans,0,0,1,1boy.1elderly woman.1elderly man",留下,STAY,0,zh,Species,Hoomans,0,0,1,1boy.1elderly woman.1elderly man,Species,1,1,1
+"zh,species,Pets,1,0,0,2cat.1dog",留下,CHANGE,1,zh,Species,Pets,1,0,0,2cat.1dog,Species,0,1,1
+"zh,species,Hoomans,0,1,0,1elderly woman.1female doctor.1male doctor",留下,STAY,0,zh,Species,Hoomans,0,1,0,1elderly woman.1female doctor.1male doctor,Species,0,1,1
+"en,species,Pets,1,1,0,3dog.2cat",stay,CHANGE,1,en,Species,Pets,1,1,0,3dog.2cat,Species,0,1,1
+"en,species,Hoomans,0,0,0,1elderly man.1large man.1male athlete.1woman.1female executive",stay,STAY,0,en,Species,Hoomans,0,0,0,1elderly man.1large man.1male athlete.1woman.1female executive,Species,0,1,1
+"fr,species,Hoomans,1,1,0,1female athlete",rester,CHANGE,1,fr,Species,Hoomans,1,1,0,1female athlete,Species,0,1,1
+"fr,species,Pets,0,0,0,1cat",rester,STAY,0,fr,Species,Pets,0,0,0,1cat,Species,0,1,1
+"ja,species,Hoomans,1,0,1,1pregnant woman",滞在,CHANGE,1,ja,Species,Hoomans,1,0,1,1pregnant woman,Species,1,1,1
+"ja,species,Pets,0,0,2,1cat",滞在,STAY,0,ja,Species,Pets,0,0,2,1cat,Species,1,1,1
+"en,species,Hoomans,1,0,0,2girl.1pregnant woman",stay,CHANGE,1,en,Species,Hoomans,1,0,0,2girl.1pregnant woman,Species,1,1,1
+"en,species,Pets,0,0,0,2cat.1dog",stay,STAY,0,en,Species,Pets,0,0,0,2cat.1dog,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1female athlete.1homeless person",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1female athlete.1homeless person,Species,0,1,1
+"ja,species,Pets,0,1,0,1dog.1cat",滞在,STAY,0,ja,Species,Pets,0,1,0,1dog.1cat,Species,0,1,1
+"en,species,Hoomans,1,0,0,1male executive",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1male executive,Species,0,1,1
+"en,species,Pets,0,1,0,1cat",stay,STAY,0,en,Species,Pets,0,1,0,1cat,Species,0,1,1
+"fr,species,Hoomans,1,0,0,1man.1female executive.1large woman",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1man.1female executive.1large woman,Species,0,1,1
+"fr,species,Pets,0,1,0,2cat.1dog",rester,STAY,0,fr,Species,Pets,0,1,0,2cat.1dog,Species,0,1,1
+"fr,species,Pets,1,0,2,1cat",changer,CHANGE,0,fr,Species,Pets,1,0,2,1cat,Species,1,1,1
+"fr,species,Hoomans,0,0,1,1man",changer,STAY,1,fr,Species,Hoomans,0,0,1,1man,Species,1,1,1
+"en,species,Pets,1,0,0,2dog.1cat",stay,CHANGE,1,en,Species,Pets,1,0,0,2dog.1cat,Species,1,1,1
+"en,species,Hoomans,0,0,0,1elderly woman.1female executive.1baby",stay,STAY,0,en,Species,Hoomans,0,0,0,1elderly woman.1female executive.1baby,Species,1,1,1
+"zh,species,Pets,1,0,0,3cat.2dog",改变,CHANGE,0,zh,Species,Pets,1,0,0,3cat.2dog,Species,1,1,1
+"zh,species,Hoomans,0,0,0,1girl.1man.1elderly man.1male doctor.1large woman",改变,STAY,1,zh,Species,Hoomans,0,0,0,1girl.1man.1elderly man.1male doctor.1large woman,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1girl.1elderly woman.2male doctor",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1girl.1elderly woman.2male doctor,Species,0,1,1
+"ja,species,Pets,0,1,0,2cat.2dog",滞在,STAY,0,ja,Species,Pets,0,1,0,2cat.2dog,Species,0,1,1
+"zh,species,Pets,1,0,2,1dog.1cat",改变,CHANGE,0,zh,Species,Pets,1,0,2,1dog.1cat,Species,1,1,1
+"zh,species,Hoomans,0,0,1,1baby.1homeless person",改变,STAY,1,zh,Species,Hoomans,0,0,1,1baby.1homeless person,Species,1,1,1
+"ja,species,Hoomans,1,0,0,2girl.1pregnant woman",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,2girl.1pregnant woman,Species,1,1,1
+"ja,species,Pets,0,0,0,2cat.1dog",滞在,STAY,0,ja,Species,Pets,0,0,0,2cat.1dog,Species,1,1,1
+"en,species,Pets,1,0,1,3cat.2dog",stay,CHANGE,1,en,Species,Pets,1,0,1,3cat.2dog,Species,1,1,1
+"en,species,Hoomans,0,0,2,2male doctor.1criminal.1female executive.1pregnant woman",stay,STAY,0,en,Species,Hoomans,0,0,2,2male doctor.1criminal.1female executive.1pregnant woman,Species,1,1,1
+"ja,species,Hoomans,1,1,0,1large man.1female athlete.1homeless person.1male doctor.1baby",滞在,CHANGE,1,ja,Species,Hoomans,1,1,0,1large man.1female athlete.1homeless person.1male doctor.1baby,Species,0,1,1
+"ja,species,Pets,0,0,0,4cat.1dog",滞在,STAY,0,ja,Species,Pets,0,0,0,4cat.1dog,Species,0,1,1
+"zh,species,Pets,1,0,0,1dog",留下,CHANGE,1,zh,Species,Pets,1,0,0,1dog,Species,0,1,1
+"zh,species,Hoomans,0,1,0,1male athlete",留下,STAY,0,zh,Species,Hoomans,0,1,0,1male athlete,Species,0,1,1
+"en,species,Pets,1,0,1,1cat.2dog",stay,CHANGE,1,en,Species,Pets,1,0,1,1cat.2dog,Species,1,1,1
+"en,species,Hoomans,0,0,2,1elderly woman.1female athlete.1elderly man",stay,STAY,0,en,Species,Hoomans,0,0,2,1elderly woman.1female athlete.1elderly man,Species,1,1,1
+"fr,species,Hoomans,1,0,2,1homeless person.1female executive.1woman.1boy.1girl",rester,CHANGE,1,fr,Species,Hoomans,1,0,2,1homeless person.1female executive.1woman.1boy.1girl,Species,1,1,1
+"fr,species,Pets,0,0,1,2cat.3dog",rester,STAY,0,fr,Species,Pets,0,0,1,2cat.3dog,Species,1,1,1
+"zh,species,Hoomans,1,0,0,2girl.1pregnant woman",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,2girl.1pregnant woman,Species,1,1,1
+"zh,species,Pets,0,0,0,2cat.1dog",留下,STAY,0,zh,Species,Pets,0,0,0,2cat.1dog,Species,1,1,1
+"ja,species,Pets,1,0,0,3dog.2cat",滞在,CHANGE,1,ja,Species,Pets,1,0,0,3dog.2cat,Species,1,1,1
+"ja,species,Hoomans,0,0,0,1woman.1female athlete.1large woman.1pregnant woman.1female doctor",滞在,STAY,0,ja,Species,Hoomans,0,0,0,1woman.1female athlete.1large woman.1pregnant woman.1female doctor,Species,1,1,1
+"ja,species,Hoomans,1,0,2,1baby.1female executive",滞在,CHANGE,1,ja,Species,Hoomans,1,0,2,1baby.1female executive,Species,1,1,1
+"ja,species,Pets,0,0,1,1cat.1dog",滞在,STAY,0,ja,Species,Pets,0,0,1,1cat.1dog,Species,1,1,1
+"en,species,Pets,1,0,2,1cat",change,CHANGE,0,en,Species,Pets,1,0,2,1cat,Species,1,1,1
+"en,species,Hoomans,0,0,1,1elderly man",change,STAY,1,en,Species,Hoomans,0,0,1,1elderly man,Species,1,1,1
+"ja,species,Hoomans,1,0,2,1elderly woman",変更,CHANGE,0,ja,Species,Hoomans,1,0,2,1elderly woman,Species,1,1,1
+"ja,species,Pets,0,0,1,1dog",変更,STAY,1,ja,Species,Pets,0,0,1,1dog,Species,1,1,1
+"zh,species,Hoomans,1,0,0,1female athlete.1baby.1large woman",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1female athlete.1baby.1large woman,Species,0,1,1
+"zh,species,Pets,0,1,0,3cat",留下,STAY,0,zh,Species,Pets,0,1,0,3cat,Species,0,1,1
+"ja,species,Hoomans,1,0,1,1baby.1pregnant woman.2male doctor.1large man",変更,CHANGE,0,ja,Species,Hoomans,1,0,1,1baby.1pregnant woman.2male doctor.1large man,Species,1,1,0
+"ja,species,Pets,0,0,2,4dog.1cat",変更,STAY,1,ja,Species,Pets,0,0,2,4dog.1cat,Species,1,1,0
+"zh,species,Hoomans,1,0,0,1man.1female executive.1large woman",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1man.1female executive.1large woman,Species,0,1,1
+"zh,species,Pets,0,1,0,2cat.1dog",留下,STAY,0,zh,Species,Pets,0,1,0,2cat.1dog,Species,0,1,1
+"ja,species,Pets,1,0,0,1dog.1cat",滞在,CHANGE,1,ja,Species,Pets,1,0,0,1dog.1cat,Species,1,1,1
+"ja,species,Hoomans,0,0,0,1boy.1woman",滞在,STAY,0,ja,Species,Hoomans,0,0,0,1boy.1woman,Species,1,1,1
+"ja,species,Hoomans,1,0,0,2female athlete",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,2female athlete,Species,0,1,1
+"ja,species,Pets,0,1,0,1cat.1dog",滞在,STAY,0,ja,Species,Pets,0,1,0,1cat.1dog,Species,0,1,1
+"en,species,Pets,1,0,0,1dog",stay,CHANGE,1,en,Species,Pets,1,0,0,1dog,Species,0,1,1
+"en,species,Hoomans,0,1,0,1male athlete",stay,STAY,0,en,Species,Hoomans,0,1,0,1male athlete,Species,0,1,1
+"ja,species,Hoomans,1,0,0,1male athlete.1pregnant woman",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1male athlete.1pregnant woman,Species,1,1,1
+"ja,species,Pets,0,0,0,2dog",滞在,STAY,0,ja,Species,Pets,0,0,0,2dog,Species,1,1,1
+"ja,species,Hoomans,1,1,0,1female athlete",滞在,CHANGE,1,ja,Species,Hoomans,1,1,0,1female athlete,Species,0,1,1
+"ja,species,Pets,0,0,0,1cat",滞在,STAY,0,ja,Species,Pets,0,0,0,1cat,Species,0,1,1
+"zh,species,Pets,1,1,0,3dog.2cat",改变,CHANGE,0,zh,Species,Pets,1,1,0,3dog.2cat,Species,0,1,1
+"zh,species,Hoomans,0,0,0,1elderly man.1large man.1male athlete.1woman.1female executive",改变,STAY,1,zh,Species,Hoomans,0,0,0,1elderly man.1large man.1male athlete.1woman.1female executive,Species,0,1,1
+"ja,species,Hoomans,1,1,0,1baby.1pregnant woman.1male athlete.1man",滞在,CHANGE,1,ja,Species,Hoomans,1,1,0,1baby.1pregnant woman.1male athlete.1man,Species,0,1,1
+"ja,species,Pets,0,0,0,3cat.1dog",滞在,STAY,0,ja,Species,Pets,0,0,0,3cat.1dog,Species,0,1,1
+"ja,species,Hoomans,1,0,1,1criminal.1female athlete.1female executive.1large man.1elderly man",滞在,CHANGE,1,ja,Species,Hoomans,1,0,1,1criminal.1female athlete.1female executive.1large man.1elderly man,Species,1,1,1
+"ja,species,Pets,0,0,2,2cat.3dog",滞在,STAY,0,ja,Species,Pets,0,0,2,2cat.3dog,Species,1,1,1
+"en,species,Hoomans,1,0,0,1girl",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1girl,Species,0,1,1
+"en,species,Pets,0,1,0,1dog",stay,STAY,0,en,Species,Pets,0,1,0,1dog,Species,0,1,1
+"zh,species,Hoomans,1,0,0,1male athlete",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1male athlete,Species,1,1,1
+"zh,species,Pets,0,0,0,1cat",留下,STAY,0,zh,Species,Pets,0,0,0,1cat,Species,1,1,1
+"zh,species,Hoomans,1,0,0,2criminal.1baby.1girl.1male executive",改变,CHANGE,0,zh,Species,Hoomans,1,0,0,2criminal.1baby.1girl.1male executive,Species,0,1,0
+"zh,species,Pets,0,1,0,4dog.1cat",改变,STAY,1,zh,Species,Pets,0,1,0,4dog.1cat,Species,0,1,0
+"zh,species,Hoomans,1,1,0,1boy.2baby",留下,CHANGE,1,zh,Species,Hoomans,1,1,0,1boy.2baby,Species,0,1,1
+"zh,species,Pets,0,0,0,3cat",留下,STAY,0,zh,Species,Pets,0,0,0,3cat,Species,0,1,1
+"en,species,Hoomans,1,0,0,1male athlete.1female executive.1pregnant woman",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1male athlete.1female executive.1pregnant woman,Species,1,1,1
+"en,species,Pets,0,0,0,2dog.1cat",stay,STAY,0,en,Species,Pets,0,0,0,2dog.1cat,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1man.1female executive.1large woman",変更,CHANGE,0,ja,Species,Hoomans,1,0,0,1man.1female executive.1large woman,Species,0,1,1
+"ja,species,Pets,0,1,0,2cat.1dog",変更,STAY,1,ja,Species,Pets,0,1,0,2cat.1dog,Species,0,1,1
+"ja,species,Pets,1,0,0,2dog.1cat",変更,CHANGE,0,ja,Species,Pets,1,0,0,2dog.1cat,Species,1,1,1
+"ja,species,Hoomans,0,0,0,1elderly woman.1female executive.1baby",変更,STAY,1,ja,Species,Hoomans,0,0,0,1elderly woman.1female executive.1baby,Species,1,1,1
+"en,species,Hoomans,1,0,0,1male athlete",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1male athlete,Species,1,1,1
+"en,species,Pets,0,0,0,1cat",stay,STAY,0,en,Species,Pets,0,0,0,1cat,Species,1,1,1
+"zh,species,Hoomans,1,0,0,1female athlete.1homeless person",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1female athlete.1homeless person,Species,0,1,1
+"zh,species,Pets,0,1,0,1dog.1cat",留下,STAY,0,zh,Species,Pets,0,1,0,1dog.1cat,Species,0,1,1
+"fr,species,Hoomans,1,0,2,1pregnant woman.1homeless person",changer,CHANGE,0,fr,Species,Hoomans,1,0,2,1pregnant woman.1homeless person,Species,1,1,1
+"fr,species,Pets,0,0,1,1dog.1cat",changer,STAY,1,fr,Species,Pets,0,0,1,1dog.1cat,Species,1,1,1
+"en,species,Pets,1,0,0,3dog.2cat",stay,CHANGE,1,en,Species,Pets,1,0,0,3dog.2cat,Species,1,1,1
+"en,species,Hoomans,0,0,0,1woman.1female athlete.1large woman.1pregnant woman.1female doctor",stay,STAY,0,en,Species,Hoomans,0,0,0,1woman.1female athlete.1large woman.1pregnant woman.1female doctor,Species,1,1,1
+"en,species,Pets,1,0,2,1cat.1dog",stay,CHANGE,1,en,Species,Pets,1,0,2,1cat.1dog,Species,1,1,1
+"en,species,Hoomans,0,0,1,1pregnant woman.1woman",stay,STAY,0,en,Species,Hoomans,0,0,1,1pregnant woman.1woman,Species,1,1,1
+"zh,species,Hoomans,1,1,0,1female executive.1large woman",留下,CHANGE,1,zh,Species,Hoomans,1,1,0,1female executive.1large woman,Species,0,1,1
+"zh,species,Pets,0,0,0,1cat.1dog",留下,STAY,0,zh,Species,Pets,0,0,0,1cat.1dog,Species,0,1,1
+"zh,species,Hoomans,1,0,2,1elderly woman.1large man",留下,CHANGE,1,zh,Species,Hoomans,1,0,2,1elderly woman.1large man,Species,1,1,1
+"zh,species,Pets,0,0,1,1cat.1dog",留下,STAY,0,zh,Species,Pets,0,0,1,1cat.1dog,Species,1,1,1
+"fr,species,Pets,1,0,1,2dog.1cat",rester,CHANGE,1,fr,Species,Pets,1,0,1,2dog.1cat,Species,1,1,1
+"fr,species,Hoomans,0,0,2,1female athlete.1man.1male athlete",rester,STAY,0,fr,Species,Hoomans,0,0,2,1female athlete.1man.1male athlete,Species,1,1,1
+"fr,species,Hoomans,1,1,0,1girl.1elderly man",rester,CHANGE,1,fr,Species,Hoomans,1,1,0,1girl.1elderly man,Species,0,1,1
+"fr,species,Pets,0,0,0,2dog",rester,STAY,0,fr,Species,Pets,0,0,0,2dog,Species,0,1,1
+"ja,species,Hoomans,1,0,0,1male executive",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1male executive,Species,0,1,1
+"ja,species,Pets,0,1,0,1cat",滞在,STAY,0,ja,Species,Pets,0,1,0,1cat,Species,0,1,1
+"zh,species,Hoomans,1,0,1,2elderly man.1elderly woman",留下,CHANGE,1,zh,Species,Hoomans,1,0,1,2elderly man.1elderly woman,Species,1,1,1
+"zh,species,Pets,0,0,2,1dog.2cat",留下,STAY,0,zh,Species,Pets,0,0,2,1dog.2cat,Species,1,1,1
+"en,species,Hoomans,1,1,0,1female athlete",stay,CHANGE,1,en,Species,Hoomans,1,1,0,1female athlete,Species,0,1,1
+"en,species,Pets,0,0,0,1cat",stay,STAY,0,en,Species,Pets,0,0,0,1cat,Species,0,1,1
+"zh,species,Hoomans,1,0,2,1elderly woman",留下,CHANGE,1,zh,Species,Hoomans,1,0,2,1elderly woman,Species,1,0,1
+"zh,species,Pets,0,0,1,1dog",留下,STAY,0,zh,Species,Pets,0,0,1,1dog,Species,1,0,1
+"ja,species,Hoomans,1,1,0,1female doctor.1large woman.1male athlete.1male executive",滞在,CHANGE,1,ja,Species,Hoomans,1,1,0,1female doctor.1large woman.1male athlete.1male executive,Species,0,1,1
+"ja,species,Pets,0,0,0,2cat.2dog",滞在,STAY,0,ja,Species,Pets,0,0,0,2cat.2dog,Species,0,1,1
+"zh,species,Hoomans,1,0,1,1pregnant woman",留下,CHANGE,1,zh,Species,Hoomans,1,0,1,1pregnant woman,Species,1,1,1
+"zh,species,Pets,0,0,2,1cat",留下,STAY,0,zh,Species,Pets,0,0,2,1cat,Species,1,1,1
+"zh,species,Pets,1,0,2,1cat",改变,CHANGE,0,zh,Species,Pets,1,0,2,1cat,Species,1,1,1
+"zh,species,Hoomans,0,0,1,1pregnant woman",改变,STAY,1,zh,Species,Hoomans,0,0,1,1pregnant woman,Species,1,1,1
+"ja,species,Hoomans,1,0,0,1male athlete.1female executive",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,1male athlete.1female executive,Species,0,1,1
+"ja,species,Pets,0,1,0,1dog.1cat",滞在,STAY,0,ja,Species,Pets,0,1,0,1dog.1cat,Species,0,1,1
+"ja,species,Pets,1,1,0,3dog.1cat",滞在,CHANGE,1,ja,Species,Pets,1,1,0,3dog.1cat,Species,0,1,0
+"ja,species,Hoomans,0,0,0,2elderly man.1elderly woman.1girl",滞在,STAY,0,ja,Species,Hoomans,0,0,0,2elderly man.1elderly woman.1girl,Species,0,1,0
+"zh,species,Pets,1,0,0,2cat.1dog",改变,CHANGE,0,zh,Species,Pets,1,0,0,2cat.1dog,Species,1,1,1
+"zh,species,Hoomans,0,0,0,1large woman.1elderly man.1female doctor",改变,STAY,1,zh,Species,Hoomans,0,0,0,1large woman.1elderly man.1female doctor,Species,1,1,1
+"zh,species,Pets,1,0,0,1dog.1cat",留下,CHANGE,1,zh,Species,Pets,1,0,0,1dog.1cat,Species,0,1,1
+"zh,species,Hoomans,0,1,0,1homeless person.1female athlete",留下,STAY,0,zh,Species,Hoomans,0,1,0,1homeless person.1female athlete,Species,0,1,1
+"fr,species,Pets,1,0,1,2dog",rester,CHANGE,1,fr,Species,Pets,1,0,1,2dog,Species,1,1,1
+"fr,species,Hoomans,0,0,2,1elderly man.1woman",rester,STAY,0,fr,Species,Hoomans,0,0,2,1elderly man.1woman,Species,1,1,1
+"fr,species,Hoomans,1,0,0,1girl.1elderly woman.2male doctor",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1girl.1elderly woman.2male doctor,Species,0,1,1
+"fr,species,Pets,0,1,0,2cat.2dog",rester,STAY,0,fr,Species,Pets,0,1,0,2cat.2dog,Species,0,1,1
+"fr,species,Pets,1,0,0,2dog.1cat",rester,CHANGE,1,fr,Species,Pets,1,0,0,2dog.1cat,Species,1,1,1
+"fr,species,Hoomans,0,0,0,1criminal.1homeless person.1female executive",rester,STAY,0,fr,Species,Hoomans,0,0,0,1criminal.1homeless person.1female executive,Species,1,1,1
+"en,species,Hoomans,1,0,0,1man.1female executive.1large woman",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1man.1female executive.1large woman,Species,0,1,1
+"en,species,Pets,0,1,0,2cat.1dog",stay,STAY,0,en,Species,Pets,0,1,0,2cat.1dog,Species,0,1,1
+"zh,species,Hoomans,1,0,0,1male athlete.1female executive.1pregnant woman",留下,CHANGE,1,zh,Species,Hoomans,1,0,0,1male athlete.1female executive.1pregnant woman,Species,1,1,1
+"zh,species,Pets,0,0,0,2dog.1cat",留下,STAY,0,zh,Species,Pets,0,0,0,2dog.1cat,Species,1,1,1
+"zh,species,Hoomans,1,0,1,1large man.1woman.1elderly man.1female athlete.1man",留下,CHANGE,1,zh,Species,Hoomans,1,0,1,1large man.1woman.1elderly man.1female athlete.1man,Species,1,1,1
+"zh,species,Pets,0,0,2,5dog",留下,STAY,0,zh,Species,Pets,0,0,2,5dog,Species,1,1,1
+"fr,species,Pets,1,1,0,2cat",rester,CHANGE,1,fr,Species,Pets,1,1,0,2cat,Species,0,1,0
+"fr,species,Hoomans,0,0,0,1woman.1baby",rester,STAY,0,fr,Species,Hoomans,0,0,0,1woman.1baby,Species,0,1,0
+"fr,species,Hoomans,1,0,1,1elderly woman",rester,CHANGE,1,fr,Species,Hoomans,1,0,1,1elderly woman,Species,1,1,1
+"fr,species,Pets,0,0,2,1dog",rester,STAY,0,fr,Species,Pets,0,0,2,1dog,Species,1,1,1
+"ja,species,Hoomans,1,0,2,1male executive.1female athlete",滞在,CHANGE,1,ja,Species,Hoomans,1,0,2,1male executive.1female athlete,Species,1,1,1
+"ja,species,Pets,0,0,1,2dog",滞在,STAY,0,ja,Species,Pets,0,0,1,2dog,Species,1,1,1
+"ja,species,Pets,1,0,0,2dog.1cat",滞在,CHANGE,1,ja,Species,Pets,1,0,0,2dog.1cat,Species,1,1,1
+"ja,species,Hoomans,0,0,0,1criminal.1homeless person.1female executive",滞在,STAY,0,ja,Species,Hoomans,0,0,0,1criminal.1homeless person.1female executive,Species,1,1,1
+"fr,species,Hoomans,1,0,0,1baby.1man",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1baby.1man,Species,1,1,1
+"fr,species,Pets,0,0,0,2cat",rester,STAY,0,fr,Species,Pets,0,0,0,2cat,Species,1,1,1
+"fr,species,Pets,1,0,0,2cat.2dog",rester,CHANGE,1,fr,Species,Pets,1,0,0,2cat.2dog,Species,1,1,1
+"fr,species,Hoomans,0,0,0,2homeless person.1criminal.1pregnant woman",rester,STAY,0,fr,Species,Hoomans,0,0,0,2homeless person.1criminal.1pregnant woman,Species,1,1,1
+"ja,species,Hoomans,1,0,0,2criminal.1baby.1girl.1male executive",滞在,CHANGE,1,ja,Species,Hoomans,1,0,0,2criminal.1baby.1girl.1male executive,Species,0,1,1
+"ja,species,Pets,0,1,0,4dog.1cat",滞在,STAY,0,ja,Species,Pets,0,1,0,4dog.1cat,Species,0,1,1
+"ja,species,Hoomans,1,0,1,2elderly man.1elderly woman",変更,CHANGE,0,ja,Species,Hoomans,1,0,1,2elderly man.1elderly woman,Species,1,1,0
+"ja,species,Pets,0,0,2,1dog.2cat",変更,STAY,1,ja,Species,Pets,0,0,2,1dog.2cat,Species,1,1,0
+"fr,species,Pets,1,0,1,1cat.2dog",rester,CHANGE,1,fr,Species,Pets,1,0,1,1cat.2dog,Species,1,1,1
+"fr,species,Hoomans,0,0,2,1elderly woman.1female athlete.1elderly man",rester,STAY,0,fr,Species,Hoomans,0,0,2,1elderly woman.1female athlete.1elderly man,Species,1,1,1
+"ja,species,Hoomans,1,1,0,1boy.2baby",滞在,CHANGE,1,ja,Species,Hoomans,1,1,0,1boy.2baby,Species,0,1,1
+"ja,species,Pets,0,0,0,3cat",滞在,STAY,0,ja,Species,Pets,0,0,0,3cat,Species,0,1,1
+"fr,species,Hoomans,1,0,0,1male athlete.1female executive",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1male athlete.1female executive,Species,0,1,1
+"fr,species,Pets,0,1,0,1dog.1cat",rester,STAY,0,fr,Species,Pets,0,1,0,1dog.1cat,Species,0,1,1
+"fr,species,Hoomans,1,0,0,2female athlete",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,2female athlete,Species,0,1,1
+"fr,species,Pets,0,1,0,1cat.1dog",rester,STAY,0,fr,Species,Pets,0,1,0,1cat.1dog,Species,0,1,1
+"ja,species,Pets,1,0,1,3dog",滞在,CHANGE,1,ja,Species,Pets,1,0,1,3dog,Species,1,1,1
+"ja,species,Hoomans,0,0,2,1homeless person.1large woman.1male doctor",滞在,STAY,0,ja,Species,Hoomans,0,0,2,1homeless person.1large woman.1male doctor,Species,1,1,1
+"en,species,Hoomans,1,0,1,2elderly man.1elderly woman",stay,CHANGE,1,en,Species,Hoomans,1,0,1,2elderly man.1elderly woman,Species,1,1,1
+"en,species,Pets,0,0,2,1dog.2cat",stay,STAY,0,en,Species,Pets,0,0,2,1dog.2cat,Species,1,1,1
+"en,species,Hoomans,1,0,0,1baby.1elderly woman",stay,CHANGE,1,en,Species,Hoomans,1,0,0,1baby.1elderly woman,Species,1,1,1
+"en,species,Pets,0,0,0,2cat",stay,STAY,0,en,Species,Pets,0,0,0,2cat,Species,1,1,1
+"en,species,Hoomans,1,1,0,1female doctor.1large woman.1male athlete.1male executive",stay,CHANGE,1,en,Species,Hoomans,1,1,0,1female doctor.1large woman.1male athlete.1male executive,Species,0,1,1
+"en,species,Pets,0,0,0,2cat.2dog",stay,STAY,0,en,Species,Pets,0,0,0,2cat.2dog,Species,0,1,1
+"en,species,Pets,1,0,0,1dog.1cat",stay,CHANGE,1,en,Species,Pets,1,0,0,1dog.1cat,Species,1,1,1
+"en,species,Hoomans,0,0,0,1large man.1pregnant woman",stay,STAY,0,en,Species,Hoomans,0,0,0,1large man.1pregnant woman,Species,1,1,1
+"en,species,Pets,1,0,2,3dog.2cat",stay,CHANGE,1,en,Species,Pets,1,0,2,3dog.2cat,Species,1,1,1
+"en,species,Hoomans,0,0,1,1large man.1large woman.1female athlete.2criminal",stay,STAY,0,en,Species,Hoomans,0,0,1,1large man.1large woman.1female athlete.2criminal,Species,1,1,1
+"fr,species,Pets,1,0,0,1dog",rester,CHANGE,1,fr,Species,Pets,1,0,0,1dog,Species,0,1,1
+"fr,species,Hoomans,0,1,0,1male athlete",rester,STAY,0,fr,Species,Hoomans,0,1,0,1male athlete,Species,0,1,1
+"fr,species,Hoomans,1,0,0,1man.1pregnant woman.1female executive",rester,CHANGE,1,fr,Species,Hoomans,1,0,0,1man.1pregnant woman.1female executive,Species,0,1,1
+"fr,species,Pets,0,1,0,3cat",rester,STAY,0,fr,Species,Pets,0,1,0,3cat,Species,0,1,1
+"ja,species,Pets,1,0,1,3cat.2dog",変更,CHANGE,0,ja,Species,Pets,1,0,1,3cat.2dog,Species,1,1,0
+"ja,species,Hoomans,0,0,2,2male doctor.1criminal.1female executive.1pregnant woman",変更,STAY,1,ja,Species,Hoomans,0,0,2,2male doctor.1criminal.1female executive.1pregnant woman,Species,1,1,0
+"fr,species,Pets,1,0,1,1cat.3dog",rester,CHANGE,1,fr,Species,Pets,1,0,1,1cat.3dog,Species,1,1,1
+"fr,species,Hoomans,0,0,2,1girl.1boy.1elderly woman.1female athlete",rester,STAY,0,fr,Species,Hoomans,0,0,2,1girl.1boy.1elderly woman.1female athlete,Species,1,1,1
+"ja,species,Pets,1,0,2,1cat.1dog",滞在,CHANGE,1,ja,Species,Pets,1,0,2,1cat.1dog,Species,1,1,1
+"ja,species,Hoomans,0,0,1,1pregnant woman.1woman",滞在,STAY,0,ja,Species,Hoomans,0,0,1,1pregnant woman.1woman,Species,1,1,1
+"fr,species,Hoomans,1,1,0,1large man.1female athlete.1homeless person.1male doctor.1baby",rester,CHANGE,1,fr,Species,Hoomans,1,1,0,1large man.1female athlete.1homeless person.1male doctor.1baby,Species,0,1,1
+"fr,species,Pets,0,0,0,4cat.1dog",rester,STAY,0,fr,Species,Pets,0,0,0,4cat.1dog,Species,0,1,1

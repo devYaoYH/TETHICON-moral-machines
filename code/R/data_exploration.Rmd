@@ -1,0 +1,342 @@
+---
+title: "data_exploration"
+subtitle: "My team's name goes here"
+author: "The team members' names go here"
+date: "`r Sys.time()`"
+urlcolor: blue # to show hyperlinks in blue when printed as pdf
+
+# uncomment below to render to html
+output:
+  bookdown::html_document2:
+    toc: true
+    toc_depth: 4
+    theme: cosmo
+    highlight: tango
+    
+# uncomment below to render to pdf
+# output:
+#   bookdown::pdf_book:
+#     toc: true
+#     toc_depth: 4
+#     highlight: tango
+    
+bibliography: [references/packages.bib, references/references.bib]
+biblio-style: apalike
+nocite: '@*'
+---
+
+```{r setup, echo=FALSE, message=FALSE}
+library("knitr") # for knitting things
+library("tidyverse") # for all things tidyverse
+library("cjoint")
+library("marginaleffects")
+library("emmeans")
+library("broom")
+library("brms")
+library("ggdist")
+library("ggforce")
+library("scales")
+
+# these options here change the formatting of how comments are rendered
+opts_chunk$set(
+  comment = "",
+  results = "hold",
+  fig.show = "hold")
+
+# set the default ggplot theme 
+theme_set(theme_classic())
+
+# include references for used packages
+write_bib(.packages(), "references/packages.bib") 
+```
+
+# Moral Machines Experimental Paradigm
+
+# Exploration of methodology used in original study
+
+```{r message=F}
+# Load up common functions from original paper
+source("MMFunctionsShared.R")
+```
+
+## AMCE
+
+```{r}
+# Original Paper's analysis of the main effects
+# Take a small sample of ~100K paired rows instead of
+# working with the full dataset due to size & memory constraints
+df.small_profiles = fread(input="../../data/SharedResponses_small.csv")
+
+profiles <- PreprocessProfiles(df.small_profiles)
+```
+
+```{r message=F, warning=F}
+# Main Figure 2 - (a)
+Coeffs.main <- GetMainEffectSizes(profiles,T,9)
+plotdata.main <- GetPlotData(Coeffs.main,T,9)
+
+Coeffs.util <- GetMainEffectSizes.Util(profiles)
+plotdata.util <- GetPlotData.Util(Coeffs.util)
+
+## Save them
+save(plotdata.main, file = "plotdatamain.rdata")
+save(plotdata.util, file = "plotdatautil.rdata")
+## Plot them
+plot <- PlotAndSave(plotdata.main,T,"MainChangePr",plotdata.util)
+
+# Show plot
+plot
+```
+
+### Own-self implementation of the analysis used (sanity-check)
+
+```{r}
+lev = levels(profiles$ScenarioType)
+print(lev)
+
+AttLevels = levels(profiles$AttributeLevel)
+print(AttLevels)
+
+# Focusing on the Age characteristic
+df.age_profiles = profiles %>%
+  filter(ScenarioType==lev[1] & profiles$ScenarioTypeStrict==lev[1]) %>% 
+  mutate(AttributeLevel = factor(AttributeLevel, levels=AttLevels[(4*2):(4*2+1)]))
+
+df.age_profiles %>% head()
+
+fit.age = lm(Saved ~ as.factor(AttributeLevel), data=df.age_profiles)
+
+fit.age %>% tidy()
+```
+
+This is almost matching, with the original study method producing 0.5097648 while our naive lm method produces 0.5312953. We're still missing the 'weighting' part of this method. Let's take a peek under the hood for this `calcWeightsTheoretical` function:
+
+```{r eval=F}
+# This returns the inverse probability (1/p) of the data distribution
+calcWeightsTheoretical <- function(profiles){
+  p <- apply(profiles,1,CalcTheoreticalInt)
+  return(1/p)
+}
+
+# A-priori random generation probability constraints on some of the
+# other attributes (Intervention, Barrier, PedPed, CrossingSignal).
+# Which relates to the interaction between legality of crossing and
+# whether there are passengers in the car.
+CalcTheoreticalInt <- function(X){
+  if (X["Intervention"]==0){
+    if (X["Barrier"]==0){
+      if (X["PedPed"] == 1) p <- 0.48
+      else p <- 0.32
+      
+      if (X["CrossingSignal"]==0) p <- p*0.48
+      else if (X["CrossingSignal"]==1) p <- p*0.2
+      else p <- p * 0.32
+    }
+    else p <- 0.2
+  }
+  else {
+    if (X["Barrier"]==0){
+      if (X["PedPed"] == 1) {
+        p <- 0.48
+        if (X["CrossingSignal"]==0) p <- p*0.48
+        else if (X["CrossingSignal"]==1) p <- p*0.32
+        else p <- p * 0.2
+      }
+      else {
+        p <- 0.2
+        if (X["CrossingSignal"]==0) p <- p*0.48
+        else if (X["CrossingSignal"]==1) p <- p*0.2
+        else p <- p * 0.32
+      }
+    }
+    else p <- 0.32
+  }
+  return(p)
+}
+```
+
+And incorporate these weights into our lm model:
+
+```{r}
+fit.age = lm(Saved ~ as.factor(AttributeLevel),
+             data=df.age_profiles,
+             weights=calcWeightsTheoretical(df.age_profiles))
+
+fit.age %>% tidy()
+```
+
+We recover exactly: 0.5097648 which is similarly the value given by the study's code implementation.
+
+## Brief note on glm logistic regression
+
+Now, what if we were to perform a logistic regression instead of a lm? Since the outcome is limited to 0 or 1. However, this would be uninteresting as our independent variables are categorical and not continuous.
+
+```{r}
+fit.logit_age = glm(Saved ~ as.factor(AttributeLevel),
+                    data=df.age_profiles,
+                    weights=calcWeightsTheoretical(df.age_profiles))
+
+fit.logit_age %>% tidy()
+```
+
+No difference on accuracy nor error statistics from the lm model.
+
+## brms bayesian analysis
+
+```{r}
+# Re-code CrossingSignal to be -1, 0, 1 with 0 as no legal
+# -1 as illegal
+# 1 as legal
+profiles$CrossingSignal <- as.numeric(levels(profiles$CrossingSignal))[profiles$CrossingSignal]
+profiles$CrossingSignal[profiles$CrossingSignal == 2] <- -1
+
+profiles <- profiles %>% 
+  mutate(CrossingSignal = factor(CrossingSignal, levels=c(0, -1, 1)))
+```
+
+```{r}
+# Focusing on the Age characteristic
+df.age_profiles = profiles %>%
+  filter(ScenarioType==lev[1] & profiles$ScenarioTypeStrict==lev[1]) %>% 
+  mutate(AttributeLevel = factor(AttributeLevel, levels=AttLevels[(4*2):(4*2+1)]),
+         Barrier = factor(Barrier, levels=c(0, 1)),
+         Intervene = factor(Intervention, levels=c(0, 1))) %>% 
+  select(-Intervention) %>% 
+  sample_n(10000)
+```
+
+```{r message=F}
+priors <- c(
+  prior(normal(0, 1), class = Intercept),
+  prior(normal(0, 1), class = b),
+  prior(exponential(1), class = sd)
+)
+
+model_brms <- brm(
+  bf(Saved ~ as.factor(Intervene) + Barrier + CrossingSignal + AttributeLevel + (1 | ResponseID)),
+  data = df.age_profiles,
+  family = bernoulli(link = "logit"),
+  prior = priors,
+  chains = 4, cores = 4, iter = 2000, seed = 1234
+)
+```
+
+```{r}
+# Code referenced from: https://www.andrewheiss.com/blog/2023/07/25/conjoint-bayesian-frequentist-guide/#amces-1
+posterior_mfx <- model_brms %>% 
+  avg_slopes(newdata = "mean", allow_new_levels = TRUE) %>% 
+  posterior_draws() 
+
+posterior_mfx_nested <- posterior_mfx %>% 
+  separate_wider_delim(
+    contrast,
+    delim = " - ", 
+    names = c("variable_level", "reference_level")
+  ) %>% 
+  group_by(term, variable_level) %>% 
+  nest()
+
+model_variable_levels <- tibble(
+  variable = c("AttributeLevel", "Barrier", "CrossingSignal", "Intervene"),
+  levels = list(factor(c("Old", "Young"), levels=c("Old", "Young")),
+             factor(c(0, 1), levels=c(0, 1)),
+             factor(c(-1, 0, 1), levels=c(0, -1, 1)),
+             factor(c(0, 1), levels=c(0, 1))
+  )) %>%
+  unnest(levels)
+
+# Combine full dataset of factor levels with model results
+plot_data_bayes <- model_variable_levels %>%
+  left_join(
+    posterior_mfx_nested,
+    by = join_by(variable == term, levels == variable_level)
+  ) %>%
+  mutate(data = map_if(data, is.null, ~ tibble(draw = 0, estimate = 0))) %>% 
+  unnest(data)
+
+label_pp <- label_number(accuracy = 1, scale = 100, 
+                         suffix = " pp.", style_negative = "minus")
+
+ggplot(plot_data_bayes, aes(x = draw, y = levels, fill = variable)) +
+  geom_vline(xintercept = 0) +
+  stat_halfeye(normalize = "groups") +
+  guides(fill = "none") +
+  facet_col(facets = "variable", scales = "free_y", space = "free") +
+  scale_x_continuous(labels = label_pp) +
+  labs(
+    x = "Percentage point change in probability of profile selection",
+    y = NULL,
+    title = "Posterior AMCEs"
+  )
+```
+
+## Analysising the data using sum within slices & breakdown
+
+A common data analysis technique is to slice the data by a particular subset of columns and values within those columns then apply SUM (or other metrics) to some measure column.
+
+Which should then theoretically allow us to replicate all the above results without use of lm modeling by simply taking a ratio of `num_saved` / `total` for particular tuples of (Intervene, Barrier, CrossingSignal, AttributeLevel).
+
+Furthermore, to analyze Intervene, Barrier, or CrossingSignal (invertention, passenger vs pedestrain, legality attributes), we can SUM again over different ScenarioTypes and AttributeLevels.
+
+The key is to first precompute the sum of saved profiles and total number of profiles with different categorical levels of attributes.
+
+```{r}
+# Precompute categorical levels
+df.agg_profiles = profiles %>%
+  filter(ScenarioType == ScenarioTypeStrict) %>%
+  group_by(Intervention, Barrier, CrossingSignal, PedPed, ScenarioType, AttributeLevel) %>%
+  summarize(num_saved = sum(ifelse(Saved == 1, 1, 0)),
+            total = n())
+```
+
+```{r}
+# Attempt to recover age-component causal effect
+df.agg_profiles %>%
+  filter(ScenarioType == "Age") %>%
+  group_by(AttributeLevel) %>% 
+  summarize(porportion = sum(num_saved)/sum(total))
+```
+
+As a sanity check, the above two proportions sum to 1 (as expected).
+
+This gives a difference of 0.5312954 when setting Old to be the baseline. Which is pretty accurate! Seeing as how we haven't applied weighting to this and the original method returned 0.5097648.
+
+To apply weighting to this, we would multiply the `num_saved` count by some inverse proportion of the total sum of other attributes. 
+
+```{r}
+df.agg_profiles = df.agg_profiles %>%
+  left_join(df.agg_profiles %>%
+      group_by(Intervention, Barrier, CrossingSignal) %>% 
+      summarize(wsamples = sum(total)) %>%
+      ungroup() %>% 
+      mutate(wtotal = sum(wsamples)) %>%
+      mutate(wproportion = wsamples/wtotal) %>%
+      mutate(weight = 1/wproportion)) %>%
+  select(-wsamples,-wtotal,-wproportion)
+```
+
+```{r}
+# Try again weighted age-component causal effect
+df.agg_profiles %>%
+  filter(ScenarioType == "Age") %>%
+  group_by(AttributeLevel) %>%
+  mutate(weight_sum = sum(weight)) %>%
+  summarize(porportion = sum(num_saved*(weight/weight_sum))/sum(total*(weight/weight_sum)))
+```
+
+Now the difference is 0.5215997.
+
+The weight has slightly moderated the difference between the two levels, however, since I'm using the a posteriori weights (experimental distribution weights) instead of the a priori ones (theoretical ones), there is still some slight differences. Let's try to fix that.
+
+```{r}
+df.agg_profiles['weight'] = calcWeightsTheoretical(df.agg_profiles)
+
+# Try again weighted age-component causal effect
+df.agg_profiles %>%
+  filter(ScenarioType == "Age") %>%
+  group_by(AttributeLevel) %>%
+  mutate(weight_sum = sum(weight)) %>%
+  summarize(porportion = sum(num_saved*(weight/weight_sum))/sum(total*(weight/weight_sum)))
+```
+
+This provides us a difference of 0.5097647 \o/ which exactly recovers the original study's computed average marginal causal effect without using lm but also without a measure of clustered errors.

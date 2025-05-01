@@ -1,0 +1,28 @@
+{
+    "name": "firestore-viewer",
+    "version": "1.0.0",
+    "description": "A secure web UI for viewing Firestore collections with IAM authentication",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "dependencies": {
+        "@google-cloud/firestore": "^6.7.0",
+        "@types/react": "^19.0.10",
+        "@types/react-dom": "^19.0.4",
+        "ag-grid-community": "^33.1.1",
+        "ag-grid-react": "^33.1.1",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "json2csv": "^6.0.0-alpha.2",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}

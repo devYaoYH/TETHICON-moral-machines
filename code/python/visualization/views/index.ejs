@@ -1,0 +1,92 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firestore Collection Viewer</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <h1>Firestore Collection: <%= collectionName %></h1>
+        <div class="user-info">
+          <span>Logged in as: <%= userEmail %></span>
+        </div>
+      </div>
+      <form class="collection-form">
+        <input type="text" name="collection" placeholder="Enter collection name" value="<%= collectionName %>">
+        <input type="text" name="executionId" placeholder="<%= executionId %>">
+        <input type="text" name="headers" placeholder="Headers (comma-separated)" value="<%= headers.join(',') %>">
+        <button type="submit">View Collection</button>
+        <button type="button" id="downloadCsv">Download CSV</button>
+      </form>
+    </header>
+    
+    <main>
+      <% if (documents.length === 0) { %>
+        <div class="no-documents">
+          <p>No documents found in this collection.</p>
+        </div>
+      <% } else { %>
+        <div class="documents-count">
+          <p>Found <%= documents.length %> document<%= documents.length !== 1 ? 's' : '' %></p>
+        </div>
+        
+        <div class="table-container">
+          <% if (documents.length > 0) { %>
+            <table class="documents-table">
+              <thead>
+                <tr>
+                  <% headers.forEach(header => { %>
+                    <th><%= header %></th>
+                  <% }); %>
+                </tr>
+              </thead>
+              <tbody>
+                <% documents.forEach(doc => { %>
+                  <% if (doc.data.hasOwnProperty('execution_id') && doc.data['execution_id'] === executionId) { %>
+                  <tr>
+                    <% headers.forEach(header => { %>
+                      <td>
+                        <div class="cell-content">
+                          <% if (header === 'id') { %>
+                            <%= doc.id %>
+                          <% } else if (typeof doc.data[header] === 'object') { %>
+                            <pre><%= JSON.stringify(doc.data[header], null, 2) %></pre>
+                          <% } else if (doc.data.hasOwnProperty(header)) { %>
+                            <% const cellData = doc.data[header]; %>
+                            <% if (cellData === null || cellData === undefined) { %>
+                              -
+                            <% } else { %>
+                              <%= cellData.toString() %>
+                            <% } %>
+                          <% } else { %>
+                            -
+                          <% } %>
+                        </div>
+                      </td>
+                    <% }); %>
+                  </tr>
+                  <% } %>
+                <% }); %>
+              </tbody>
+            </table>
+          <% } else { %>
+            <p>No documents found in this collection.</p>
+          <% } %>
+        </div>
+      <% } %>
+    </main>
+    
+    <div class="view-toggle">
+      <a href="?collection=<%= collectionName %>&view=card" class="view-button">Card View</a>
+      <a href="?collection=<%= collectionName %>&view=table" class="view-button active">Table View</a>
+    </div>
+  </div>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

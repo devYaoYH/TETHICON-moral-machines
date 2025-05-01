@@ -1,0 +1,395 @@
+problem_code,answer,status,Saved,Language,ScenarioType,AttributeLevel,Intervention,Barrier,CrossingSignal,Characters,ScenarioTypeStrict,PedPed,consistent,coherent
+"fr,age,Young,1,0,0,2man.1boy",rester,CHANGE,1,fr,Age,Young,1,0,0,2man.1boy,Age,1,1,1
+"fr,age,Old,0,0,0,3elderly man",rester,STAY,0,fr,Age,Old,0,0,0,3elderly man,Age,1,1,1
+"ja,age,Young,1,0,2,3boy.1girl",変更,CHANGE,0,ja,Age,Young,1,0,2,3boy.1girl,Age,1,1,1
+"ja,age,Old,0,0,1,2man.1elderly woman.1elderly man",変更,STAY,1,ja,Age,Old,0,0,1,2man.1elderly woman.1elderly man,Age,1,1,1
+"fr,age,Young,1,0,0,1woman.1girl",rester,CHANGE,1,fr,Age,Young,1,0,0,1woman.1girl,Age,1,1,1
+"fr,age,Old,0,0,0,2elderly woman",rester,STAY,0,fr,Age,Old,0,0,0,2elderly woman,Age,1,1,1
+"en,age,Old,1,0,2,2elderly man.1elderly woman.1woman.1man",stay,CHANGE,1,en,Age,Old,1,0,2,2elderly man.1elderly woman.1woman.1man,Age,1,1,1
+"en,age,Young,0,0,1,2man.1woman.1girl.1boy",stay,STAY,0,en,Age,Young,0,0,1,2man.1woman.1girl.1boy,Age,1,1,1
+"zh,age,Young,1,0,0,3man.1girl",留下,CHANGE,1,zh,Age,Young,1,0,0,3man.1girl,Age,0,1,1
+"zh,age,Old,0,1,0,3elderly man.1elderly woman",留下,STAY,0,zh,Age,Old,0,1,0,3elderly man.1elderly woman,Age,0,1,1
+"zh,age,Old,1,0,2,1elderly man",留下,CHANGE,1,zh,Age,Old,1,0,2,1elderly man,Age,1,1,1
+"zh,age,Young,0,0,1,1man",留下,STAY,0,zh,Age,Young,0,0,1,1man,Age,1,1,1
+"ja,age,Old,1,1,0,1elderly man.1woman.1elderly woman.2man",滞在,CHANGE,1,ja,Age,Old,1,1,0,1elderly man.1woman.1elderly woman.2man,Age,0,1,0
+"ja,age,Young,0,0,0,3boy.1girl.1woman",滞在,STAY,0,ja,Age,Young,0,0,0,3boy.1girl.1woman,Age,0,1,0
+"en,age,Old,1,0,2,1elderly woman.1woman.3elderly man",change,CHANGE,0,en,Age,Old,1,0,2,1elderly woman.1woman.3elderly man,Age,1,1,1
+"en,age,Young,0,0,1,2girl.2boy.1man",change,STAY,1,en,Age,Young,0,0,1,2girl.2boy.1man,Age,1,1,1
+"ja,age,Young,1,0,0,1woman.1girl.1man.1boy",変更,CHANGE,0,ja,Age,Young,1,0,0,1woman.1girl.1man.1boy,Age,1,1,1
+"ja,age,Old,0,0,0,2elderly woman.2elderly man",変更,STAY,1,ja,Age,Old,0,0,0,2elderly woman.2elderly man,Age,1,1,1
+"zh,age,Young,1,0,1,2man.1girl",留下,CHANGE,1,zh,Age,Young,1,0,1,2man.1girl,Age,1,1,1
+"zh,age,Old,0,0,2,2elderly man.1elderly woman",留下,STAY,0,zh,Age,Old,0,0,2,2elderly man.1elderly woman,Age,1,1,1
+"ja,age,Young,1,0,0,3man.1girl",滞在,CHANGE,1,ja,Age,Young,1,0,0,3man.1girl,Age,0,1,1
+"ja,age,Old,0,1,0,3elderly man.1elderly woman",滞在,STAY,0,ja,Age,Old,0,1,0,3elderly man.1elderly woman,Age,0,1,1
+"en,age,Old,1,0,1,1elderly woman.1elderly man",change,CHANGE,0,en,Age,Old,1,0,1,1elderly woman.1elderly man,Age,1,1,1
+"en,age,Young,0,0,2,1girl.1boy",change,STAY,1,en,Age,Young,0,0,2,1girl.1boy,Age,1,1,1
+"ja,age,Young,1,0,1,3boy",滞在,CHANGE,1,ja,Age,Young,1,0,1,3boy,Age,1,1,1
+"ja,age,Old,0,0,2,1man.2elderly man",滞在,STAY,0,ja,Age,Old,0,0,2,1man.2elderly man,Age,1,1,1
+"en,age,Young,1,0,2,1woman.1man.2boy.1girl",stay,CHANGE,1,en,Age,Young,1,0,2,1woman.1man.2boy.1girl,Age,1,1,1
+"en,age,Old,0,0,1,1elderly woman.1elderly man.2man.1woman",stay,STAY,0,en,Age,Old,0,0,1,1elderly woman.1elderly man.2man.1woman,Age,1,1,1
+"zh,age,Old,1,0,0,2elderly man.1elderly woman",留下,CHANGE,1,zh,Age,Old,1,0,0,2elderly man.1elderly woman,Age,1,1,1
+"zh,age,Young,0,0,0,1boy.1man.1woman",留下,STAY,0,zh,Age,Young,0,0,0,1boy.1man.1woman,Age,1,1,1
+"zh,age,Old,1,1,0,2woman.2elderly man",留下,CHANGE,1,zh,Age,Old,1,1,0,2woman.2elderly man,Age,0,1,1
+"zh,age,Young,0,0,0,2girl.1man.1boy",留下,STAY,0,zh,Age,Young,0,0,0,2girl.1man.1boy,Age,0,1,1
+"ja,age,Young,1,0,0,1boy",滞在,CHANGE,1,ja,Age,Young,1,0,0,1boy,Age,1,1,1
+"ja,age,Old,0,0,0,1man",滞在,STAY,0,ja,Age,Old,0,0,0,1man,Age,1,1,1
+"fr,age,Young,1,0,0,1girl.1man",rester,CHANGE,1,fr,Age,Young,1,0,0,1girl.1man,Age,0,1,1
+"fr,age,Old,0,1,0,1woman.1elderly man",rester,STAY,0,fr,Age,Old,0,1,0,1woman.1elderly man,Age,0,1,1
+"zh,age,Young,1,0,2,1man",改变,CHANGE,0,zh,Age,Young,1,0,2,1man,Age,1,1,1
+"zh,age,Old,0,0,1,1elderly man",改变,STAY,1,zh,Age,Old,0,0,1,1elderly man,Age,1,1,1
+"ja,age,Old,1,0,2,1elderly woman.1woman.3elderly man",滞在,CHANGE,1,ja,Age,Old,1,0,2,1elderly woman.1woman.3elderly man,Age,1,1,1
+"ja,age,Young,0,0,1,2girl.2boy.1man",滞在,STAY,0,ja,Age,Young,0,0,1,2girl.2boy.1man,Age,1,1,1
+"fr,age,Young,1,0,1,3girl.2boy",rester,CHANGE,1,fr,Age,Young,1,0,1,3girl.2boy,Age,1,1,1
+"fr,age,Old,0,0,2,3elderly woman.2man",rester,STAY,0,fr,Age,Old,0,0,2,3elderly woman.2man,Age,1,1,1
+"en,age,Old,1,0,0,1elderly man.1man",stay,CHANGE,1,en,Age,Old,1,0,0,1elderly man.1man,Age,0,1,1
+"en,age,Young,0,1,0,2boy",stay,STAY,0,en,Age,Young,0,1,0,2boy,Age,0,1,1
+"en,age,Young,1,1,0,3girl",stay,CHANGE,1,en,Age,Young,1,1,0,3girl,Age,0,1,1
+"en,age,Old,0,0,0,3woman",stay,STAY,0,en,Age,Old,0,0,0,3woman,Age,0,1,1
+"zh,age,Young,1,0,0,1woman.1girl",改变,CHANGE,0,zh,Age,Young,1,0,0,1woman.1girl,Age,1,1,1
+"zh,age,Old,0,0,0,2elderly woman",改变,STAY,1,zh,Age,Old,0,0,0,2elderly woman,Age,1,1,1
+"zh,age,Old,1,0,2,1elderly woman.1woman.3elderly man",改变,CHANGE,0,zh,Age,Old,1,0,2,1elderly woman.1woman.3elderly man,Age,1,1,1
+"zh,age,Young,0,0,1,2girl.2boy.1man",改变,STAY,1,zh,Age,Young,0,0,1,2girl.2boy.1man,Age,1,1,1
+"en,age,Young,1,0,1,1boy.1man",stay,CHANGE,1,en,Age,Young,1,0,1,1boy.1man,Age,1,1,1
+"en,age,Old,0,0,2,2elderly man",stay,STAY,0,en,Age,Old,0,0,2,2elderly man,Age,1,1,1
+"en,age,Young,1,0,2,1woman.2boy.1man",change,CHANGE,0,en,Age,Young,1,0,2,1woman.2boy.1man,Age,1,1,1
+"en,age,Old,0,0,1,1elderly woman.1man.2elderly man",change,STAY,1,en,Age,Old,0,0,1,1elderly woman.1man.2elderly man,Age,1,1,1
+"en,age,Young,1,0,2,3boy.1girl",stay,CHANGE,1,en,Age,Young,1,0,2,3boy.1girl,Age,1,1,1
+"en,age,Old,0,0,1,2man.1elderly woman.1elderly man",stay,STAY,0,en,Age,Old,0,0,1,2man.1elderly woman.1elderly man,Age,1,1,1
+"ja,age,Young,1,0,2,1woman.1man.2boy.1girl",変更,CHANGE,0,ja,Age,Young,1,0,2,1woman.1man.2boy.1girl,Age,1,1,1
+"ja,age,Old,0,0,1,1elderly woman.1elderly man.2man.1woman",変更,STAY,1,ja,Age,Old,0,0,1,1elderly woman.1elderly man.2man.1woman,Age,1,1,1
+"zh,age,Young,1,0,0,2boy.1man.1woman",留下,CHANGE,1,zh,Age,Young,1,0,0,2boy.1man.1woman,Age,0,1,1
+"zh,age,Old,0,1,0,2elderly man.1elderly woman.1man",留下,STAY,0,zh,Age,Old,0,1,0,2elderly man.1elderly woman.1man,Age,0,1,1
+"zh,age,Old,1,0,2,2elderly woman.1elderly man.1man",改变,CHANGE,0,zh,Age,Old,1,0,2,2elderly woman.1elderly man.1man,Age,1,1,1
+"zh,age,Young,0,0,1,1girl.1man.1boy.1woman",改变,STAY,1,zh,Age,Young,0,0,1,1girl.1man.1boy.1woman,Age,1,1,1
+"zh,age,Old,1,0,0,1elderly man.1man",留下,CHANGE,1,zh,Age,Old,1,0,0,1elderly man.1man,Age,0,1,1
+"zh,age,Young,0,1,0,2boy",留下,STAY,0,zh,Age,Young,0,1,0,2boy,Age,0,1,1
+"en,age,Old,1,0,1,1woman.2elderly woman.1elderly man",stay,CHANGE,1,en,Age,Old,1,0,1,1woman.2elderly woman.1elderly man,Age,1,1,1
+"en,age,Young,0,0,2,3girl.1boy",stay,STAY,0,en,Age,Young,0,0,2,3girl.1boy,Age,1,1,1
+"zh,age,Old,1,1,0,1elderly man.1woman.1elderly woman.2man",改变,CHANGE,0,zh,Age,Old,1,1,0,1elderly man.1woman.1elderly woman.2man,Age,0,1,1
+"zh,age,Young,0,0,0,3boy.1girl.1woman",改变,STAY,1,zh,Age,Young,0,0,0,3boy.1girl.1woman,Age,0,1,1
+"fr,age,Young,1,1,0,1boy.1woman",rester,CHANGE,1,fr,Age,Young,1,1,0,1boy.1woman,Age,0,1,1
+"fr,age,Old,0,0,0,1man.1elderly woman",rester,STAY,0,fr,Age,Old,0,0,0,1man.1elderly woman,Age,0,1,1
+"zh,age,Old,1,0,0,3elderly man.1woman",留下,CHANGE,1,zh,Age,Old,1,0,0,3elderly man.1woman,Age,0,1,1
+"zh,age,Young,0,1,0,3man.1girl",留下,STAY,0,zh,Age,Young,0,1,0,3man.1girl,Age,0,1,1
+"en,age,Young,1,0,0,1girl.1man",stay,CHANGE,1,en,Age,Young,1,0,0,1girl.1man,Age,0,1,1
+"en,age,Old,0,1,0,1woman.1elderly man",stay,STAY,0,en,Age,Old,0,1,0,1woman.1elderly man,Age,0,1,1
+"ja,age,Old,1,0,0,2elderly man.1elderly woman",滞在,CHANGE,1,ja,Age,Old,1,0,0,2elderly man.1elderly woman,Age,1,1,1
+"ja,age,Young,0,0,0,1boy.1man.1woman",滞在,STAY,0,ja,Age,Young,0,0,0,1boy.1man.1woman,Age,1,1,1
+"ja,age,Young,1,0,2,2woman.2boy.1girl",変更,CHANGE,0,ja,Age,Young,1,0,2,2woman.2boy.1girl,Age,1,1,1
+"ja,age,Old,0,0,1,3elderly woman.1man.1elderly man",変更,STAY,1,ja,Age,Old,0,0,1,3elderly woman.1man.1elderly man,Age,1,1,1
+"fr,age,Young,1,1,0,3girl.1boy",changer,CHANGE,0,fr,Age,Young,1,1,0,3girl.1boy,Age,0,1,1
+"fr,age,Old,0,0,0,3elderly woman.1man",changer,STAY,1,fr,Age,Old,0,0,0,3elderly woman.1man,Age,0,1,1
+"en,age,Old,1,0,0,3elderly man",change,CHANGE,0,en,Age,Old,1,0,0,3elderly man,Age,1,1,1
+"en,age,Young,0,0,0,1man.2boy",change,STAY,1,en,Age,Young,0,0,0,1man.2boy,Age,1,1,1
+"fr,age,Old,1,0,2,2elderly man.1woman",changer,CHANGE,0,fr,Age,Old,1,0,2,2elderly man.1woman,Age,1,1,1
+"fr,age,Young,0,0,1,1man.1girl.1boy",changer,STAY,1,fr,Age,Young,0,0,1,1man.1girl.1boy,Age,1,1,1
+"fr,age,Young,1,0,0,2boy.1man.1woman",rester,CHANGE,1,fr,Age,Young,1,0,0,2boy.1man.1woman,Age,0,1,1
+"fr,age,Old,0,1,0,2elderly man.1elderly woman.1man",rester,STAY,0,fr,Age,Old,0,1,0,2elderly man.1elderly woman.1man,Age,0,1,1
+"ja,age,Young,1,0,0,1woman.1girl",滞在,CHANGE,1,ja,Age,Young,1,0,0,1woman.1girl,Age,1,1,1
+"ja,age,Old,0,0,0,2elderly woman",滞在,STAY,0,ja,Age,Old,0,0,0,2elderly woman,Age,1,1,1
+"fr,age,Old,1,0,1,1elderly woman.1elderly man",rester,CHANGE,1,fr,Age,Old,1,0,1,1elderly woman.1elderly man,Age,1,1,1
+"fr,age,Young,0,0,2,1girl.1boy",rester,STAY,0,fr,Age,Young,0,0,2,1girl.1boy,Age,1,1,1
+"fr,age,Young,1,0,2,1woman.1man.2boy.1girl",rester,CHANGE,1,fr,Age,Young,1,0,2,1woman.1man.2boy.1girl,Age,1,1,1
+"fr,age,Old,0,0,1,1elderly woman.1elderly man.2man.1woman",rester,STAY,0,fr,Age,Old,0,0,1,1elderly woman.1elderly man.2man.1woman,Age,1,1,1
+"en,age,Young,1,0,2,1man",change,CHANGE,0,en,Age,Young,1,0,2,1man,Age,1,1,1
+"en,age,Old,0,0,1,1elderly man",change,STAY,1,en,Age,Old,0,0,1,1elderly man,Age,1,1,1
+"ja,age,Old,1,0,0,3elderly man",滞在,CHANGE,1,ja,Age,Old,1,0,0,3elderly man,Age,1,1,1
+"ja,age,Young,0,0,0,1man.2boy",滞在,STAY,0,ja,Age,Young,0,0,0,1man.2boy,Age,1,1,1
+"ja,age,Young,1,1,0,3girl.1boy",滞在,CHANGE,1,ja,Age,Young,1,1,0,3girl.1boy,Age,0,1,1
+"ja,age,Old,0,0,0,3elderly woman.1man",滞在,STAY,0,ja,Age,Old,0,0,0,3elderly woman.1man,Age,0,1,1
+"ja,age,Young,1,0,2,2man",変更,CHANGE,0,ja,Age,Young,1,0,2,2man,Age,1,1,1
+"ja,age,Old,0,0,1,2elderly man",変更,STAY,1,ja,Age,Old,0,0,1,2elderly man,Age,1,1,1
+"ja,age,Old,1,0,0,1man.1woman.1elderly woman.2elderly man",滞在,CHANGE,1,ja,Age,Old,1,0,0,1man.1woman.1elderly woman.2elderly man,Age,1,1,1
+"ja,age,Young,0,0,0,3boy.2girl",滞在,STAY,0,ja,Age,Young,0,0,0,3boy.2girl,Age,1,1,1
+"en,age,Old,1,0,0,1elderly man",stay,CHANGE,1,en,Age,Old,1,0,0,1elderly man,Age,0,1,1
+"en,age,Young,0,1,0,1man",stay,STAY,0,en,Age,Young,0,1,0,1man,Age,0,1,1
+"zh,age,Young,1,0,2,2man",改变,CHANGE,0,zh,Age,Young,1,0,2,2man,Age,1,1,1
+"zh,age,Old,0,0,1,2elderly man",改变,STAY,1,zh,Age,Old,0,0,1,2elderly man,Age,1,1,1
+"fr,age,Young,1,0,2,2woman.2boy.1girl",rester,CHANGE,1,fr,Age,Young,1,0,2,2woman.2boy.1girl,Age,1,1,1
+"fr,age,Old,0,0,1,3elderly woman.1man.1elderly man",rester,STAY,0,fr,Age,Old,0,0,1,3elderly woman.1man.1elderly man,Age,1,1,1
+"ja,age,Old,1,0,2,2elderly man.1woman",滞在,CHANGE,1,ja,Age,Old,1,0,2,2elderly man.1woman,Age,1,1,1
+"ja,age,Young,0,0,1,1man.1girl.1boy",滞在,STAY,0,ja,Age,Young,0,0,1,1man.1girl.1boy,Age,1,1,1
+"fr,age,Old,1,0,0,1man.1woman.1elderly woman.2elderly man",rester,CHANGE,1,fr,Age,Old,1,0,0,1man.1woman.1elderly woman.2elderly man,Age,1,1,1
+"fr,age,Young,0,0,0,3boy.2girl",rester,STAY,0,fr,Age,Young,0,0,0,3boy.2girl,Age,1,1,1
+"fr,age,Old,1,0,1,1woman.2elderly woman.1elderly man",rester,CHANGE,1,fr,Age,Old,1,0,1,1woman.2elderly woman.1elderly man,Age,1,1,1
+"fr,age,Young,0,0,2,3girl.1boy",rester,STAY,0,fr,Age,Young,0,0,2,3girl.1boy,Age,1,1,1
+"ja,age,Old,1,0,2,1elderly man",滞在,CHANGE,1,ja,Age,Old,1,0,2,1elderly man,Age,1,1,1
+"ja,age,Young,0,0,1,1man",滞在,STAY,0,ja,Age,Young,0,0,1,1man,Age,1,1,1
+"fr,age,Old,1,0,0,2elderly man.1elderly woman.1man.1woman",rester,CHANGE,1,fr,Age,Old,1,0,0,2elderly man.1elderly woman.1man.1woman,Age,1,1,1
+"fr,age,Young,0,0,0,3boy.2girl",rester,STAY,0,fr,Age,Young,0,0,0,3boy.2girl,Age,1,1,1
+"ja,age,Young,1,1,0,1boy",滞在,CHANGE,1,ja,Age,Young,1,1,0,1boy,Age,0,1,1
+"ja,age,Old,0,0,0,1man",滞在,STAY,0,ja,Age,Old,0,0,0,1man,Age,0,1,1
+"zh,age,Old,1,1,0,1man.1elderly woman",改变,CHANGE,0,zh,Age,Old,1,1,0,1man.1elderly woman,Age,0,1,1
+"zh,age,Young,0,0,0,1boy.1girl",改变,STAY,1,zh,Age,Young,0,0,0,1boy.1girl,Age,0,1,1
+"en,age,Old,1,0,0,1elderly woman",stay,CHANGE,1,en,Age,Old,1,0,0,1elderly woman,Age,0,1,1
+"en,age,Young,0,1,0,1woman",stay,STAY,0,en,Age,Young,0,1,0,1woman,Age,0,1,1
+"zh,age,Young,1,0,1,3boy",留下,CHANGE,1,zh,Age,Young,1,0,1,3boy,Age,1,1,1
+"zh,age,Old,0,0,2,1man.2elderly man",留下,STAY,0,zh,Age,Old,0,0,2,1man.2elderly man,Age,1,1,1
+"en,age,Young,1,1,0,1boy.1woman",stay,CHANGE,1,en,Age,Young,1,1,0,1boy.1woman,Age,0,1,1
+"en,age,Old,0,0,0,1man.1elderly woman",stay,STAY,0,en,Age,Old,0,0,0,1man.1elderly woman,Age,0,1,1
+"en,age,Young,1,0,0,1boy",stay,CHANGE,1,en,Age,Young,1,0,0,1boy,Age,1,1,1
+"en,age,Old,0,0,0,1man",stay,STAY,0,en,Age,Old,0,0,0,1man,Age,1,1,1
+"zh,age,Young,1,0,2,5girl",改变,CHANGE,0,zh,Age,Young,1,0,2,5girl,Age,1,1,1
+"zh,age,Old,0,0,1,4elderly woman.1woman",改变,STAY,1,zh,Age,Old,0,0,1,4elderly woman.1woman,Age,1,1,1
+"ja,age,Old,1,0,1,1elderly woman.1elderly man",滞在,CHANGE,1,ja,Age,Old,1,0,1,1elderly woman.1elderly man,Age,1,1,1
+"ja,age,Young,0,0,2,1girl.1boy",滞在,STAY,0,ja,Age,Young,0,0,2,1girl.1boy,Age,1,1,1
+"fr,age,Young,1,0,2,1man",changer,CHANGE,0,fr,Age,Young,1,0,2,1man,Age,1,1,1
+"fr,age,Old,0,0,1,1elderly man",changer,STAY,1,fr,Age,Old,0,0,1,1elderly man,Age,1,1,1
+"ja,age,Young,1,0,1,2man.1girl",滞在,CHANGE,1,ja,Age,Young,1,0,1,2man.1girl,Age,1,1,1
+"ja,age,Old,0,0,2,2elderly man.1elderly woman",滞在,STAY,0,ja,Age,Old,0,0,2,2elderly man.1elderly woman,Age,1,1,1
+"fr,age,Young,1,1,0,1boy",rester,CHANGE,1,fr,Age,Young,1,1,0,1boy,Age,0,1,1
+"fr,age,Old,0,0,0,1man",rester,STAY,0,fr,Age,Old,0,0,0,1man,Age,0,1,1
+"fr,age,Old,1,1,0,3elderly woman.1woman",rester,CHANGE,1,fr,Age,Old,1,1,0,3elderly woman.1woman,Age,0,1,1
+"fr,age,Young,0,0,0,2girl.2woman",rester,STAY,0,fr,Age,Young,0,0,0,2girl.2woman,Age,0,1,1
+"zh,age,Young,1,0,0,3boy.1woman.1girl",留下,CHANGE,1,zh,Age,Young,1,0,0,3boy.1woman.1girl,Age,0,1,1
+"zh,age,Old,0,1,0,2elderly man.1man.2elderly woman",留下,STAY,0,zh,Age,Old,0,1,0,2elderly man.1man.2elderly woman,Age,0,1,1
+"ja,age,Old,1,1,0,1man.1elderly woman",変更,CHANGE,0,ja,Age,Old,1,1,0,1man.1elderly woman,Age,0,1,1
+"ja,age,Young,0,0,0,1boy.1girl",変更,STAY,1,ja,Age,Young,0,0,0,1boy.1girl,Age,0,1,1
+"fr,age,Young,1,0,0,1boy",rester,CHANGE,1,fr,Age,Young,1,0,0,1boy,Age,1,1,1
+"fr,age,Old,0,0,0,1man",rester,STAY,0,fr,Age,Old,0,0,0,1man,Age,1,1,1
+"fr,age,Old,1,0,0,1elderly man",rester,CHANGE,1,fr,Age,Old,1,0,0,1elderly man,Age,0,1,1
+"fr,age,Young,0,1,0,1man",rester,STAY,0,fr,Age,Young,0,1,0,1man,Age,0,1,1
+"zh,age,Young,1,1,0,2woman.2man.1girl",留下,CHANGE,1,zh,Age,Young,1,1,0,2woman.2man.1girl,Age,0,1,1
+"zh,age,Old,0,0,0,2elderly woman.2elderly man.1woman",留下,STAY,0,zh,Age,Old,0,0,0,2elderly woman.2elderly man.1woman,Age,0,1,1
+"ja,age,Old,1,0,2,2elderly man.1elderly woman.1woman.1man",滞在,CHANGE,1,ja,Age,Old,1,0,2,2elderly man.1elderly woman.1woman.1man,Age,1,1,1
+"ja,age,Young,0,0,1,2man.1woman.1girl.1boy",滞在,STAY,0,ja,Age,Young,0,0,1,2man.1woman.1girl.1boy,Age,1,1,1
+"en,age,Old,1,1,0,2elderly woman.1man.2elderly man",change,CHANGE,0,en,Age,Old,1,1,0,2elderly woman.1man.2elderly man,Age,0,1,1
+"en,age,Young,0,0,0,2girl.2boy.1man",change,STAY,1,en,Age,Young,0,0,0,2girl.2boy.1man,Age,0,1,1
+"zh,age,Young,1,0,0,1girl.1man",留下,CHANGE,1,zh,Age,Young,1,0,0,1girl.1man,Age,0,1,1
+"zh,age,Old,0,1,0,1woman.1elderly man",留下,STAY,0,zh,Age,Old,0,1,0,1woman.1elderly man,Age,0,1,1
+"en,age,Old,1,0,0,2elderly man.1elderly woman",stay,CHANGE,1,en,Age,Old,1,0,0,2elderly man.1elderly woman,Age,1,1,1
+"en,age,Young,0,0,0,1boy.1man.1woman",stay,STAY,0,en,Age,Young,0,0,0,1boy.1man.1woman,Age,1,1,1
+"en,age,Young,1,0,0,2man.1boy",stay,CHANGE,1,en,Age,Young,1,0,0,2man.1boy,Age,1,1,1
+"en,age,Old,0,0,0,3elderly man",stay,STAY,0,en,Age,Old,0,0,0,3elderly man,Age,1,1,1
+"ja,age,Old,1,0,0,1elderly woman.2woman.1elderly man.1man",変更,CHANGE,0,ja,Age,Old,1,0,0,1elderly woman.2woman.1elderly man.1man,Age,1,1,1
+"ja,age,Young,0,0,0,1woman.2girl.2boy",変更,STAY,1,ja,Age,Young,0,0,0,1woman.2girl.2boy,Age,1,1,1
+"en,age,Old,1,1,0,2woman.2elderly man",stay,CHANGE,1,en,Age,Old,1,1,0,2woman.2elderly man,Age,0,1,1
+"en,age,Young,0,0,0,2girl.1man.1boy",stay,STAY,0,en,Age,Young,0,0,0,2girl.1man.1boy,Age,0,1,1
+"fr,age,Old,1,1,0,2woman.2elderly man",rester,CHANGE,1,fr,Age,Old,1,1,0,2woman.2elderly man,Age,0,1,1
+"fr,age,Young,0,0,0,2girl.1man.1boy",rester,STAY,0,fr,Age,Young,0,0,0,2girl.1man.1boy,Age,0,1,1
+"fr,age,Young,1,0,0,3boy.1woman.1girl",rester,CHANGE,1,fr,Age,Young,1,0,0,3boy.1woman.1girl,Age,0,1,1
+"fr,age,Old,0,1,0,2elderly man.1man.2elderly woman",rester,STAY,0,fr,Age,Old,0,1,0,2elderly man.1man.2elderly woman,Age,0,1,1
+"en,age,Old,1,0,0,2elderly man.1elderly woman.1man.1woman",stay,CHANGE,1,en,Age,Old,1,0,0,2elderly man.1elderly woman.1man.1woman,Age,1,1,1
+"en,age,Young,0,0,0,3boy.2girl",stay,STAY,0,en,Age,Young,0,0,0,3boy.2girl,Age,1,1,1
+"fr,age,Old,1,0,2,1elderly woman.1woman.3elderly man",changer,CHANGE,0,fr,Age,Old,1,0,2,1elderly woman.1woman.3elderly man,Age,1,1,1
+"fr,age,Young,0,0,1,2girl.2boy.1man",changer,STAY,1,fr,Age,Young,0,0,1,2girl.2boy.1man,Age,1,1,1
+"zh,age,Old,1,1,0,3elderly woman.1woman",留下,CHANGE,1,zh,Age,Old,1,1,0,3elderly woman.1woman,Age,0,1,1
+"zh,age,Young,0,0,0,2girl.2woman",留下,STAY,0,zh,Age,Young,0,0,0,2girl.2woman,Age,0,1,1
+"ja,age,Young,1,0,0,2man.1boy",変更,CHANGE,0,ja,Age,Young,1,0,0,2man.1boy,Age,1,1,1
+"ja,age,Old,0,0,0,3elderly man",変更,STAY,1,ja,Age,Old,0,0,0,3elderly man,Age,1,1,1
+"en,age,Old,1,0,0,3elderly man.1woman",stay,CHANGE,1,en,Age,Old,1,0,0,3elderly man.1woman,Age,0,1,1
+"en,age,Young,0,1,0,3man.1girl",stay,STAY,0,en,Age,Young,0,1,0,3man.1girl,Age,0,1,1
+"fr,age,Old,1,0,2,2elderly man.1elderly woman.1woman.1man",changer,CHANGE,0,fr,Age,Old,1,0,2,2elderly man.1elderly woman.1woman.1man,Age,1,1,1
+"fr,age,Young,0,0,1,2man.1woman.1girl.1boy",changer,STAY,1,fr,Age,Young,0,0,1,2man.1woman.1girl.1boy,Age,1,1,1
+"en,age,Old,1,1,0,1elderly man.1woman.1elderly woman.2man",stay,CHANGE,1,en,Age,Old,1,1,0,1elderly man.1woman.1elderly woman.2man,Age,0,1,1
+"en,age,Young,0,0,0,3boy.1girl.1woman",stay,STAY,0,en,Age,Young,0,0,0,3boy.1girl.1woman,Age,0,1,1
+"fr,age,Old,1,0,2,1elderly man",changer,CHANGE,0,fr,Age,Old,1,0,2,1elderly man,Age,1,1,1
+"fr,age,Young,0,0,1,1man",changer,STAY,1,fr,Age,Young,0,0,1,1man,Age,1,1,1
+"zh,age,Young,1,0,0,2woman.1boy.1man.1girl",留下,CHANGE,1,zh,Age,Young,1,0,0,2woman.1boy.1man.1girl,Age,0,1,1
+"zh,age,Old,0,1,0,2elderly woman.2elderly man.1woman",留下,STAY,0,zh,Age,Old,0,1,0,2elderly woman.2elderly man.1woman,Age,0,1,1
+"en,age,Young,1,0,0,3man.1girl",stay,CHANGE,1,en,Age,Young,1,0,0,3man.1girl,Age,0,1,1
+"en,age,Old,0,1,0,3elderly man.1elderly woman",stay,STAY,0,en,Age,Old,0,1,0,3elderly man.1elderly woman,Age,0,1,1
+"zh,age,Old,1,0,2,2elderly man.1woman",留下,CHANGE,1,zh,Age,Old,1,0,2,2elderly man.1woman,Age,1,1,1
+"zh,age,Young,0,0,1,1man.1girl.1boy",留下,STAY,0,zh,Age,Young,0,0,1,1man.1girl.1boy,Age,1,1,1
+"en,age,Young,1,0,0,1woman.1girl",stay,CHANGE,1,en,Age,Young,1,0,0,1woman.1girl,Age,1,1,1
+"en,age,Old,0,0,0,2elderly woman",stay,STAY,0,en,Age,Old,0,0,0,2elderly woman,Age,1,1,1
+"fr,age,Old,1,0,0,2elderly man.1elderly woman",rester,CHANGE,1,fr,Age,Old,1,0,0,2elderly man.1elderly woman,Age,1,1,1
+"fr,age,Young,0,0,0,1boy.1man.1woman",rester,STAY,0,fr,Age,Young,0,0,0,1boy.1man.1woman,Age,1,1,1
+"ja,age,Old,1,1,0,3elderly woman.1woman",滞在,CHANGE,1,ja,Age,Old,1,1,0,3elderly woman.1woman,Age,0,1,1
+"ja,age,Young,0,0,0,2girl.2woman",滞在,STAY,0,ja,Age,Young,0,0,0,2girl.2woman,Age,0,1,1
+"fr,age,Young,1,0,0,1woman.1girl.1man.1boy",rester,CHANGE,1,fr,Age,Young,1,0,0,1woman.1girl.1man.1boy,Age,1,1,1
+"fr,age,Old,0,0,0,2elderly woman.2elderly man",rester,STAY,0,fr,Age,Old,0,0,0,2elderly woman.2elderly man,Age,1,1,1
+"en,age,Young,1,0,1,3boy",stay,CHANGE,1,en,Age,Young,1,0,1,3boy,Age,1,1,1
+"en,age,Old,0,0,2,1man.2elderly man",stay,STAY,0,en,Age,Old,0,0,2,1man.2elderly man,Age,1,1,1
+"fr,age,Young,1,1,0,3girl",rester,CHANGE,1,fr,Age,Young,1,1,0,3girl,Age,0,1,1
+"fr,age,Old,0,0,0,3woman",rester,STAY,0,fr,Age,Old,0,0,0,3woman,Age,0,1,1
+"fr,age,Young,1,0,1,1woman.1girl",rester,CHANGE,1,fr,Age,Young,1,0,1,1woman.1girl,Age,1,1,1
+"fr,age,Old,0,0,2,1elderly woman.1woman",rester,STAY,0,fr,Age,Old,0,0,2,1elderly woman.1woman,Age,1,1,1
+"zh,age,Young,1,1,0,3girl.1boy",留下,CHANGE,1,zh,Age,Young,1,1,0,3girl.1boy,Age,0,1,1
+"zh,age,Old,0,0,0,3elderly woman.1man",留下,STAY,0,zh,Age,Old,0,0,0,3elderly woman.1man,Age,0,1,1
+"ja,age,Young,1,0,1,1woman.1girl",滞在,CHANGE,1,ja,Age,Young,1,0,1,1woman.1girl,Age,1,1,1
+"ja,age,Old,0,0,2,1elderly woman.1woman",滞在,STAY,0,ja,Age,Old,0,0,2,1elderly woman.1woman,Age,1,1,1
+"fr,age,Young,1,0,1,2man.1girl",rester,CHANGE,1,fr,Age,Young,1,0,1,2man.1girl,Age,1,1,1
+"fr,age,Old,0,0,2,2elderly man.1elderly woman",rester,STAY,0,fr,Age,Old,0,0,2,2elderly man.1elderly woman,Age,1,1,1
+"en,age,Young,1,0,0,1girl.1boy",stay,CHANGE,1,en,Age,Young,1,0,0,1girl.1boy,Age,0,1,1
+"en,age,Old,0,1,0,1elderly woman.1man",stay,STAY,0,en,Age,Old,0,1,0,1elderly woman.1man,Age,0,1,1
+"en,age,Young,1,0,0,2woman.1boy.1man.1girl",stay,CHANGE,1,en,Age,Young,1,0,0,2woman.1boy.1man.1girl,Age,0,1,1
+"en,age,Old,0,1,0,2elderly woman.2elderly man.1woman",stay,STAY,0,en,Age,Old,0,1,0,2elderly woman.2elderly man.1woman,Age,0,1,1
+"en,age,Old,1,0,0,1elderly woman.2woman.1elderly man.1man",change,CHANGE,0,en,Age,Old,1,0,0,1elderly woman.2woman.1elderly man.1man,Age,1,1,1
+"en,age,Young,0,0,0,1woman.2girl.2boy",change,STAY,1,en,Age,Young,0,0,0,1woman.2girl.2boy,Age,1,1,1
+"zh,age,Young,1,1,0,1boy.1woman",改变,CHANGE,0,zh,Age,Young,1,1,0,1boy.1woman,Age,0,1,1
+"zh,age,Old,0,0,0,1man.1elderly woman",改变,STAY,1,zh,Age,Old,0,0,0,1man.1elderly woman,Age,0,1,1
+"zh,age,Old,1,0,2,2elderly man.1elderly woman.1woman.1man",留下,CHANGE,1,zh,Age,Old,1,0,2,2elderly man.1elderly woman.1woman.1man,Age,1,1,1
+"zh,age,Young,0,0,1,2man.1woman.1girl.1boy",留下,STAY,0,zh,Age,Young,0,0,1,2man.1woman.1girl.1boy,Age,1,1,1
+"zh,age,Old,1,0,0,3elderly man",留下,CHANGE,1,zh,Age,Old,1,0,0,3elderly man,Age,1,1,1
+"zh,age,Young,0,0,0,1man.2boy",留下,STAY,0,zh,Age,Young,0,0,0,1man.2boy,Age,1,1,1
+"fr,age,Young,1,0,2,3boy.1girl",changer,CHANGE,0,fr,Age,Young,1,0,2,3boy.1girl,Age,1,1,1
+"fr,age,Old,0,0,1,2man.1elderly woman.1elderly man",changer,STAY,1,fr,Age,Old,0,0,1,2man.1elderly woman.1elderly man,Age,1,1,1
+"fr,age,Young,1,0,0,1girl.1boy",rester,CHANGE,1,fr,Age,Young,1,0,0,1girl.1boy,Age,0,1,1
+"fr,age,Old,0,1,0,1elderly woman.1man",rester,STAY,0,fr,Age,Old,0,1,0,1elderly woman.1man,Age,0,1,1
+"en,age,Young,1,0,2,5girl",change,CHANGE,0,en,Age,Young,1,0,2,5girl,Age,1,1,1
+"en,age,Old,0,0,1,4elderly woman.1woman",change,STAY,1,en,Age,Old,0,0,1,4elderly woman.1woman,Age,1,1,1
+"en,age,Old,1,0,2,2elderly woman.1elderly man.1man",change,CHANGE,0,en,Age,Old,1,0,2,2elderly woman.1elderly man.1man,Age,1,1,1
+"en,age,Young,0,0,1,1girl.1man.1boy.1woman",change,STAY,1,en,Age,Young,0,0,1,1girl.1man.1boy.1woman,Age,1,1,1
+"en,age,Young,1,0,2,2man",change,CHANGE,0,en,Age,Young,1,0,2,2man,Age,1,1,1
+"en,age,Old,0,0,1,2elderly man",change,STAY,1,en,Age,Old,0,0,1,2elderly man,Age,1,1,1
+"fr,age,Old,1,0,2,2elderly woman.1elderly man.1man",changer,CHANGE,0,fr,Age,Old,1,0,2,2elderly woman.1elderly man.1man,Age,1,1,1
+"fr,age,Young,0,0,1,1girl.1man.1boy.1woman",changer,STAY,1,fr,Age,Young,0,0,1,1girl.1man.1boy.1woman,Age,1,1,1
+"zh,age,Young,1,0,1,1boy.1man",留下,CHANGE,1,zh,Age,Young,1,0,1,1boy.1man,Age,1,1,1
+"zh,age,Old,0,0,2,2elderly man",留下,STAY,0,zh,Age,Old,0,0,2,2elderly man,Age,1,1,1
+"fr,age,Old,1,0,0,1elderly woman",changer,CHANGE,0,fr,Age,Old,1,0,0,1elderly woman,Age,0,1,1
+"fr,age,Young,0,1,0,1woman",changer,STAY,1,fr,Age,Young,0,1,0,1woman,Age,0,1,1
+"ja,age,Young,1,0,2,1man",滞在,CHANGE,1,ja,Age,Young,1,0,2,1man,Age,1,1,1
+"ja,age,Old,0,0,1,1elderly man",滞在,STAY,0,ja,Age,Old,0,0,1,1elderly man,Age,1,1,1
+"en,age,Old,1,0,2,2elderly man.1woman",change,CHANGE,0,en,Age,Old,1,0,2,2elderly man.1woman,Age,1,1,1
+"en,age,Young,0,0,1,1man.1girl.1boy",change,STAY,1,en,Age,Young,0,0,1,1man.1girl.1boy,Age,1,1,1
+"zh,age,Old,1,0,0,1elderly man",留下,CHANGE,1,zh,Age,Old,1,0,0,1elderly man,Age,0,1,1
+"zh,age,Young,0,1,0,1man",留下,STAY,0,zh,Age,Young,0,1,0,1man,Age,0,1,1
+"fr,age,Old,1,1,0,1elderly man.1woman.1elderly woman.2man",rester,CHANGE,1,fr,Age,Old,1,1,0,1elderly man.1woman.1elderly woman.2man,Age,0,1,1
+"fr,age,Young,0,0,0,3boy.1girl.1woman",rester,STAY,0,fr,Age,Young,0,0,0,3boy.1girl.1woman,Age,0,1,1
+"ja,age,Old,1,0,0,1elderly man.1man",滞在,CHANGE,1,ja,Age,Old,1,0,0,1elderly man.1man,Age,0,1,1
+"ja,age,Young,0,1,0,2boy",滞在,STAY,0,ja,Age,Young,0,1,0,2boy,Age,0,1,1
+"zh,age,Old,1,0,0,1elderly woman.2woman.1elderly man.1man",改变,CHANGE,0,zh,Age,Old,1,0,0,1elderly woman.2woman.1elderly man.1man,Age,1,1,1
+"zh,age,Young,0,0,0,1woman.2girl.2boy",改变,STAY,1,zh,Age,Young,0,0,0,1woman.2girl.2boy,Age,1,1,1
+"en,age,Old,1,0,0,1man.1woman.1elderly woman.2elderly man",stay,CHANGE,1,en,Age,Old,1,0,0,1man.1woman.1elderly woman.2elderly man,Age,1,1,1
+"en,age,Young,0,0,0,3boy.2girl",stay,STAY,0,en,Age,Young,0,0,0,3boy.2girl,Age,1,1,1
+"ja,age,Young,1,0,0,2woman.1boy.1man.1girl",滞在,CHANGE,1,ja,Age,Young,1,0,0,2woman.1boy.1man.1girl,Age,0,1,1
+"ja,age,Old,0,1,0,2elderly woman.2elderly man.1woman",滞在,STAY,0,ja,Age,Old,0,1,0,2elderly woman.2elderly man.1woman,Age,0,1,1
+"en,age,Old,1,1,0,1man.1elderly woman",stay,CHANGE,1,en,Age,Old,1,1,0,1man.1elderly woman,Age,0,1,1
+"en,age,Young,0,0,0,1boy.1girl",stay,STAY,0,en,Age,Young,0,0,0,1boy.1girl,Age,0,1,1
+"fr,age,Young,1,1,0,4girl.1man",rester,CHANGE,1,fr,Age,Young,1,1,0,4girl.1man,Age,0,1,1
+"fr,age,Old,0,0,0,4woman.1elderly man",rester,STAY,0,fr,Age,Old,0,0,0,4woman.1elderly man,Age,0,1,1
+"zh,age,Young,1,1,0,4girl.1man",留下,CHANGE,1,zh,Age,Young,1,1,0,4girl.1man,Age,0,1,1
+"zh,age,Old,0,0,0,4woman.1elderly man",留下,STAY,0,zh,Age,Old,0,0,0,4woman.1elderly man,Age,0,1,1
+"fr,age,Old,1,0,0,3elderly man",rester,CHANGE,1,fr,Age,Old,1,0,0,3elderly man,Age,1,1,1
+"fr,age,Young,0,0,0,1man.2boy",rester,STAY,0,fr,Age,Young,0,0,0,1man.2boy,Age,1,1,1
+"ja,age,Old,1,0,0,1elderly woman",滞在,CHANGE,1,ja,Age,Old,1,0,0,1elderly woman,Age,0,1,1
+"ja,age,Young,0,1,0,1woman",滞在,STAY,0,ja,Age,Young,0,1,0,1woman,Age,0,1,1
+"zh,age,Old,1,1,0,2elderly woman.1man.2elderly man",留下,CHANGE,1,zh,Age,Old,1,1,0,2elderly woman.1man.2elderly man,Age,0,1,1
+"zh,age,Young,0,0,0,2girl.2boy.1man",留下,STAY,0,zh,Age,Young,0,0,0,2girl.2boy.1man,Age,0,1,1
+"fr,age,Young,1,0,2,2man",rester,CHANGE,1,fr,Age,Young,1,0,2,2man,Age,1,1,1
+"fr,age,Old,0,0,1,2elderly man",rester,STAY,0,fr,Age,Old,0,0,1,2elderly man,Age,1,1,1
+"ja,age,Young,1,1,0,3girl",滞在,CHANGE,1,ja,Age,Young,1,1,0,3girl,Age,0,1,1
+"ja,age,Old,0,0,0,3woman",滞在,STAY,0,ja,Age,Old,0,0,0,3woman,Age,0,1,1
+"en,age,Young,1,0,1,1woman.1girl",stay,CHANGE,1,en,Age,Young,1,0,1,1woman.1girl,Age,1,1,1
+"en,age,Old,0,0,2,1elderly woman.1woman",stay,STAY,0,en,Age,Old,0,0,2,1elderly woman.1woman,Age,1,1,1
+"zh,age,Old,1,0,0,1elderly woman",留下,CHANGE,1,zh,Age,Old,1,0,0,1elderly woman,Age,0,1,1
+"zh,age,Young,0,1,0,1woman",留下,STAY,0,zh,Age,Young,0,1,0,1woman,Age,0,1,1
+"ja,age,Old,1,0,1,1woman.2elderly woman.1elderly man",滞在,CHANGE,1,ja,Age,Old,1,0,1,1woman.2elderly woman.1elderly man,Age,1,1,0
+"ja,age,Young,0,0,2,3girl.1boy",滞在,STAY,0,ja,Age,Young,0,0,2,3girl.1boy,Age,1,1,0
+"zh,age,Young,1,0,0,1girl.1boy",留下,CHANGE,1,zh,Age,Young,1,0,0,1girl.1boy,Age,0,1,1
+"zh,age,Old,0,1,0,1elderly woman.1man",留下,STAY,0,zh,Age,Old,0,1,0,1elderly woman.1man,Age,0,1,1
+"ja,age,Old,1,0,0,1elderly woman",滞在,CHANGE,1,ja,Age,Old,1,0,0,1elderly woman,Age,0,1,1
+"ja,age,Young,0,1,0,1woman",滞在,STAY,0,ja,Age,Young,0,1,0,1woman,Age,0,1,1
+"zh,age,Young,1,0,0,1boy",留下,CHANGE,1,zh,Age,Young,1,0,0,1boy,Age,1,1,1
+"zh,age,Old,0,0,0,1man",留下,STAY,0,zh,Age,Old,0,0,0,1man,Age,1,1,1
+"zh,age,Young,1,0,2,1woman.1man.2boy.1girl",改变,CHANGE,0,zh,Age,Young,1,0,2,1woman.1man.2boy.1girl,Age,1,1,1
+"zh,age,Old,0,0,1,1elderly woman.1elderly man.2man.1woman",改变,STAY,1,zh,Age,Old,0,0,1,1elderly woman.1elderly man.2man.1woman,Age,1,1,1
+"ja,age,Young,1,1,0,2woman.2man.1girl",滞在,CHANGE,1,ja,Age,Young,1,1,0,2woman.2man.1girl,Age,0,1,0
+"ja,age,Old,0,0,0,2elderly woman.2elderly man.1woman",滞在,STAY,0,ja,Age,Old,0,0,0,2elderly woman.2elderly man.1woman,Age,0,1,0
+"zh,age,Young,1,1,0,3girl",留下,CHANGE,1,zh,Age,Young,1,1,0,3girl,Age,0,1,1
+"zh,age,Old,0,0,0,3woman",留下,STAY,0,zh,Age,Old,0,0,0,3woman,Age,0,1,1
+"en,age,Old,1,0,0,1elderly woman",stay,CHANGE,1,en,Age,Old,1,0,0,1elderly woman,Age,0,1,1
+"en,age,Young,0,1,0,1woman",stay,STAY,0,en,Age,Young,0,1,0,1woman,Age,0,1,1
+"en,age,Young,1,1,0,3girl.1boy",stay,CHANGE,1,en,Age,Young,1,1,0,3girl.1boy,Age,0,1,1
+"en,age,Old,0,0,0,3elderly woman.1man",stay,STAY,0,en,Age,Old,0,0,0,3elderly woman.1man,Age,0,1,1
+"zh,age,Young,1,0,0,2man.1boy",留下,CHANGE,1,zh,Age,Young,1,0,0,2man.1boy,Age,1,1,1
+"zh,age,Old,0,0,0,3elderly man",留下,STAY,0,zh,Age,Old,0,0,0,3elderly man,Age,1,1,1
+"en,age,Young,1,1,0,2woman.2man.1girl",stay,CHANGE,1,en,Age,Young,1,1,0,2woman.2man.1girl,Age,0,1,1
+"en,age,Old,0,0,0,2elderly woman.2elderly man.1woman",stay,STAY,0,en,Age,Old,0,0,0,2elderly woman.2elderly man.1woman,Age,0,1,1
+"zh,age,Old,1,0,0,1elderly woman",留下,CHANGE,1,zh,Age,Old,1,0,0,1elderly woman,Age,0,1,1
+"zh,age,Young,0,1,0,1woman",留下,STAY,0,zh,Age,Young,0,1,0,1woman,Age,0,1,1
+"ja,age,Young,1,0,0,1girl.1boy",滞在,CHANGE,1,ja,Age,Young,1,0,0,1girl.1boy,Age,0,1,1
+"ja,age,Old,0,1,0,1elderly woman.1man",滞在,STAY,0,ja,Age,Old,0,1,0,1elderly woman.1man,Age,0,1,1
+"fr,age,Old,1,1,0,2elderly woman.1man.2elderly man",rester,CHANGE,1,fr,Age,Old,1,1,0,2elderly woman.1man.2elderly man,Age,0,1,1
+"fr,age,Young,0,0,0,2girl.2boy.1man",rester,STAY,0,fr,Age,Young,0,0,0,2girl.2boy.1man,Age,0,1,1
+"ja,age,Old,1,0,0,3elderly man.1woman",滞在,CHANGE,1,ja,Age,Old,1,0,0,3elderly man.1woman,Age,0,1,1
+"ja,age,Young,0,1,0,3man.1girl",滞在,STAY,0,ja,Age,Young,0,1,0,3man.1girl,Age,0,1,1
+"fr,age,Young,1,0,0,2woman.1boy.1man.1girl",rester,CHANGE,1,fr,Age,Young,1,0,0,2woman.1boy.1man.1girl,Age,0,1,1
+"fr,age,Old,0,1,0,2elderly woman.2elderly man.1woman",rester,STAY,0,fr,Age,Old,0,1,0,2elderly woman.2elderly man.1woman,Age,0,1,1
+"en,age,Young,1,0,0,1woman.1girl.1man.1boy",change,CHANGE,0,en,Age,Young,1,0,0,1woman.1girl.1man.1boy,Age,1,1,1
+"en,age,Old,0,0,0,2elderly woman.2elderly man",change,STAY,1,en,Age,Old,0,0,0,2elderly woman.2elderly man,Age,1,1,1
+"ja,age,Old,1,0,0,2elderly man.1elderly woman.1man.1woman",変更,CHANGE,0,ja,Age,Old,1,0,0,2elderly man.1elderly woman.1man.1woman,Age,1,1,1
+"ja,age,Young,0,0,0,3boy.2girl",変更,STAY,1,ja,Age,Young,0,0,0,3boy.2girl,Age,1,1,1
+"zh,age,Young,1,0,1,3girl.2boy",留下,CHANGE,1,zh,Age,Young,1,0,1,3girl.2boy,Age,1,1,1
+"zh,age,Old,0,0,2,3elderly woman.2man",留下,STAY,0,zh,Age,Old,0,0,2,3elderly woman.2man,Age,1,1,1
+"fr,age,Young,1,0,1,3boy",rester,CHANGE,1,fr,Age,Young,1,0,1,3boy,Age,1,1,1
+"fr,age,Old,0,0,2,1man.2elderly man",rester,STAY,0,fr,Age,Old,0,0,2,1man.2elderly man,Age,1,1,1
+"fr,age,Young,1,0,2,5girl",rester,CHANGE,1,fr,Age,Young,1,0,2,5girl,Age,1,1,1
+"fr,age,Old,0,0,1,4elderly woman.1woman",rester,STAY,0,fr,Age,Old,0,0,1,4elderly woman.1woman,Age,1,1,1
+"fr,age,Old,1,0,0,3elderly man.1woman",rester,CHANGE,1,fr,Age,Old,1,0,0,3elderly man.1woman,Age,0,1,1
+"fr,age,Young,0,1,0,3man.1girl",rester,STAY,0,fr,Age,Young,0,1,0,3man.1girl,Age,0,1,1
+"fr,age,Old,1,0,0,1elderly man.1man",rester,CHANGE,1,fr,Age,Old,1,0,0,1elderly man.1man,Age,0,1,1
+"fr,age,Young,0,1,0,2boy",rester,STAY,0,fr,Age,Young,0,1,0,2boy,Age,0,1,1
+"zh,age,Old,1,0,0,1man.1woman.1elderly woman.2elderly man",改变,CHANGE,0,zh,Age,Old,1,0,0,1man.1woman.1elderly woman.2elderly man,Age,1,1,1
+"zh,age,Young,0,0,0,3boy.2girl",改变,STAY,1,zh,Age,Young,0,0,0,3boy.2girl,Age,1,1,1
+"fr,age,Young,1,0,1,1boy.1man",rester,CHANGE,1,fr,Age,Young,1,0,1,1boy.1man,Age,1,1,1
+"fr,age,Old,0,0,2,2elderly man",rester,STAY,0,fr,Age,Old,0,0,2,2elderly man,Age,1,1,1
+"zh,age,Young,1,0,2,2woman.2boy.1girl",改变,CHANGE,0,zh,Age,Young,1,0,2,2woman.2boy.1girl,Age,1,1,1
+"zh,age,Old,0,0,1,3elderly woman.1man.1elderly man",改变,STAY,1,zh,Age,Old,0,0,1,3elderly woman.1man.1elderly man,Age,1,1,1
+"en,age,Old,1,1,0,3elderly woman.1woman",stay,CHANGE,1,en,Age,Old,1,1,0,3elderly woman.1woman,Age,0,1,1
+"en,age,Young,0,0,0,2girl.2woman",stay,STAY,0,en,Age,Young,0,0,0,2girl.2woman,Age,0,1,1
+"en,age,Young,1,0,2,2woman.2boy.1girl",change,CHANGE,0,en,Age,Young,1,0,2,2woman.2boy.1girl,Age,1,1,1
+"en,age,Old,0,0,1,3elderly woman.1man.1elderly man",change,STAY,1,en,Age,Old,0,0,1,3elderly woman.1man.1elderly man,Age,1,1,1
+"ja,age,Young,1,0,0,2boy.1man.1woman",滞在,CHANGE,1,ja,Age,Young,1,0,0,2boy.1man.1woman,Age,0,1,1
+"ja,age,Old,0,1,0,2elderly man.1elderly woman.1man",滞在,STAY,0,ja,Age,Old,0,1,0,2elderly man.1elderly woman.1man,Age,0,1,1
+"zh,age,Young,1,0,0,1woman.1girl.1man.1boy",改变,CHANGE,0,zh,Age,Young,1,0,0,1woman.1girl.1man.1boy,Age,1,1,1
+"zh,age,Old,0,0,0,2elderly woman.2elderly man",改变,STAY,1,zh,Age,Old,0,0,0,2elderly woman.2elderly man,Age,1,1,1
+"ja,age,Young,1,0,0,3boy.1woman.1girl",滞在,CHANGE,1,ja,Age,Young,1,0,0,3boy.1woman.1girl,Age,0,1,1
+"ja,age,Old,0,1,0,2elderly man.1man.2elderly woman",滞在,STAY,0,ja,Age,Old,0,1,0,2elderly man.1man.2elderly woman,Age,0,1,1
+"ja,age,Old,1,0,2,2elderly woman.1elderly man.1man",滞在,CHANGE,1,ja,Age,Old,1,0,2,2elderly woman.1elderly man.1man,Age,1,1,1
+"ja,age,Young,0,0,1,1girl.1man.1boy.1woman",滞在,STAY,0,ja,Age,Young,0,0,1,1girl.1man.1boy.1woman,Age,1,1,1
+"zh,age,Old,1,0,1,1elderly woman.1elderly man",留下,CHANGE,1,zh,Age,Old,1,0,1,1elderly woman.1elderly man,Age,1,1,1
+"zh,age,Young,0,0,2,1girl.1boy",留下,STAY,0,zh,Age,Young,0,0,2,1girl.1boy,Age,1,1,1
+"ja,age,Young,1,0,2,1woman.2boy.1man",滞在,CHANGE,1,ja,Age,Young,1,0,2,1woman.2boy.1man,Age,1,1,1
+"ja,age,Old,0,0,1,1elderly woman.1man.2elderly man",滞在,STAY,0,ja,Age,Old,0,0,1,1elderly woman.1man.2elderly man,Age,1,1,1
+"ja,age,Young,1,0,1,1boy.1man",滞在,CHANGE,1,ja,Age,Young,1,0,1,1boy.1man,Age,1,1,1
+"ja,age,Old,0,0,2,2elderly man",滞在,STAY,0,ja,Age,Old,0,0,2,2elderly man,Age,1,1,1
+"ja,age,Old,1,1,0,2elderly woman.1man.2elderly man",滞在,CHANGE,1,ja,Age,Old,1,1,0,2elderly woman.1man.2elderly man,Age,0,1,1
+"ja,age,Young,0,0,0,2girl.2boy.1man",滞在,STAY,0,ja,Age,Young,0,0,0,2girl.2boy.1man,Age,0,1,1
+"fr,age,Old,1,0,0,1elderly woman.2woman.1elderly man.1man",changer,CHANGE,0,fr,Age,Old,1,0,0,1elderly woman.2woman.1elderly man.1man,Age,1,1,1
+"fr,age,Young,0,0,0,1woman.2girl.2boy",changer,STAY,1,fr,Age,Young,0,0,0,1woman.2girl.2boy,Age,1,1,1
+"ja,age,Young,1,0,2,5girl",変更,CHANGE,0,ja,Age,Young,1,0,2,5girl,Age,1,1,1
+"ja,age,Old,0,0,1,4elderly woman.1woman",変更,STAY,1,ja,Age,Old,0,0,1,4elderly woman.1woman,Age,1,1,1
+"fr,age,Young,1,0,0,3man.1girl",rester,CHANGE,1,fr,Age,Young,1,0,0,3man.1girl,Age,0,1,1
+"fr,age,Old,0,1,0,3elderly man.1elderly woman",rester,STAY,0,fr,Age,Old,0,1,0,3elderly man.1elderly woman,Age,0,1,1
+"ja,age,Young,1,0,1,3girl.2boy",滞在,CHANGE,1,ja,Age,Young,1,0,1,3girl.2boy,Age,1,1,1
+"ja,age,Old,0,0,2,3elderly woman.2man",滞在,STAY,0,ja,Age,Old,0,0,2,3elderly woman.2man,Age,1,1,1
+"en,age,Old,1,0,2,1elderly man",change,CHANGE,0,en,Age,Old,1,0,2,1elderly man,Age,1,1,1
+"en,age,Young,0,0,1,1man",change,STAY,1,en,Age,Young,0,0,1,1man,Age,1,1,1
+"en,age,Young,1,0,0,2boy.1man.1woman",stay,CHANGE,1,en,Age,Young,1,0,0,2boy.1man.1woman,Age,0,1,1
+"en,age,Old,0,1,0,2elderly man.1elderly woman.1man",stay,STAY,0,en,Age,Old,0,1,0,2elderly man.1elderly woman.1man,Age,0,1,1
+"zh,age,Young,1,0,2,1woman.2boy.1man",留下,CHANGE,1,zh,Age,Young,1,0,2,1woman.2boy.1man,Age,1,1,1
+"zh,age,Old,0,0,1,1elderly woman.1man.2elderly man",留下,STAY,0,zh,Age,Old,0,0,1,1elderly woman.1man.2elderly man,Age,1,1,1
+"fr,age,Young,1,1,0,2woman.2man.1girl",rester,CHANGE,1,fr,Age,Young,1,1,0,2woman.2man.1girl,Age,0,1,1
+"fr,age,Old,0,0,0,2elderly woman.2elderly man.1woman",rester,STAY,0,fr,Age,Old,0,0,0,2elderly woman.2elderly man.1woman,Age,0,1,1
+"fr,age,Young,1,0,2,1woman.2boy.1man",rester,CHANGE,1,fr,Age,Young,1,0,2,1woman.2boy.1man,Age,1,1,1
+"fr,age,Old,0,0,1,1elderly woman.1man.2elderly man",rester,STAY,0,fr,Age,Old,0,0,1,1elderly woman.1man.2elderly man,Age,1,1,1
+"ja,age,Old,1,1,0,2woman.2elderly man",滞在,CHANGE,1,ja,Age,Old,1,1,0,2woman.2elderly man,Age,0,1,1
+"ja,age,Young,0,0,0,2girl.1man.1boy",滞在,STAY,0,ja,Age,Young,0,0,0,2girl.1man.1boy,Age,0,1,1
+"en,age,Young,1,0,1,2man.1girl",stay,CHANGE,1,en,Age,Young,1,0,1,2man.1girl,Age,1,1,1
+"en,age,Old,0,0,2,2elderly man.1elderly woman",stay,STAY,0,en,Age,Old,0,0,2,2elderly man.1elderly woman,Age,1,1,1
+"ja,age,Old,1,0,0,1elderly man",滞在,CHANGE,1,ja,Age,Old,1,0,0,1elderly man,Age,0,1,1
+"ja,age,Young,0,1,0,1man",滞在,STAY,0,ja,Age,Young,0,1,0,1man,Age,0,1,1
+"ja,age,Young,1,1,0,1boy.1woman",滞在,CHANGE,1,ja,Age,Young,1,1,0,1boy.1woman,Age,0,1,1
+"ja,age,Old,0,0,0,1man.1elderly woman",滞在,STAY,0,ja,Age,Old,0,0,0,1man.1elderly woman,Age,0,1,1
+"fr,age,Old,1,0,0,1elderly woman",rester,CHANGE,1,fr,Age,Old,1,0,0,1elderly woman,Age,0,1,1
+"fr,age,Young,0,1,0,1woman",rester,STAY,0,fr,Age,Young,0,1,0,1woman,Age,0,1,1
+"ja,age,Young,1,1,0,4girl.1man",滞在,CHANGE,1,ja,Age,Young,1,1,0,4girl.1man,Age,0,1,1
+"ja,age,Old,0,0,0,4woman.1elderly man",滞在,STAY,0,ja,Age,Old,0,0,0,4woman.1elderly man,Age,0,1,1
+"en,age,Young,1,0,1,3girl.2boy",stay,CHANGE,1,en,Age,Young,1,0,1,3girl.2boy,Age,1,1,1
+"en,age,Old,0,0,2,3elderly woman.2man",stay,STAY,0,en,Age,Old,0,0,2,3elderly woman.2man,Age,1,1,1
+"fr,age,Old,1,1,0,1man.1elderly woman",rester,CHANGE,1,fr,Age,Old,1,1,0,1man.1elderly woman,Age,0,1,1
+"fr,age,Young,0,0,0,1boy.1girl",rester,STAY,0,fr,Age,Young,0,0,0,1boy.1girl,Age,0,1,1
+"en,age,Young,1,1,0,1boy",stay,CHANGE,1,en,Age,Young,1,1,0,1boy,Age,0,1,1
+"en,age,Old,0,0,0,1man",stay,STAY,0,en,Age,Old,0,0,0,1man,Age,0,1,1
+"zh,age,Young,1,0,1,1woman.1girl",留下,CHANGE,1,zh,Age,Young,1,0,1,1woman.1girl,Age,1,1,1
+"zh,age,Old,0,0,2,1elderly woman.1woman",留下,STAY,0,zh,Age,Old,0,0,2,1elderly woman.1woman,Age,1,1,1
+"en,age,Young,1,1,0,4girl.1man",stay,CHANGE,1,en,Age,Young,1,1,0,4girl.1man,Age,0,1,1
+"en,age,Old,0,0,0,4woman.1elderly man",stay,STAY,0,en,Age,Old,0,0,0,4woman.1elderly man,Age,0,1,1
+"zh,age,Young,1,1,0,1boy",留下,CHANGE,1,zh,Age,Young,1,1,0,1boy,Age,0,1,1
+"zh,age,Old,0,0,0,1man",留下,STAY,0,zh,Age,Old,0,0,0,1man,Age,0,1,1
+"zh,age,Old,1,0,1,1woman.2elderly woman.1elderly man",留下,CHANGE,1,zh,Age,Old,1,0,1,1woman.2elderly woman.1elderly man,Age,1,1,1
+"zh,age,Young,0,0,2,3girl.1boy",留下,STAY,0,zh,Age,Young,0,0,2,3girl.1boy,Age,1,1,1
+"en,age,Young,1,0,0,3boy.1woman.1girl",stay,CHANGE,1,en,Age,Young,1,0,0,3boy.1woman.1girl,Age,0,1,1
+"en,age,Old,0,1,0,2elderly man.1man.2elderly woman",stay,STAY,0,en,Age,Old,0,1,0,2elderly man.1man.2elderly woman,Age,0,1,1
